@@ -1,0 +1,1154 @@
+Build a complete, production-quality final-year project called:
+
+# CrowdSentinel
+
+### AI-Based Early Crowd Risk and Stampede Detection System
+
+You are acting as a **senior AI engineer, computer vision engineer, full-stack developer, UI/UX designer, and software architect**.
+
+Do not create a simple demo or static dashboard.
+
+Build a **fully functional, modular, realistic computer-vision-based crowd monitoring application** that can be demonstrated during a final-year project review.
+
+The primary goal is:
+
+> Analyze CCTV/video footage, detect people, estimate crowd density, analyze crowd movement, identify abnormal crowd conditions, calculate a crowd-risk level, and generate an early warning.
+
+IMPORTANT:
+The system must NOT claim that it can perfectly predict a stampede.
+It should identify **potentially dangerous crowd conditions and increasing risk** based on measurable visual indicators.
+
+---
+
+# 1. CORE SYSTEM FLOW
+
+Implement this pipeline:
+
+CCTV / Video Upload
+↓
+Video Processing
+↓
+Frame Extraction
+↓
+Person Detection
+↓
+Person Tracking
+↓
+Crowd Density Analysis
+↓
+Movement Analysis
+↓
+Feature Extraction
+↓
+Risk Assessment
+↓
+Risk Classification
+↓
+Alert Generation
+↓
+Dashboard / Reports
+
+The application must make this pipeline visible to the user.
+
+---
+
+# 2. APPLICATION REQUIREMENTS
+
+Create a professional web application with these main sections:
+
+## Dashboard
+
+Show:
+
+* Current monitoring status
+* Current crowd count
+* Estimated crowd density
+* Average movement speed
+* Movement direction
+* Current risk level
+* Risk score
+* Number of active alerts
+* Processing FPS
+* Camera/video status
+
+Risk levels:
+
+🟢 NORMAL
+🟡 WARNING
+🟠 HIGH RISK
+🔴 CRITICAL
+
+Use a clean visual hierarchy.
+
+Do NOT use excessive gradients, glowing cards, random animations, or generic AI-dashboard styling.
+
+The UI should look like a **real surveillance and safety system**, not a generic SaaS template.
+
+---
+
+# 3. VIDEO MONITORING
+
+Create a monitoring page where the user can:
+
+### Option A
+
+Upload a crowd video.
+
+### Option B
+
+Use webcam/camera input if supported by the environment.
+
+### Option C
+
+Use a sample/demo video.
+
+Display:
+
+* Original video
+* Processed video
+* Detection bounding boxes
+* Person count
+* Tracking IDs if available
+* Crowd density indicator
+* Movement vectors/flow
+* Current risk level
+
+The processing must happen progressively rather than simply displaying a fake result.
+
+---
+
+# 4. PERSON DETECTION
+
+Use a real object-detection architecture where possible.
+
+Preferred:
+
+**YOLO**
+
+Use an appropriate Ultralytics YOLO model.
+
+Detect:
+
+* person
+
+For every frame:
+
+* Detect people
+* Draw bounding boxes
+* Calculate person count
+* Store detection information
+
+Architecture should allow the model to be replaced later.
+
+Create a dedicated module:
+
+`detection/`
+
+with clean separation between:
+
+* model loading
+* inference
+* result processing
+* visualization
+
+If the Replit environment cannot run the required model efficiently, create a clean fallback implementation and clearly label it as a demo/fallback mode.
+
+NEVER fake AI results while presenting them as real inference.
+
+---
+
+# 5. PERSON TRACKING
+
+Implement tracking where practical.
+
+Preferred:
+
+* ByteTrack
+* DeepSORT
+
+The system should maintain tracking IDs across frames where possible.
+
+Track:
+
+* ID
+* Position
+* Velocity
+* Direction
+* Movement history
+
+Use tracking data for movement analysis.
+
+---
+
+# 6. CROWD DENSITY ANALYSIS
+
+Calculate a meaningful crowd-density indicator.
+
+At minimum calculate:
+
+* Number of detected people
+* People per defined region
+* Occupancy percentage
+* Density trend over time
+
+Allow the monitored area to be divided into zones.
+
+Example:
+
+Zone A
+Zone B
+Zone C
+Zone D
+
+Display:
+
+* Green → low density
+* Yellow → moderate density
+* Orange → high density
+* Red → critical density
+
+Do NOT claim real-world people-per-square-meter accuracy unless camera calibration is available.
+
+Clearly distinguish:
+
+**relative image-space density**
+
+from
+
+**physical crowd density**.
+
+---
+
+# 7. MOVEMENT ANALYSIS
+
+Implement movement analysis using computer vision.
+
+Preferred:
+
+**Optical Flow**
+
+Use methods such as:
+
+* Farneback optical flow
+* Dense optical flow
+
+Calculate:
+
+* Average movement magnitude
+* Dominant movement direction
+* Sudden movement changes
+* Movement consistency
+* Crowd flow variation
+
+Visualize movement using arrows/vectors over the video.
+
+The dashboard should show something like:
+
+Movement:
+NORMAL FLOW
+
+or
+
+Movement:
+ABNORMAL SURGE
+
+---
+
+# 8. CROWD RISK ENGINE
+
+Create a dedicated risk-assessment module.
+
+Inputs:
+
+* Crowd density
+* Density growth rate
+* Average movement speed
+* Sudden acceleration
+* Movement direction variation
+* Crowd flow abnormality
+* Congestion indicators
+
+Generate:
+
+### Risk Score
+
+0–100
+
+Example:
+
+0–30 → NORMAL
+31–50 → WARNING
+51–75 → HIGH RISK
+76–100 → CRITICAL
+
+IMPORTANT:
+
+These thresholds must be configurable.
+
+Do not hard-code the idea that these values represent scientifically proven stampede thresholds.
+
+Clearly label them as:
+
+**Initial configurable risk thresholds**
+
+until validated against a dataset.
+
+---
+
+# 9. RISK SCORE
+
+Create a transparent risk formula.
+
+For example:
+
+Risk Score =
+weighted density factor
++
+weighted movement factor
++
+weighted density-change factor
++
+weighted flow-abnormality factor
+
+Normalize the result to:
+
+0–100.
+
+Show the user WHY the risk score increased.
+
+Example:
+
+Risk Score: 78
+
+Contributing Factors:
+
+Crowd Density       ████████ 82%
+Movement Change     ███████  71%
+Density Increase    ████████ 84%
+Flow Irregularity   ██████   63%
+
+This explainability is important.
+
+Do NOT create a black-box score with no explanation.
+
+---
+
+# 10. EARLY WARNING SYSTEM
+
+When the risk level reaches a configurable threshold:
+
+Generate:
+
+🚨 CROWD RISK ALERT
+
+Display:
+
+* Timestamp
+* Camera/source
+* Risk level
+* Risk score
+* Detected conditions
+* Recommended action
+
+Example:
+
+HIGH RISK DETECTED
+
+Reason:
+• High crowd density
+• Sudden movement increase
+• Abnormal flow direction
+
+Do not automatically claim:
+
+"STAMPEDE DETECTED"
+
+unless the underlying model is actually trained and validated for that classification.
+
+Prefer:
+
+"POTENTIAL CROWD HAZARD DETECTED"
+
+or:
+
+"HIGH CROWD RISK DETECTED"
+
+---
+
+# 11. ALERT HISTORY
+
+Create an Alert History page.
+
+Store:
+
+* Alert ID
+* Timestamp
+* Risk level
+* Risk score
+* Trigger conditions
+* Video/camera source
+* Status
+
+Allow:
+
+* Search
+* Filter
+* Sort
+* View details
+* Export
+
+---
+
+# 12. ANALYTICS PAGE
+
+Create an analytics dashboard showing:
+
+### Crowd Count Over Time
+
+Line chart
+
+### Density Over Time
+
+Line chart
+
+### Risk Score Over Time
+
+Line chart
+
+### Movement Speed
+
+Line chart
+
+### Risk Distribution
+
+Bar or donut chart
+
+### Alerts
+
+Daily/weekly summary
+
+Do not fabricate historical data.
+
+Charts must use actual processed results or clearly labeled demo data.
+
+---
+
+# 13. CAMERA MANAGEMENT
+
+Create a Camera Management page.
+
+Each camera should have:
+
+* Camera ID
+* Name
+* Location
+* Status
+* Source type
+* Last active time
+
+Example:
+
+CAM-001
+Main Gate
+ONLINE
+
+CAM-002
+Stadium Entrance
+OFFLINE
+
+Allow the user to add/edit/remove camera configurations.
+
+For Phase 1, camera sources can support:
+
+* Uploaded video
+* Webcam
+* RTSP placeholder/configuration
+
+Do not pretend an RTSP stream is live if it is not actually connected.
+
+---
+
+# 14. DATABASE
+
+Use a simple reliable database.
+
+Preferred:
+
+**SQLite**
+
+Create tables/models for:
+
+### cameras
+
+* id
+* name
+* location
+* source
+* status
+
+### detections
+
+* id
+* timestamp
+* camera_id
+* person_count
+* density
+* movement_speed
+* movement_direction
+
+### risk_events
+
+* id
+* timestamp
+* camera_id
+* risk_score
+* risk_level
+* reason
+
+### alerts
+
+* id
+* timestamp
+* risk_event_id
+* alert_type
+* status
+
+### analysis_sessions
+
+* id
+* source
+* start_time
+* end_time
+* summary
+
+Use proper database relationships.
+
+---
+
+# 15. BACKEND
+
+Preferred backend:
+
+**Python + FastAPI**
+
+Create clean API endpoints.
+
+Examples:
+
+GET /api/dashboard
+
+GET /api/cameras
+
+POST /api/cameras
+
+GET /api/alerts
+
+GET /api/risk
+
+POST /api/analyze
+
+POST /api/upload
+
+GET /api/analytics
+
+GET /api/health
+
+Use Pydantic models.
+
+Implement:
+
+* validation
+* error handling
+* logging
+* clean service separation
+
+---
+
+# 16. FRONTEND
+
+Use:
+
+**React + TypeScript**
+
+Preferred:
+
+* Vite
+* Tailwind CSS
+* Recharts
+* Lucide icons
+
+Pages:
+
+/dashboard
+
+/monitor
+
+/cameras
+
+/alerts
+
+/analytics
+
+/settings
+
+/about
+
+Use reusable components.
+
+---
+
+# 17. UI / UX DESIGN
+
+Design language:
+
+### Professional public-safety control center
+
+Use:
+
+* clean typography
+* dark navy / neutral interface
+* restrained accent colors
+* clear warning states
+* responsive layout
+* readable charts
+* consistent spacing
+* subtle animations
+
+Avoid:
+
+* excessive glassmorphism
+* excessive gradients
+* neon cyberpunk styling
+* huge rounded cards everywhere
+* fake AI terminology
+* unnecessary 3D effects
+* decorative elements that reduce usability
+
+The dashboard should look suitable for:
+
+**Security Control Room / Crowd Safety Monitoring**
+
+---
+
+# 18. REAL-TIME DASHBOARD
+
+The dashboard should update when new analysis results arrive.
+
+Use:
+
+* WebSocket or Server-Sent Events where practical
+
+Flow:
+
+Video Processing
+↓
+Backend
+↓
+Analysis Result
+↓
+WebSocket / API
+↓
+Frontend Dashboard
+
+Update:
+
+* Person count
+* Density
+* Movement
+* Risk score
+* Alerts
+
+If true real-time streaming is not practical in Replit, implement near-real-time polling and clearly structure the code so WebSocket support can be added later.
+
+---
+
+# 19. DATA STORAGE
+
+Store analysis results.
+
+Allow the user to view:
+
+* Previous sessions
+* Previous alerts
+* Risk history
+* Crowd statistics
+
+Provide export:
+
+CSV
+
+PDF summary if practical.
+
+---
+
+# 20. MODEL ARCHITECTURE
+
+Structure the project so models can be replaced.
+
+Example:
+
+models/
+person_detector.py
+tracker.py
+density_analyzer.py
+movement_analyzer.py
+risk_engine.py
+
+Do NOT put the entire AI pipeline into one giant file.
+
+Use clean architecture.
+
+---
+
+# 21. EVALUATION MODULE
+
+Create an evaluation section.
+
+Metrics:
+
+* Accuracy
+* Precision
+* Recall
+* F1-score
+* False Alarm Rate
+* Response Time
+* FPS
+
+For density estimation where ground-truth counts are available:
+
+* MAE
+* RMSE
+
+Display evaluation results in a clean table.
+
+IMPORTANT:
+
+Do not invent accuracy numbers.
+
+If evaluation has not yet been performed, display:
+
+"Evaluation Pending"
+
+or:
+
+"Run Evaluation"
+
+---
+
+# 22. DATASET SUPPORT
+
+Design the system to support:
+
+* UMN Unusual Crowd Activity Dataset
+* GBA-Stampedes
+* GSMADC
+* Additional legally usable crowd datasets
+
+Create a dataset configuration section.
+
+Allow:
+
+* dataset path
+* class labels
+* train/validation/test configuration
+
+Default planned split:
+
+70% training
+15% validation
+15% testing
+
+Make this configurable.
+
+---
+
+# 23. MODEL TRAINING
+
+Create an optional training pipeline.
+
+Provide scripts such as:
+
+train.py
+
+validate.py
+
+evaluate.py
+
+predict.py
+
+Requirements:
+
+* configurable dataset path
+* configurable epochs
+* configurable batch size
+* configurable image size
+* model checkpoint saving
+* evaluation metrics
+* confusion matrix
+
+Do not run expensive training automatically during application startup.
+
+---
+
+# 24. SECURITY
+
+Implement basic security practices:
+
+* environment variables for secrets
+* input validation
+* file type validation
+* file size limits
+* safe file storage
+* API error handling
+* CORS configuration
+* no API keys hard-coded in source code
+
+Create:
+
+`.env.example`
+
+Never commit actual secrets.
+
+---
+
+# 25. PROJECT STRUCTURE
+
+Use a clean structure similar to:
+
+frontend/
+src/
+components/
+pages/
+services/
+hooks/
+types/
+charts/
+
+backend/
+app/
+api/
+models/
+services/
+detection/
+tracking/
+density/
+movement/
+risk/
+database/
+utils/
+
+ml/
+models/
+training/
+evaluation/
+datasets/
+
+data/
+uploads/
+processed/
+
+tests/
+
+docs/
+
+README.md
+
+---
+
+# 26. DEMO MODE
+
+Create a clearly labeled:
+
+### DEMO MODE
+
+If a GPU/model is unavailable, the application should still be demonstrable.
+
+However:
+
+DO NOT fake results silently.
+
+Display:
+
+**Demo / Simulated Analysis**
+
+when simulated data is being used.
+
+Make the architecture ready to switch to real inference.
+
+---
+
+# 27. ERROR HANDLING
+
+Handle:
+
+* Invalid video
+* Unsupported file type
+* Large video
+* Missing model
+* Camera unavailable
+* Processing failure
+* Database failure
+* API failure
+
+Show user-friendly error messages.
+
+Do not expose stack traces to users.
+
+---
+
+# 28. PERFORMANCE
+
+Optimize for Replit limitations.
+
+Do not load large models repeatedly.
+
+Load models once.
+
+Use:
+
+* lazy loading
+* frame skipping where appropriate
+* configurable processing FPS
+* background processing where useful
+
+Show actual:
+
+**Processing FPS**
+
+rather than a fake value.
+
+---
+
+# 29. README
+
+Create a professional README containing:
+
+## Project Overview
+
+## Problem Statement
+
+## Objectives
+
+## Features
+
+## Architecture
+
+## Technology Stack
+
+## Dataset
+
+## Installation
+
+## Environment Variables
+
+## Running Locally
+
+## Model Setup
+
+## API Documentation
+
+## Evaluation
+
+## Limitations
+
+## Future Scope
+
+## Team Members
+
+---
+
+# 30. DOCUMENTATION INSIDE THE PROJECT
+
+Create:
+
+docs/
+
+architecture.md
+
+methodology.md
+
+dataset.md
+
+evaluation.md
+
+api.md
+
+Include diagrams where useful.
+
+---
+
+# 31. FINAL-YEAR PROJECT REQUIREMENTS
+
+The application should clearly demonstrate:
+
+### INPUT
+
+CCTV / Video
+
+### PROCESSING
+
+Frame extraction + preprocessing
+
+### AI
+
+YOLO person detection
+
+### COMPUTER VISION
+
+Density + movement analysis
+
+### RISK ENGINE
+
+Risk score + classification
+
+### OUTPUT
+
+Dashboard + alert
+
+### STORAGE
+
+Database + history
+
+### EVALUATION
+
+Metrics + performance
+
+This should map directly to our Phase 1 presentation.
+
+---
+
+# 32. IMPORTANT TECHNICAL RULES
+
+DO NOT:
+
+* fabricate model accuracy
+* fabricate dataset results
+* claim perfect stampede prediction
+* hard-code fake real-time data
+* hide simulated results
+* use random APIs unnecessarily
+* create a static mockup and call it AI
+* put everything in one file
+* hard-code secrets
+
+DO:
+
+* build modular code
+* use real inference where possible
+* clearly separate demo mode from real mode
+* make thresholds configurable
+* log processing results
+* provide meaningful error handling
+* write maintainable code
+* explain limitations honestly
+
+---
+
+# 33. DEVELOPMENT STRATEGY
+
+Do NOT attempt to build everything blindly in one step.
+
+First:
+
+1. Inspect the Replit environment.
+2. Create the project structure.
+3. Set up frontend and backend.
+4. Verify the application runs.
+5. Implement database.
+6. Implement video upload.
+7. Implement person detection.
+8. Implement tracking.
+9. Implement density analysis.
+10. Implement movement analysis.
+11. Implement risk engine.
+12. Implement alerts.
+13. Implement dashboard.
+14. Implement analytics.
+15. Implement evaluation.
+16. Add tests.
+17. Polish UI.
+18. Update README.
+
+After each major stage:
+
+* run the application
+* check for errors
+* fix issues
+* verify functionality
+* continue only after the previous stage works
+
+---
+
+# 34. FINAL QUALITY CHECK
+
+Before declaring the project complete, verify:
+
+[ ] Application starts successfully
+
+[ ] Frontend works
+
+[ ] Backend works
+
+[ ] Database works
+
+[ ] Video upload works
+
+[ ] Person detection works
+
+[ ] Tracking works where supported
+
+[ ] Density analysis works
+
+[ ] Movement analysis works
+
+[ ] Risk score works
+
+[ ] Risk classification works
+
+[ ] Alerts work
+
+[ ] Alert history works
+
+[ ] Analytics work
+
+[ ] Evaluation module works
+
+[ ] Error handling works
+
+[ ] No secrets are exposed
+
+[ ] README is complete
+
+[ ] Demo mode is clearly labeled
+
+[ ] No fake AI results are presented as real
+
+[ ] UI is responsive
+
+[ ] Project is suitable for final-year demonstration
+
+---
+
+# 35. MOST IMPORTANT INSTRUCTION
+
+Before writing large amounts of code, inspect the existing Replit project.
+
+If files already exist:
+
+**DO NOT DELETE OR REWRITE THE PROJECT blindly.**
+
+First understand the current architecture and reuse existing working code where possible.
+
+If something is broken, fix it instead of unnecessarily replacing it.
+
+If a technical decision is uncertain, choose the simplest reliable approach that can actually run in the Replit environment.
+
+At the end of every implementation stage, tell me:
+
+1. What was implemented
+2. What files were changed
+3. How to run/test it
+4. Any limitations
+5. What should be implemented next
+
+Now begin by inspecting the current Replit project and environment, then build the system step-by-step.

@@ -10,6 +10,12 @@ servers:
 tags:
   - name: health
     description: Health operations
+  - name: dashboard
+  - name: cameras
+  - name: monitoring
+  - name: alerts
+  - name: analytics
+  - name: settings
 paths:
   /healthz:
     get:
@@ -24,7 +30,190 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+  /dashboard:
+    get:
+      operationId: getDashboard
+      tags: [dashboard]
+      summary: Get current monitoring overview
+      responses:
+        "200":
+          description: Dashboard overview
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Dashboard"
+  /cameras:
+    get:
+      operationId: getCameras
+      tags: [cameras]
+      summary: List configured cameras
+      responses:
+        "200":
+          description: Cameras
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Camera"
+    post:
+      operationId: createCamera
+      tags: [cameras]
+      summary: Add a camera configuration
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CameraInput"
+      responses:
+        "201":
+          description: Created camera
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Camera"
+  /cameras/{cameraId}:
+    patch:
+      operationId: updateCamera
+      tags: [cameras]
+      summary: Update a camera configuration
+      parameters:
+        - $ref: "#/components/parameters/CameraId"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CameraUpdate"
+      responses:
+        "200":
+          description: Updated camera
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Camera"
+    delete:
+      operationId: deleteCamera
+      tags: [cameras]
+      summary: Remove a camera configuration
+      parameters:
+        - $ref: "#/components/parameters/CameraId"
+      responses:
+        "204":
+          description: Camera removed
+  /alerts:
+    get:
+      operationId: getAlerts
+      tags: [alerts]
+      summary: List alert history
+      parameters:
+        - name: status
+          in: query
+          schema:
+            type: string
+        - name: riskLevel
+          in: query
+          schema:
+            type: string
+        - name: search
+          in: query
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Alerts
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Alert"
+  /monitoring/session:
+    post:
+      operationId: startAnalysis
+      tags: [monitoring]
+      summary: Start a demo or uploaded-video analysis session
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AnalysisInput"
+      responses:
+        "201":
+          description: Analysis session
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AnalysisSession"
+  /monitoring/session/{sessionId}:
+    get:
+      operationId: getAnalysisSession
+      tags: [monitoring]
+      summary: Get progressive analysis results
+      parameters:
+        - name: sessionId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Analysis session
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AnalysisSession"
+  /analytics:
+    get:
+      operationId: getAnalytics
+      tags: [analytics]
+      summary: Get processed analysis trends
+      responses:
+        "200":
+          description: Analytics
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Analytics"
+  /settings/risk:
+    get:
+      operationId: getRiskSettings
+      tags: [settings]
+      summary: Get configurable risk thresholds
+      responses:
+        "200":
+          description: Risk settings
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RiskSettings"
+    put:
+      operationId: updateRiskSettings
+      tags: [settings]
+      summary: Update configurable risk thresholds
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/RiskSettingsInput"
+      responses:
+        "200":
+          description: Updated risk settings
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RiskSettings"
 components:
+  parameters:
+    CameraId:
+      name: cameraId
+      in: path
+      required: true
+      schema:
+        type: string
   schemas:
     HealthStatus:
       type: object
@@ -33,4 +222,168 @@ components:
           type: string
       required:
         - status
+    Camera:
+      type: object
+      required: [id, name, location, source, sourceType, status, lastActive]
+      properties:
+        id: { type: string }
+        name: { type: string }
+        location: { type: string }
+        source: { type: string }
+        sourceType: { type: string }
+        status: { type: string }
+        lastActive: { type: string }
+    CameraInput:
+      type: object
+      required: [name, location, source, sourceType]
+      properties:
+        name: { type: string, minLength: 1 }
+        location: { type: string, minLength: 1 }
+        source: { type: string, minLength: 1 }
+        sourceType: { type: string }
+    CameraUpdate:
+      type: object
+      properties:
+        name: { type: string, minLength: 1 }
+        location: { type: string, minLength: 1 }
+        source: { type: string }
+        sourceType: { type: string }
+        status: { type: string }
+    RiskFactors:
+      type: object
+      required: [density, movementChange, densityIncrease, flowIrregularity]
+      properties:
+        density: { type: number }
+        movementChange: { type: number }
+        densityIncrease: { type: number }
+        flowIrregularity: { type: number }
+    Dashboard:
+      type: object
+      required: [status, mode, currentCount, density, movementSpeed, direction, movementState, riskLevel, riskScore, activeAlerts, fps, source, factors, updatedAt]
+      properties:
+        status: { type: string }
+        mode: { type: string }
+        currentCount: { type: number }
+        density: { type: number }
+        movementSpeed: { type: number }
+        direction: { type: string }
+        movementState: { type: string }
+        riskLevel: { type: string }
+        riskScore: { type: number }
+        activeAlerts: { type: number }
+        fps: { type: number }
+        source: { type: string }
+        factors: { $ref: "#/components/schemas/RiskFactors" }
+        updatedAt: { type: string }
+    Alert:
+      type: object
+      required: [id, timestamp, camera, riskLevel, riskScore, conditions, recommendedAction, status]
+      properties:
+        id: { type: string }
+        timestamp: { type: string }
+        camera: { type: string }
+        riskLevel: { type: string }
+        riskScore: { type: number }
+        conditions:
+          type: array
+          items: { type: string }
+        recommendedAction: { type: string }
+        status: { type: string }
+    AnalysisInput:
+      type: object
+      required: [source, mode]
+      properties:
+        source: { type: string }
+        mode: { type: string }
+    AnalysisPoint:
+      type: object
+      required: [time, count, density, speed, risk]
+      properties:
+        time: { type: string }
+        count: { type: number }
+        density: { type: number }
+        speed: { type: number }
+        risk: { type: number }
+    AnalysisSession:
+      type: object
+      required: [id, source, mode, status, progress, processedFrames, totalFrames, current, points, startedAt]
+      properties:
+        id: { type: string }
+        source: { type: string }
+        mode: { type: string }
+        status: { type: string }
+        progress: { type: number }
+        processedFrames: { type: number }
+        totalFrames: { type: number }
+        current: { $ref: "#/components/schemas/Dashboard" }
+        points:
+          type: array
+          items: { $ref: "#/components/schemas/AnalysisPoint" }
+        startedAt: { type: string }
+    Analytics:
+      type: object
+      required: [points, distribution, weeklyAlerts, evaluation]
+      properties:
+        points:
+          type: array
+          items: { $ref: "#/components/schemas/AnalysisPoint" }
+        distribution:
+          type: array
+          items:
+            type: object
+            required: [level, count]
+            properties:
+              level: { type: string }
+              count: { type: number }
+        weeklyAlerts:
+          type: array
+          items:
+            type: object
+            required: [day, count]
+            properties:
+              day: { type: string }
+              count: { type: number }
+        evaluation:
+          type: object
+          required: [status, metrics]
+          properties:
+            status: { type: string }
+            metrics:
+              type: array
+              items:
+                type: object
+                required: [name, value]
+                properties:
+                  name: { type: string }
+                  value: { type: string }
+    RiskSettings:
+      type: object
+      required: [warningThreshold, highThreshold, criticalThreshold, weights]
+      properties:
+        warningThreshold: { type: number }
+        highThreshold: { type: number }
+        criticalThreshold: { type: number }
+        weights:
+          type: object
+          required: [density, movement, densityChange, flow]
+          properties:
+            density: { type: number }
+            movement: { type: number }
+            densityChange: { type: number }
+            flow: { type: number }
+    RiskSettingsInput:
+      type: object
+      required: [warningThreshold, highThreshold, criticalThreshold, weights]
+      properties:
+        warningThreshold: { type: number, minimum: 1, maximum: 99 }
+        highThreshold: { type: number, minimum: 1, maximum: 99 }
+        criticalThreshold: { type: number, minimum: 1, maximum: 100 }
+        weights:
+          type: object
+          required: [density, movement, densityChange, flow]
+          properties:
+            density: { type: number, minimum: 0, maximum: 1 }
+            movement: { type: number, minimum: 0, maximum: 1 }
+            densityChange: { type: number, minimum: 0, maximum: 1 }
+            flow: { type: number, minimum: 0, maximum: 1 }
 

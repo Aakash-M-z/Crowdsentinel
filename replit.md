@@ -1,45 +1,35 @@
-# [Project name]
+# CrowdSentinel
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+CrowdSentinel is a public-safety monitoring workspace that explains measurable crowd density and movement signals instead of claiming perfect stampede prediction.
 
 ## Run & Operate
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
-
-## Stack
-
-- pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
-
-## Where things live
-
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
-
-## Architecture decisions
-
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- `pnpm --filter @workspace/api-server run dev` — run the API
+- `pnpm --filter @workspace/crowdsentinel run dev` — run the web app
+- `pnpm run typecheck` — check all packages
+- `pnpm --filter @workspace/api-spec run codegen` — regenerate typed API clients
+- `pnpm --filter @workspace/db run push` — push development schema changes
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+Dashboard, progressive demo/upload monitoring, camera CRUD, alert history, analytics, configurable risk thresholds, and methodology/evaluation documentation.
 
-## User preferences
+## Architecture decisions
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- OpenAPI in `lib/api-spec/openapi.yaml` is the API source of truth.
+- Analysis outputs are explicitly labeled `DEMO / SIMULATED ANALYSIS` until real inference is configured.
+- Relative image-space density is shown instead of claiming calibrated people-per-square-metre accuracy.
+- Risk is a transparent weighted signal with configurable thresholds, not a validated stampede classifier.
+
+## Where things live
+
+- Web app: `artifacts/crowdsentinel`
+- API: `artifacts/api-server/src/routes/crowd.ts`
+- Database schema: `lib/db/src/schema/crowd.ts`
+- API contract: `lib/api-spec/openapi.yaml`
+- Project documentation: `docs/`
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
-
-## Pointers
-
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+- Artifact workflows provide `PORT` and `BASE_PATH`; do not run the Vite command manually without them.
+- The initial analysis data is simulated and must not be presented as ground truth.
