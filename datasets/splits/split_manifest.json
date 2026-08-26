@@ -1,0 +1,50 @@
+{
+  "train": [
+    {
+      "video_id": "seq_04_rapid_panic_dispersion",
+      "video_path": "datasets/raw\\seq_04_rapid_panic_dispersion.mp4",
+      "duration_sec": 10.0,
+      "total_frames": 200,
+      "dataset_name": "Benchmark Crowd Suite"
+    },
+    {
+      "video_id": "seq_02_bottleneck_congestion",
+      "video_path": "datasets/raw\\seq_02_bottleneck_congestion.mp4",
+      "duration_sec": 12.0,
+      "total_frames": 240,
+      "dataset_name": "Benchmark Crowd Suite"
+    },
+    {
+      "video_id": "seq_03_counter_flow_surge",
+      "video_path": "datasets/raw\\seq_03_counter_flow_surge.mp4",
+      "duration_sec": 10.0,
+      "total_frames": 200,
+      "dataset_name": "Benchmark Crowd Suite"
+    },
+    {
+      "video_id": "seq_05_dense_standstill",
+      "video_path": "datasets/raw\\seq_05_dense_standstill.mp4",
+      "duration_sec": 8.0,
+      "total_frames": 160,
+      "dataset_name": "Benchmark Crowd Suite"
+    }
+  ],
+  "val": [
+    {
+      "video_id": "seq_01_normal_flow",
+      "video_path": "datasets/raw\\seq_01_normal_flow.mp4",
+      "duration_sec": 10.0,
+      "total_frames": 200,
+      "dataset_name": "Benchmark Crowd Suite"
+    }
+  ],
+  "test": [
+    {
+      "video_id": "seq_06_steady_concourse",
+      "video_path": "datasets/raw\\seq_06_steady_concourse.mp4",
+      "duration_sec": 10.0,
+      "total_frames": 200,
+      "dataset_name": "Benchmark Crowd Suite"
+    }
+  ]
+}
