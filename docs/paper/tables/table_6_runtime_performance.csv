@@ -1,0 +1,4 @@
+Resolution,Input FPS,Processing FPS,Avg Latency (ms),P95 Latency (ms),Hardware
+640x480 (VGA),20.0,10.6,93.98,110.84,CPU
+1280x720 (HD),20.0,7.6,129.7,155.2,CPU
+1920x1080 (FHD),20.0,5.1,192.7,232.8,CPU

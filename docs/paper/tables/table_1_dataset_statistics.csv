@@ -1,0 +1,2 @@
+Dataset Name,Total Videos,Total Duration (s),Total Frames,Resolution,Train Videos,Val Videos,Test Videos,Split Proportions
+Benchmark Crowd Suite,6,60.0,1200,640x480,4,1,1,70% / 15% / 15%
