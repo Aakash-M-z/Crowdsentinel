@@ -1,0 +1,23 @@
+experiment_name: "proposed_multifeature_temporal_fusion"
+description: "Full proposed framework: multi-feature spatial-temporal fusion with explainable risk engine."
+features_used:
+  - density
+  - density_change
+  - movement_magnitude
+  - movement_change
+  - direction_variance
+  - flow_irregularity
+weights:
+  density: 0.25
+  density_change: 0.20
+  movement_magnitude: 0.20
+  movement_change: 0.15
+  direction_variance: 0.10
+  flow_irregularity: 0.10
+temporal_window:
+  window_seconds: 5.0
+  hop_seconds: 1.0
+thresholds:
+  warning: 31.0
+  high_risk: 51.0
+  critical: 76.0

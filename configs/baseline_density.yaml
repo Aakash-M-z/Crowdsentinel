@@ -1,0 +1,16 @@
+experiment_name: "baseline_1_density_only"
+description: "Crowd risk assessment based strictly on crowd density indicators."
+features_used:
+  - density
+  - density_change
+weights:
+  density: 0.60
+  density_change: 0.40
+  movement_magnitude: 0.0
+  movement_change: 0.0
+  direction_variance: 0.0
+  flow_irregularity: 0.0
+thresholds:
+  warning: 31.0
+  high_risk: 51.0
+  critical: 76.0

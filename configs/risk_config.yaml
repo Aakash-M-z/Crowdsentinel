@@ -1,0 +1,61 @@
+system:
+  name: "CrowdSentinel"
+  version: "1.0.0"
+  description: "AI-Based Early Crowd Risk Detection Using Density and Motion Analysis"
+  mode: "RESEARCH_INFERENCE"
+
+detection:
+  model_name: "yolov8n.pt"
+  confidence_threshold: 0.35
+  iou_threshold: 0.45
+  target_classes: [0] # 0 = person in COCO
+  device: "auto" # 'cpu', 'cuda', or 'auto'
+  img_size: 640
+
+tracking:
+  algorithm: "centroid" # 'centroid', 'bytetrack'
+  max_disappeared_frames: 15
+  min_hits: 3
+  iou_threshold: 0.3
+
+density:
+  grid_rows: 2
+  grid_cols: 2
+  zones: ["Zone A", "Zone B", "Zone C", "Zone D"]
+  max_expected_capacity_per_frame: 100
+  temporal_growth_interval_frames: 10
+
+motion:
+  algorithm: "farneback"
+  pyr_scale: 0.5
+  levels: 3
+  winsize: 15
+  iterations: 3
+  poly_n: 5
+  poly_sigma: 1.2
+  motion_magnitude_threshold: 0.5
+  max_expected_velocity_px: 25.0
+
+temporal_window:
+  window_seconds: 5.0
+  hop_seconds: 1.0
+  fps_default: 20
+
+weights:
+  density: 0.25
+  density_change: 0.20
+  movement_magnitude: 0.20
+  movement_change: 0.15
+  direction_variance: 0.10
+  flow_irregularity: 0.10
+
+thresholds:
+  warning: 31.0
+  high_risk: 51.0
+  critical: 76.0
+
+categories:
+  normal: [0.0, 30.99]
+  warning: [31.0, 50.99]
+  high_risk: [51.0, 75.99]
+  critical: [76.0, 100.0]

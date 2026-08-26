@@ -1,0 +1,18 @@
+experiment_name: "baseline_2_motion_only"
+description: "Crowd risk assessment based strictly on crowd movement and optical flow indicators."
+features_used:
+  - movement_magnitude
+  - movement_change
+  - direction_variance
+  - flow_irregularity
+weights:
+  density: 0.0
+  density_change: 0.0
+  movement_magnitude: 0.40
+  movement_change: 0.30
+  direction_variance: 0.15
+  flow_irregularity: 0.15
+thresholds:
+  warning: 31.0
+  high_risk: 51.0
+  critical: 76.0

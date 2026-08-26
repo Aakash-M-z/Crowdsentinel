@@ -1,0 +1,16 @@
+experiment_name: "baseline_3_naive_density_motion"
+description: "Naive unweighted 50/50 combination of crowd density and crowd motion."
+features_used:
+  - density
+  - movement_magnitude
+weights:
+  density: 0.50
+  density_change: 0.0
+  movement_magnitude: 0.50
+  movement_change: 0.0
+  direction_variance: 0.0
+  flow_irregularity: 0.0
+thresholds:
+  warning: 31.0
+  high_risk: 51.0
+  critical: 76.0
