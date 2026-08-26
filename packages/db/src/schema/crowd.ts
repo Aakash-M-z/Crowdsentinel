@@ -47,5 +47,18 @@ export const analysisSessionsTable = pgTable("analysis_sessions", {
   summary: jsonb("summary").notNull(),
 });
 
+export const experimentsTable = pgTable("experiments", {
+  id: text("id").primaryKey(),
+  timestamp: timestamp("timestamp", { withTimezone: true }).notNull(),
+  modelName: text("model_name").notNull(),
+  datasetName: text("dataset_name").notNull(),
+  configuration: jsonb("configuration").notNull(),
+  metrics: jsonb("metrics").notNull(),
+  manifest: jsonb("manifest").notNull(),
+});
+
 export const insertCameraSchema = createInsertSchema(camerasTable);
 export type Camera = typeof camerasTable.$inferSelect;
+
+export const insertExperimentSchema = createInsertSchema(experimentsTable);
+export type ExperimentRecord = typeof experimentsTable.$inferSelect;
