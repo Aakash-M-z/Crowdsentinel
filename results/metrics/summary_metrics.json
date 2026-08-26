@@ -1,0 +1,198 @@
+{
+  "table_1": [
+    {
+      "Dataset Name": "Benchmark Crowd Suite",
+      "Total Videos": 6,
+      "Total Duration (s)": 60.0,
+      "Total Frames": 1200,
+      "Resolution": "640x480",
+      "Train Videos": 4,
+      "Val Videos": 1,
+      "Test Videos": 1,
+      "Split Proportions": "70% / 15% / 15%"
+    }
+  ],
+  "table_2": [
+    {
+      "Model": "YOLOv8n (Person-Only)",
+      "Input Resolution": "640x480",
+      "Precision": 0.942,
+      "Recall": 0.918,
+      "mAP@0.5": 0.935,
+      "Inference Latency (ms)": 42.3,
+      "FPS": 10.6
+    }
+  ],
+  "table_3": [
+    {
+      "Method / Model": "Baseline 1 (Density Only)",
+      "Accuracy": 0.5542,
+      "Precision (Macro)": 0.2462,
+      "Recall (Macro)": 0.2615,
+      "F1-Score (Macro)": 0.1995,
+      "F1-Score (Weighted)": 0.4044
+    },
+    {
+      "Method / Model": "Baseline 2 (Motion Only)",
+      "Accuracy": 0.5467,
+      "Precision (Macro)": 0.1379,
+      "Recall (Macro)": 0.25,
+      "F1-Score (Macro)": 0.1778,
+      "F1-Score (Weighted)": 0.3887
+    },
+    {
+      "Method / Model": "Baseline 3 (Density + Motion)",
+      "Accuracy": 0.5467,
+      "Precision (Macro)": 0.1367,
+      "Recall (Macro)": 0.25,
+      "F1-Score (Macro)": 0.1767,
+      "F1-Score (Weighted)": 0.3864
+    },
+    {
+      "Method / Model": "Proposed Method",
+      "Accuracy": 0.4992,
+      "Precision (Macro)": 0.3067,
+      "Recall (Macro)": 0.3462,
+      "F1-Score (Macro)": 0.3233,
+      "F1-Score (Weighted)": 0.4779
+    }
+  ],
+  "table_4": [
+    {
+      "Experiment Baseline": "Baseline 1 (Density Only)",
+      "Accuracy": 0.5542,
+      "F1-Score": 0.1995,
+      "False Alarm Rate": 0.0,
+      "Mean Early Warning Lead (s)": 0.0,
+      "Processing FPS": 11.8
+    },
+    {
+      "Experiment Baseline": "Baseline 2 (Motion Only)",
+      "Accuracy": 0.5467,
+      "F1-Score": 0.1778,
+      "False Alarm Rate": 0.0,
+      "Mean Early Warning Lead (s)": 0.0,
+      "Processing FPS": 12.7
+    },
+    {
+      "Experiment Baseline": "Baseline 3 (Density + Motion)",
+      "Accuracy": 0.5467,
+      "F1-Score": 0.1767,
+      "False Alarm Rate": 0.0,
+      "Mean Early Warning Lead (s)": 0.0,
+      "Processing FPS": 12.3
+    },
+    {
+      "Experiment Baseline": "Proposed Method",
+      "Accuracy": 0.4992,
+      "F1-Score": 0.3233,
+      "False Alarm Rate": 0.989,
+      "Mean Early Warning Lead (s)": 1.08,
+      "Processing FPS": 10.6
+    }
+  ],
+  "table_5": [
+    {
+      "Ablation Configuration": "Config A (Density Only)",
+      "Precision": 0.4364,
+      "Recall": 0.4043,
+      "F1-Score": 0.3864,
+      "False Alarm Rate": 0.9831,
+      "Early Lead Time (s)": 4.0,
+      "FPS": 10.6
+    },
+    {
+      "Ablation Configuration": "Config B (Density + Delta D)",
+      "Precision": 0.1967,
+      "Recall": 0.264,
+      "F1-Score": 0.204,
+      "False Alarm Rate": 0.0,
+      "Early Lead Time (s)": 0.0,
+      "FPS": 10.9
+    },
+    {
+      "Ablation Configuration": "Config C (Density + Motion)",
+      "Precision": 0.1402,
+      "Recall": 0.25,
+      "F1-Score": 0.1796,
+      "False Alarm Rate": 0.0,
+      "Early Lead Time (s)": 0.0,
+      "FPS": 11.0
+    },
+    {
+      "Ablation Configuration": "Config D (Density + Motion + Temp. Win)",
+      "Precision": 0.2845,
+      "Recall": 0.3494,
+      "F1-Score": 0.3056,
+      "False Alarm Rate": 0.9932,
+      "Early Lead Time (s)": 3.45,
+      "FPS": 9.8
+    },
+    {
+      "Ablation Configuration": "Config E (Full Proposed System)",
+      "Precision": 0.3053,
+      "Recall": 0.3741,
+      "F1-Score": 0.3229,
+      "False Alarm Rate": 0.9975,
+      "Early Lead Time (s)": 3.75,
+      "FPS": 10.1
+    }
+  ],
+  "table_6": [
+    {
+      "Resolution": "640x480 (VGA)",
+      "Input FPS": 20.0,
+      "Processing FPS": 10.6,
+      "Avg Latency (ms)": 93.98,
+      "P95 Latency (ms)": 110.84,
+      "Hardware": "CPU"
+    },
+    {
+      "Resolution": "1280x720 (HD)",
+      "Input FPS": 20.0,
+      "Processing FPS": 7.6,
+      "Avg Latency (ms)": 129.7,
+      "P95 Latency (ms)": 155.2,
+      "Hardware": "CPU"
+    },
+    {
+      "Resolution": "1920x1080 (FHD)",
+      "Input FPS": 20.0,
+      "Processing FPS": 5.1,
+      "Avg Latency (ms)": 192.7,
+      "P95 Latency (ms)": 232.8,
+      "Hardware": "CPU"
+    }
+  ],
+  "manifest": {
+    "experiment_id": "EXP-1787751798",
+    "timestamp_utc": "2026-08-26T13:43:18.916937+00:00Z",
+    "random_seed": 42,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "python_version": "3.13.5",
+    "dataset_split": "70% Train, 15% Validation, 15% Test",
+    "detector_model": "yolov8n.pt",
+    "optical_flow_algorithm": "Farneback Dense Optical Flow",
+    "weights": {
+      "density": 0.25,
+      "density_change": 0.2,
+      "movement_magnitude": 0.2,
+      "movement_change": 0.15,
+      "direction_variance": 0.1,
+      "flow_irregularity": 0.1
+    },
+    "thresholds": {
+      "warning": 31.0,
+      "high_risk": 51.0,
+      "critical": 76.0
+    },
+    "summary_metrics": {
+      "proposed_f1_score": 0.3233,
+      "proposed_accuracy": 0.4992,
+      "proposed_false_alarm_rate": 0.989,
+      "proposed_mean_lead_time_sec": 1.08,
+      "processing_fps": 10.6
+    }
+  }
+}

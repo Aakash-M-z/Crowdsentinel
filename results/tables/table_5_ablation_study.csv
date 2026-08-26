@@ -1,0 +1,6 @@
+Ablation Configuration,Precision,Recall,F1-Score,False Alarm Rate,Early Lead Time (s),FPS
+Config A (Density Only),0.4364,0.4043,0.3864,0.9831,4.0,10.6
+Config B (Density + Delta D),0.1967,0.264,0.204,0.0,0.0,10.9
+Config C (Density + Motion),0.1402,0.25,0.1796,0.0,0.0,11.0
+Config D (Density + Motion + Temp. Win),0.2845,0.3494,0.3056,0.9932,3.45,9.8
+Config E (Full Proposed System),0.3053,0.3741,0.3229,0.9975,3.75,10.1
