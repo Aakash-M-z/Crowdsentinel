@@ -1,0 +1,4 @@
+Window Duration (seconds),Val Macro F1,Test Macro F1,Test Accuracy
+3s (60 frames),0.9128,0.9019,0.8911
+5s (100 frames),0.923,0.8863,0.8679
+7s (140 frames),0.915,0.847,0.825
