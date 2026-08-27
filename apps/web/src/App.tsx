@@ -685,33 +685,33 @@ function ResearchPage() {
         <div className="rounded-2xl border border-[#d8e5e2] bg-white p-4 shadow-sm">
           <div className="text-[10px] font-bold uppercase tracking-wider text-[#8b9b9d]">Proposed F1-Score</div>
           <div className="mt-2 text-2xl font-extrabold text-[#12696d]">
-            {manifest?.summary_metrics?.proposed_f1_score ? manifest.summary_metrics.proposed_f1_score.toFixed(3) : '0.913'}
+            {manifest?.summary_metrics?.proposed_f1_score ? manifest.summary_metrics.proposed_f1_score.toFixed(3) : '0.827'}
           </div>
-          <div className="mt-1 text-[11px] text-[#527974]">+0.215 over density baseline</div>
+          <div className="mt-1 text-[11px] text-[#527974]">+0.503 over baseline</div>
         </div>
 
         <div className="rounded-2xl border border-[#d8e5e2] bg-white p-4 shadow-sm">
           <div className="text-[10px] font-bold uppercase tracking-wider text-[#8b9b9d]">False Alarm Rate</div>
           <div className="mt-2 text-2xl font-extrabold text-[#267250]">
-            {manifest?.summary_metrics?.proposed_false_alarm_rate ? (manifest.summary_metrics.proposed_false_alarm_rate * 100).toFixed(1) + '%' : '7.1%'}
+            {manifest?.summary_metrics?.proposed_false_alarm_rate ? (manifest.summary_metrics.proposed_false_alarm_rate * 100).toFixed(1) + '%' : '0.0%'}
           </div>
-          <div className="mt-1 text-[11px] text-[#267250]">Reduced from 28.6%</div>
+          <div className="mt-1 text-[11px] text-[#267250]">With persistence filter</div>
         </div>
 
         <div className="rounded-2xl border border-[#d8e5e2] bg-white p-4 shadow-sm">
           <div className="text-[10px] font-bold uppercase tracking-wider text-[#8b9b9d]">Early Warning Lead</div>
-          <div className="mt-2 text-2xl font-extrabold text-[#956d00]">
-            {manifest?.summary_metrics?.proposed_mean_lead_time_sec ? manifest.summary_metrics.proposed_mean_lead_time_sec + 's' : '7.8s'}
+          <div className="mt-2 text-2xl font-extrabold text-[#bf7817]">
+            {manifest?.summary_metrics?.proposed_mean_lead_time_sec ? manifest.summary_metrics.proposed_mean_lead_time_sec.toFixed(2) + 's' : '2.52s'}
           </div>
-          <div className="mt-1 text-[11px] text-[#956d00]">+4.6s earlier than density only</div>
+          <div className="mt-1 text-[11px] text-[#8c5710]">Pre-event detection</div>
         </div>
 
         <div className="rounded-2xl border border-[#d8e5e2] bg-white p-4 shadow-sm">
           <div className="text-[10px] font-bold uppercase tracking-wider text-[#8b9b9d]">Processing Speed</div>
-          <div className="mt-2 text-2xl font-extrabold text-[#20343b]">
-            {manifest?.summary_metrics?.processing_fps ? manifest.summary_metrics.processing_fps + ' FPS' : '36.8 FPS'}
+          <div className="mt-2 text-2xl font-extrabold text-[#24527a]">
+            {manifest?.summary_metrics?.processing_fps ? manifest.summary_metrics.processing_fps.toFixed(1) + ' FPS' : '7.4 FPS'}
           </div>
-          <div className="mt-1 text-[11px] text-[#718285]">Real-time CPU execution</div>
+          <div className="mt-1 text-[11px] text-[#52708b]">Full multi-modal CPU pipeline</div>
         </div>
       </div>
 
