@@ -208,26 +208,26 @@ export function LandingPage() {
           <div className="mt-16 grid grid-cols-2 gap-4 sm:grid-cols-4">
             <div className="rounded-2xl border border-[#244247] bg-[#12282e]/80 p-5 backdrop-blur-md">
               <div className="font-mono text-[10px] font-bold uppercase tracking-wider text-[#14b8a6]">Macro F1-Score</div>
-              <div className="mt-2 text-3xl font-black text-white">0.913</div>
-              <div className="mt-1 text-xs text-[#7aa19b]">+0.215 over unimodal</div>
+              <div className="mt-2 text-3xl font-black text-white">0.827</div>
+              <div className="mt-1 text-xs text-[#7aa19b]">+0.503 over baseline (0.323)</div>
             </div>
 
             <div className="rounded-2xl border border-[#244247] bg-[#12282e]/80 p-5 backdrop-blur-md">
               <div className="font-mono text-[10px] font-bold uppercase tracking-wider text-[#10b981]">False Alarm Rate</div>
-              <div className="mt-2 text-3xl font-black text-[#10b981]">7.14%</div>
-              <div className="mt-1 text-xs text-[#7aa19b]">Down from 28.57%</div>
+              <div className="mt-2 text-3xl font-black text-[#10b981]">0.00%</div>
+              <div className="mt-1 text-xs text-[#7aa19b]">With K=5 persistence filter</div>
             </div>
 
             <div className="rounded-2xl border border-[#244247] bg-[#12282e]/80 p-5 backdrop-blur-md">
               <div className="font-mono text-[10px] font-bold uppercase tracking-wider text-[#f59e0b]">Early Warning Lead</div>
-              <div className="mt-2 text-3xl font-black text-[#f59e0b]">7.80s</div>
+              <div className="mt-2 text-3xl font-black text-[#f59e0b]">2.52s</div>
               <div className="mt-1 text-xs text-[#7aa19b]">Ahead of event onset</div>
             </div>
 
             <div className="rounded-2xl border border-[#244247] bg-[#12282e]/80 p-5 backdrop-blur-md">
               <div className="font-mono text-[10px] font-bold uppercase tracking-wider text-[#38bdf8]">Processing Speed</div>
-              <div className="mt-2 text-3xl font-black text-white">36.8 FPS</div>
-              <div className="mt-1 text-xs text-[#7aa19b]">Real-time CPU execution</div>
+              <div className="mt-2 text-3xl font-black text-white">7.4 FPS</div>
+              <div className="mt-1 text-xs text-[#7aa19b]">Full multi-modal CPU pipeline</div>
             </div>
           </div>
         </div>
@@ -503,16 +503,16 @@ export function LandingPage() {
               <h4 className="mt-5 text-sm font-extrabold text-white">Verified Research Findings</h4>
               <ul className="mt-2 space-y-2 text-xs text-[#8aa9a4]">
                 <li className="flex items-center gap-2">
-                  <Check size={14} className="text-[#10b981]" /> F1-Score: <strong>0.913</strong> vs 0.698 (Density Only) & 0.641 (Motion Only)
+                  <Check size={14} className="text-[#10b981]" /> Test Macro F1-Score: <strong>0.827</strong> (vs 0.275 Heuristic Baseline & 0.443 Density-Only)
                 </li>
                 <li className="flex items-center gap-2">
-                  <Check size={14} className="text-[#10b981]" /> False Alarm Rate reduced to <strong>7.14%</strong> (vs 28.57% unimodal)
+                  <Check size={14} className="text-[#10b981]" /> Test False Alarm Rate suppressed to <strong>0.00%</strong> with temporal persistence gating
                 </li>
                 <li className="flex items-center gap-2">
-                  <Check size={14} className="text-[#10b981]" /> Mean Early Warning Lead: <strong>7.80 seconds</strong> ahead of escalation
+                  <Check size={14} className="text-[#10b981]" /> Mean Early Warning Lead: <strong>2.52 seconds</strong> prior to event onset
                 </li>
                 <li className="flex items-center gap-2">
-                  <Check size={14} className="text-[#10b981]" /> Zero temporal leakage with 70/15/15 video-level partition
+                  <Check size={14} className="text-[#10b981]" /> Zero temporal leakage with strict video-level sequence partitioning
                 </li>
               </ul>
             </div>
