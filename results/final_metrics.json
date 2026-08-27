@@ -1,0 +1,56 @@
+{
+  "timestamp_utc": "2026-08-27T12:19:07Z",
+  "dataset": {
+    "total_sequences": 18,
+    "total_frames": 3600,
+    "train_sequences": [
+      "seq_01_normal_flow.mp4",
+      "seq_01_normal_flow_a.mp4",
+      "seq_02_bottleneck_congestion.mp4",
+      "seq_03_bottleneck_a.mp4",
+      "seq_03_counter_flow_surge.mp4",
+      "seq_05_counter_flow_a.mp4",
+      "seq_04_rapid_panic_dispersion.mp4",
+      "seq_07_panic_dispersion_a.mp4",
+      "seq_05_dense_standstill.mp4",
+      "seq_09_dense_standstill_a.mp4",
+      "seq_06_steady_concourse.mp4",
+      "seq_11_steady_concourse_a.mp4"
+    ],
+    "val_sequences": [
+      "seq_02_normal_flow_b.mp4",
+      "seq_04_bottleneck_b.mp4",
+      "seq_08_panic_dispersion_b.mp4"
+    ],
+    "test_sequences": [
+      "seq_06_counter_flow_b.mp4",
+      "seq_10_dense_standstill_b.mp4",
+      "seq_12_steady_concourse_b.mp4"
+    ],
+    "train_frames": 2400,
+    "val_frames": 640,
+    "test_frames": 560
+  },
+  "best_model": "HistGradientBoosting (LightGBM Type)",
+  "best_val_macro_f1": 0.9594,
+  "final_test_macro_f1": 0.8266,
+  "final_test_accuracy": 0.8161,
+  "final_test_precision": 0.8712,
+  "final_test_recall": 0.8116,
+  "final_test_far_pct": 0.0,
+  "early_warning_lead_time_sec": {
+    "mean": 2.516666666666667,
+    "median": 3.2,
+    "min": 1.1,
+    "max": 3.25,
+    "std": 1.0019425576792758
+  },
+  "suppression_k5": {
+    "far_pct": 0.0,
+    "macro_f1": 0.8179
+  },
+  "runtime_throughput_fps": 7.4,
+  "initial_heuristic_baseline_f1": 0.3233,
+  "absolute_improvement_f1": 0.5033,
+  "relative_improvement_pct": 155.7
+}
