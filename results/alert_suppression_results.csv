@@ -1,0 +1,6 @@
+Persistence Window (K frames),Window Duration (s at 20 FPS),Macro F1,Accuracy,Precision,Recall,False Alarm Rate (%),Filter Status
+1,0.05,0.8266,0.8161,0.8712,0.8116,0.0,Raw Instantaneous
+3,0.15,0.8238,0.8125,0.8708,0.8089,0.0,Suppressed Persistent
+5,0.25,0.8179,0.8054,0.8673,0.803,0.0,Suppressed Persistent
+7,0.35,0.8135,0.8,0.8653,0.7986,0.0,Suppressed Persistent
+10,0.5,0.8047,0.7893,0.8604,0.7898,0.0,Suppressed Persistent
