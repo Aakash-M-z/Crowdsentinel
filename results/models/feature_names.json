@@ -1,0 +1,23 @@
+[
+  "density_pct",
+  "density_change_rate",
+  "density_accel",
+  "mean_motion_speed",
+  "max_motion_speed",
+  "motion_accel",
+  "direction_variance",
+  "flow_irregularity",
+  "compression_idx",
+  "dynamic_surge_idx",
+  "kinetic_energy",
+  "motion_to_density",
+  "turbulence_product",
+  "d_mean_5s",
+  "d_std_5s",
+  "m_mean_5s",
+  "m_std_5s",
+  "flow_irr_mean_5s",
+  "dir_var_mean_5s",
+  "comp_mean_5s",
+  "surge_mean_5s"
+]
