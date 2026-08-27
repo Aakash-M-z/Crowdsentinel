@@ -1,0 +1,1201 @@
+video,frame_id,timestamp_sec,person_count,density_pct,density_change_rate,mean_motion_speed,max_motion_speed,direction_variance,flow_irregularity,heuristic_risk_score,heuristic_risk_level,ground_truth_risk_level,ground_truth_person_count
+seq_01_normal_flow.mp4,0,0.0,18,23.6,0.0,0.0,0.0,0.0,0.0,12.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,1,0.05,18,23.7,0.0,1.0,1.77,0.023,2.2,12.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,2,0.1,18,23.7,0.0,0.97,1.72,0.06,5.3,12.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,3,0.15,18,23.7,0.0,0.94,1.56,0.051,4.8,13.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,4,0.2,18,23.8,0.0,0.98,1.56,0.026,2.2,13.1,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,5,0.25,18,23.8,0.0,0.93,1.44,0.065,5.3,13.2,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,6,0.3,18,23.8,0.0,0.89,1.56,0.084,7.7,13.3,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,7,0.35,18,23.9,0.0,0.87,1.17,0.011,1.0,13.2,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,8,0.4,18,23.9,0.0,0.93,1.47,0.053,5.0,13.3,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,9,0.45,18,24.0,0.0,0.97,1.54,0.03,3.1,13.4,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,10,0.5,18,24.0,0.33,0.93,1.81,0.068,5.8,13.5,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,11,0.55,18,24.0,0.32,1.01,1.84,0.053,4.8,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,12,0.6,18,24.2,0.44,0.9,1.5,0.087,7.6,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,13,0.65,18,24.2,0.42,0.91,1.56,0.063,5.6,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,14,0.7,18,24.2,0.41,0.91,1.53,0.065,5.5,13.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,15,0.75,18,24.2,0.42,0.92,1.44,0.068,5.8,13.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,16,0.8,18,24.3,0.35,0.95,1.49,0.042,3.7,13.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,17,0.85,19,24.7,0.82,0.98,1.49,0.052,5.1,14.1,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,18,0.9,19,24.9,0.89,0.89,1.42,0.065,5.7,14.2,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,19,0.95,19,24.9,0.84,0.91,1.37,0.024,2.4,14.1,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,20,1.0,19,24.9,0.86,0.85,1.24,0.012,1.0,14.2,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,21,1.05,19,24.9,0.7,0.93,1.21,0.098,8.7,14.3,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,22,1.1,19,25.0,0.83,0.92,1.52,0.053,4.5,14.3,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,23,1.15,19,25.0,0.8,0.9,1.4,0.029,2.6,14.4,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,24,1.2,19,25.0,0.76,0.91,1.44,0.061,5.5,14.4,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,25,1.25,19,25.1,0.81,0.93,1.56,0.066,5.5,14.5,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,26,1.3,18,23.9,-0.82,1.24,6.56,0.061,18.1,14.4,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,27,1.35,18,24.0,-0.88,1.01,1.74,0.019,1.8,14.2,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,28,1.4,18,24.0,-0.81,0.99,1.7,0.057,4.9,14.1,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,29,1.45,18,24.0,-0.86,0.96,1.53,0.065,5.7,13.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,30,1.5,17,24.0,-0.89,0.9,1.6,0.056,4.9,13.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,31,1.55,17,24.0,-1.01,0.96,1.55,0.047,4.2,13.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,32,1.6,17,24.0,-1.07,0.98,1.49,0.066,6.0,13.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,33,1.65,17,24.0,-0.99,0.88,1.57,0.069,5.9,13.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,34,1.7,18,24.0,-1.1,0.89,1.46,0.056,4.9,13.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,35,1.75,17,24.1,0.18,0.95,1.59,0.04,3.4,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,36,1.8,17,24.1,0.09,0.94,1.65,0.071,6.5,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,37,1.85,18,23.9,-0.1,0.93,1.61,0.065,6.2,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,38,1.9,18,23.9,-0.11,0.92,1.57,0.054,4.3,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,39,1.95,18,23.9,-0.1,1.0,1.58,0.049,4.9,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,40,2.0,18,23.9,-0.07,0.91,1.35,0.049,4.9,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,41,2.05,17,23.8,-0.13,0.95,1.5,0.049,4.2,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,42,2.1,17,23.8,-0.24,0.91,1.36,0.053,4.5,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,43,2.15,17,23.8,-0.12,0.99,1.52,0.053,5.0,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,44,2.2,17,23.8,-0.3,0.89,1.71,0.042,4.0,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,45,2.25,17,23.8,-0.28,0.9,1.31,0.067,5.8,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,46,2.3,17,23.8,-0.16,0.88,1.23,0.023,2.0,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,47,2.35,17,23.8,-0.08,0.97,1.61,0.039,4.1,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,48,2.4,17,23.8,-0.07,0.88,1.38,0.106,8.3,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,49,2.45,17,23.8,-0.14,0.91,1.3,0.059,5.1,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,50,2.5,17,23.8,-0.07,0.93,1.6,0.016,1.6,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,51,2.55,17,23.8,-0.01,0.96,1.57,0.045,4.3,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,52,2.6,17,23.8,-0.07,0.98,1.59,0.076,6.8,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,53,2.65,17,23.7,-0.08,0.93,1.67,0.027,2.3,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,54,2.7,17,23.8,0.01,1.02,1.71,0.055,4.7,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,55,2.75,17,23.8,0.01,0.92,1.57,0.067,6.3,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,56,2.8,17,23.8,-0.07,0.95,1.5,0.059,4.9,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,57,2.85,17,23.7,-0.1,0.88,1.24,0.038,3.6,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,58,2.9,17,23.7,-0.04,0.9,1.46,0.058,5.6,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,59,2.95,16,22.4,-1.33,1.58,12.08,0.027,8.2,13.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,60,3.0,16,22.4,-1.35,0.88,1.43,0.105,9.0,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,61,3.05,15,21.2,-2.53,1.15,4.68,0.058,6.5,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,62,3.1,15,21.2,-2.55,0.97,1.77,0.053,5.1,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,63,3.15,15,21.2,-2.55,0.95,1.56,0.075,6.2,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,64,3.2,15,21.2,-2.62,0.92,1.45,0.055,5.2,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,65,3.25,14,20.1,-3.63,1.51,11.64,0.103,21.9,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,66,3.3,14,20.1,-3.58,0.9,1.47,0.044,3.8,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,67,3.35,14,20.1,-3.6,0.95,1.4,0.038,3.5,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,68,3.4,13,19.1,-3.37,1.53,18.16,0.129,35.2,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,69,3.45,13,19.0,-3.41,0.92,1.41,0.056,5.3,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,70,3.5,13,19.1,-2.17,0.89,1.46,0.06,5.2,13.5,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,71,3.55,12,16.4,-4.79,0.87,1.28,0.012,1.1,13.4,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,72,3.6,12,16.4,-4.87,0.91,1.44,0.112,10.5,13.3,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,73,3.65,12,16.4,-4.79,0.94,1.38,0.023,2.4,13.3,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,74,3.7,12,16.4,-3.73,0.85,1.4,0.02,1.9,13.2,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,75,3.75,12,16.4,-3.78,0.98,1.49,0.061,5.5,13.2,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,76,3.8,12,16.4,-3.74,0.94,1.65,0.055,4.7,13.1,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,77,3.85,13,17.5,-1.51,1.27,7.39,0.025,3.0,13.1,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,78,3.9,12,16.4,-2.55,1.57,13.27,0.085,17.1,13.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,79,3.95,12,16.4,-2.67,1.0,1.56,0.031,3.2,13.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,80,4.0,12,16.4,-0.0,0.94,1.47,0.08,7.0,13.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,81,4.05,12,16.4,0.02,0.91,1.58,0.029,2.8,12.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,82,4.1,12,16.4,0.02,0.86,1.22,0.071,6.5,12.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,83,4.15,12,16.4,-0.01,0.91,1.66,0.038,3.9,12.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,84,4.2,12,16.3,-0.02,0.95,1.8,0.068,5.3,12.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,85,4.25,12,16.4,-0.03,0.92,1.46,0.093,7.8,12.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,86,4.3,12,16.4,-1.17,0.99,1.67,0.039,3.6,12.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,87,4.35,12,16.4,-0.04,0.97,1.99,0.082,6.9,12.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,88,4.4,11,14.6,-1.8,0.96,1.6,0.089,7.3,12.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,89,4.45,12,16.4,0.05,0.9,1.54,0.053,4.5,12.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,90,4.5,11,14.6,-1.77,0.91,1.46,0.061,5.4,12.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,91,4.55,11,14.6,-1.76,0.98,1.63,0.052,5.4,12.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,92,4.6,11,14.6,-1.75,0.9,1.17,0.02,2.0,12.5,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,93,4.65,11,14.6,-1.7,0.89,1.47,0.066,5.5,12.5,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,94,4.7,15,18.0,1.66,1.3,8.56,0.05,5.3,12.5,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,95,4.75,15,18.0,1.65,0.91,1.57,0.088,7.7,12.4,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,96,4.8,15,18.0,1.62,0.89,1.47,0.064,6.8,12.4,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,97,4.85,15,18.0,3.42,0.9,1.22,0.016,1.6,12.4,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,98,4.9,15,18.0,1.59,0.89,1.28,0.07,5.9,12.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,99,4.95,15,18.0,3.4,0.96,1.64,0.062,5.6,13.1,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,100,5.0,15,18.0,3.38,0.91,1.45,0.061,5.6,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,101,5.05,15,18.0,3.38,0.95,1.52,0.036,3.3,14.1,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,102,5.1,15,18.0,3.38,1.05,1.94,0.029,2.9,14.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,103,5.15,15,18.0,0.0,0.99,1.7,0.072,6.3,14.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,104,5.2,16,19.1,1.1,1.27,5.83,0.022,3.3,14.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,105,5.25,17,20.3,2.3,1.03,2.06,0.072,9.6,14.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,106,5.3,17,20.3,2.3,0.89,1.41,0.066,5.9,14.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,107,5.35,17,20.3,2.3,1.0,1.59,0.047,4.6,14.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,108,5.4,17,20.3,2.3,0.89,1.46,0.047,4.3,14.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,109,5.45,17,20.3,2.3,1.04,1.71,0.035,3.6,14.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,110,5.5,17,20.3,2.3,0.92,1.51,0.057,5.1,14.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,111,5.55,16,20.5,2.46,0.98,1.78,0.056,5.0,14.4,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,112,5.6,16,20.5,2.49,0.97,1.75,0.048,4.1,14.3,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,113,5.65,16,20.5,1.34,0.97,1.71,0.074,6.7,14.4,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,114,5.7,17,24.1,3.77,0.91,1.47,0.049,5.0,14.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,115,5.75,18,24.2,3.88,0.93,1.42,0.059,4.9,14.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,116,5.8,18,24.2,3.88,0.92,1.56,0.056,4.9,15.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,117,5.85,18,24.2,3.88,0.97,1.38,0.024,2.5,15.2,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,118,5.9,19,24.1,3.81,0.97,1.4,0.069,6.5,15.3,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,119,5.95,19,24.2,3.86,0.92,1.5,0.045,4.0,15.5,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,120,6.0,18,24.2,3.73,0.95,1.62,0.021,2.1,15.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,121,6.05,17,22.9,2.41,1.17,7.66,0.075,13.5,15.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,122,6.1,18,23.0,2.49,0.94,1.29,0.065,5.9,15.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,123,6.15,19,24.0,-0.1,1.2,8.23,0.029,6.2,15.5,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,124,6.2,19,24.0,-0.21,0.9,1.51,0.033,3.1,15.1,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,125,6.25,19,24.0,-0.17,0.9,1.48,0.046,4.2,14.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,126,6.3,19,24.0,-0.17,0.93,1.53,0.083,7.2,14.2,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,127,6.35,19,24.1,-0.08,0.97,1.85,0.031,2.6,13.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,128,6.4,19,24.1,-0.1,0.97,1.59,0.059,5.6,13.4,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,129,6.45,18,21.4,-2.78,1.37,6.99,0.092,23.6,12.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,130,6.5,17,21.5,-1.41,0.97,1.62,0.066,5.1,12.1,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,131,6.55,17,21.6,-1.39,0.96,1.65,0.039,3.8,12.1,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,132,6.6,17,21.6,-2.43,0.91,1.27,0.051,5.0,12.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,133,6.65,17,21.6,-2.43,0.94,1.38,0.055,5.1,12.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,134,6.7,17,21.6,-2.48,0.91,1.45,0.064,5.6,12.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,135,6.75,17,21.5,-2.5,0.95,1.44,0.027,2.7,12.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,136,6.8,17,21.5,-2.52,0.92,1.57,0.059,4.8,11.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,137,6.85,19,22.6,-1.44,1.28,8.78,0.076,9.4,12.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,138,6.9,19,22.6,1.2,0.89,1.55,0.109,9.3,11.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,139,6.95,19,22.7,1.14,0.87,1.38,0.088,7.4,11.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,140,7.0,19,22.6,1.08,0.92,1.42,0.033,2.7,11.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,141,7.05,19,22.6,1.08,0.89,1.51,0.069,6.8,11.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,142,7.1,19,22.6,1.08,0.99,1.63,0.042,3.5,11.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,143,7.15,19,22.6,1.08,0.89,1.34,0.045,3.8,11.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,144,7.2,19,22.6,1.1,0.96,1.62,0.059,5.3,12.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,145,7.25,19,22.6,1.1,0.86,1.5,0.087,7.7,12.4,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,146,7.3,18,22.8,0.13,0.87,1.18,0.04,3.7,12.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,147,7.35,18,22.8,0.16,0.92,1.48,0.027,2.5,12.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,148,7.4,19,22.6,-0.01,0.87,1.15,0.08,7.5,12.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,149,7.45,18,21.4,-1.2,1.17,5.72,0.072,24.1,12.5,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,150,7.5,17,21.6,-1.04,0.94,1.53,0.031,2.7,12.3,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,151,7.55,17,21.6,-1.04,0.92,1.57,0.051,4.5,12.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,152,7.6,17,21.6,-1.04,0.99,1.91,0.054,5.0,11.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,153,7.65,17,21.6,-1.04,0.93,1.78,0.044,3.6,11.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,154,7.7,17,21.6,-1.06,1.02,1.72,0.057,5.3,11.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,155,7.75,17,21.6,-1.14,0.97,1.52,0.034,3.0,11.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,156,7.8,19,22.7,-0.07,1.25,9.61,0.029,4.8,12.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,157,7.85,18,21.6,-1.02,1.52,12.19,0.08,21.3,12.1,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,158,7.9,17,21.8,0.37,0.85,1.28,0.044,3.9,12.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,159,7.95,17,21.8,0.21,0.94,1.53,0.031,3.2,12.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,160,8.0,17,21.8,0.21,0.97,1.77,0.078,6.3,12.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,161,8.05,17,21.8,0.19,0.95,1.51,0.03,3.0,12.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,162,8.1,17,22.9,1.26,1.33,12.51,0.108,29.7,12.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,163,8.15,18,23.0,1.38,0.93,1.51,0.093,8.2,12.1,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,164,8.2,18,23.0,1.33,0.94,1.63,0.071,6.3,12.3,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,165,8.25,18,22.9,0.2,0.9,1.49,0.052,4.4,12.4,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,166,8.3,19,24.3,2.65,1.15,6.56,0.063,13.7,12.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,167,8.35,19,24.3,2.46,0.95,1.4,0.037,3.9,13.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,168,8.4,19,24.3,2.46,0.9,1.37,0.031,2.7,13.2,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,169,8.45,18,24.0,2.14,0.91,1.5,0.084,7.4,13.5,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,170,8.5,18,24.1,2.26,0.93,1.48,0.03,2.7,13.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,171,8.55,17,23.9,1.02,0.95,1.5,0.023,2.2,13.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,172,8.6,18,24.0,1.03,0.91,1.26,0.063,6.1,13.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,173,8.65,16,21.7,-1.25,0.86,1.26,0.055,4.5,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,174,8.7,17,23.8,0.9,0.94,1.52,0.052,4.7,13.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,175,8.75,17,23.7,-0.54,0.89,1.47,0.058,5.5,13.5,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,176,8.8,16,21.7,-2.57,0.95,1.5,0.023,1.9,13.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,177,8.85,16,21.7,-2.63,1.01,1.9,0.025,2.4,12.5,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,178,8.9,16,24.5,0.56,0.94,1.69,0.05,5.2,12.3,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,179,8.95,17,21.4,-2.64,0.99,1.57,0.04,3.8,12.2,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,180,9.0,16,21.7,-2.17,0.97,1.52,0.031,2.9,12.2,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,181,9.05,16,21.7,-2.29,0.95,1.64,0.06,5.2,12.3,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,182,9.1,15,23.2,1.45,1.19,6.09,0.079,11.5,12.4,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,183,9.15,15,23.1,-0.7,0.92,1.43,0.026,2.7,12.4,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,184,9.2,14,22.8,-0.91,0.94,1.5,0.039,3.5,12.4,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,185,9.25,14,22.8,1.13,0.97,1.6,0.054,4.6,12.5,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,186,9.3,14,22.8,1.14,0.92,1.66,0.034,3.0,12.5,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,187,9.35,15,22.1,-2.37,0.96,1.58,0.066,5.6,12.5,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,188,9.4,15,22.9,1.44,0.93,1.8,0.096,10.6,12.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,189,9.45,15,22.9,1.15,0.91,1.42,0.071,6.1,12.6,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,190,9.5,14,23.3,1.58,0.91,1.46,0.044,4.6,12.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,191,9.55,15,22.8,-0.36,0.93,1.53,0.032,3.0,13.0,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,192,9.6,15,21.9,-1.2,1.01,1.97,0.098,13.0,12.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,193,9.65,14,22.3,-0.57,0.95,1.32,0.034,3.5,12.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,194,9.7,16,21.6,-1.29,0.98,1.61,0.047,4.2,12.8,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,195,9.75,16,21.6,-1.19,0.89,1.24,0.041,3.8,12.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,196,9.8,16,21.6,-0.57,0.88,1.52,0.029,2.5,12.7,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,197,9.85,15,20.2,-2.64,1.71,15.78,0.133,46.2,12.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,198,9.9,15,20.2,-2.66,0.91,1.32,0.067,6.0,12.9,NORMAL,NORMAL,22
+seq_01_normal_flow.mp4,199,9.95,13,17.6,-5.72,1.83,12.58,0.119,29.7,13.1,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,0,0.0,19,24.4,1.58,7.39,20.45,0.918,87.5,16.2,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,1,0.05,19,24.3,2.36,0.87,1.23,0.918,89.2,16.8,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,2,0.1,19,24.2,1.97,0.89,1.25,0.896,83.8,17.3,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,3,0.15,19,24.3,2.73,0.91,1.52,0.861,78.0,17.7,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,4,0.2,19,24.3,2.74,0.88,1.32,0.962,89.8,18.2,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,5,0.25,19,24.4,2.78,0.92,1.57,0.919,91.4,18.9,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,6,0.3,19,24.5,4.24,0.96,1.59,0.908,87.8,19.1,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,7,0.35,19,24.5,4.32,0.98,1.58,0.95,94.2,19.3,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,8,0.4,19,24.6,7.01,0.98,1.61,0.87,84.6,19.5,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,9,0.45,19,24.7,0.36,0.89,1.45,0.981,98.3,17.4,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,10,0.5,18,24.7,0.43,0.91,1.5,0.949,93.8,17.4,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,11,0.55,17,21.1,-3.12,0.94,1.51,0.956,91.9,16.9,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,12,0.6,19,25.4,1.09,0.84,1.26,0.834,73.6,17.1,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,13,0.65,18,25.8,1.47,0.9,1.38,0.909,85.1,17.6,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,14,0.7,19,25.1,0.75,0.93,1.47,0.9,80.5,18.0,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,15,0.75,18,25.3,0.84,0.92,1.63,0.887,85.5,18.5,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,16,0.8,18,24.9,0.39,0.88,1.37,0.894,85.5,18.9,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,17,0.85,18,24.6,0.02,0.9,1.61,0.883,80.4,19.2,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,18,0.9,18,24.3,-0.45,0.97,1.54,0.808,83.7,19.4,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,19,0.95,18,24.0,-0.77,0.95,1.5,0.891,87.1,19.9,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,20,1.0,18,23.8,2.72,0.92,1.45,0.84,81.5,20.5,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,21,1.05,18,24.1,-1.27,0.92,1.53,0.963,89.4,21.1,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,22,1.1,18,24.4,-1.43,0.91,1.51,0.915,93.8,21.6,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,23,1.15,17,24.8,-0.27,0.8,1.23,0.884,86.7,22.0,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,24,1.2,18,24.8,-0.49,0.92,1.42,0.834,83.0,22.5,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,25,1.25,19,25.2,0.28,0.86,1.48,0.969,94.9,23.1,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,26,1.3,19,25.1,0.57,0.89,1.41,0.973,94.0,23.7,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,27,1.35,19,25.1,0.84,0.88,1.41,0.931,88.7,24.3,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,28,1.4,18,25.2,1.2,0.85,1.6,0.954,90.7,24.9,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,29,1.45,18,25.1,1.24,0.97,1.43,0.845,79.2,25.3,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,30,1.5,18,24.3,0.19,1.03,5.52,0.923,83.1,25.8,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,31,1.55,18,24.2,-0.16,0.93,1.55,0.932,90.6,26.4,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,32,1.6,17,22.2,-2.66,0.96,1.69,0.889,91.0,26.9,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,33,1.65,17,22.1,-2.69,0.96,1.64,0.928,93.6,27.6,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,34,1.7,18,24.2,-0.99,0.9,1.59,0.968,96.9,28.2,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,35,1.75,19,24.5,-0.67,0.9,1.38,0.908,86.1,28.8,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,36,1.8,19,24.5,-0.64,0.94,1.52,0.844,83.2,29.3,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,37,1.85,17,23.4,-1.8,1.27,10.51,0.952,71.7,30.2,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,38,1.9,17,23.1,-1.91,0.89,1.44,0.9,90.5,30.7,NORMAL,NORMAL,22
+seq_02_bottleneck_congestion.mp4,39,1.95,17,22.9,-1.38,0.84,1.41,0.937,93.3,31.1,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,40,2.0,16,22.7,-1.5,0.91,1.56,0.925,92.4,31.5,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,41,2.05,16,22.5,0.37,0.97,1.95,0.952,93.6,32.1,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,42,2.1,16,22.2,0.07,0.89,1.55,0.965,94.2,32.5,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,43,2.15,15,21.3,-2.92,1.48,13.27,0.908,61.6,33.4,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,44,2.2,15,21.2,-3.27,0.88,1.72,0.903,92.6,33.9,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,45,2.25,15,21.2,-3.28,0.92,1.44,0.964,98.4,34.4,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,46,2.3,16,21.6,-1.79,0.85,1.46,0.965,93.7,34.6,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,47,2.35,15,20.3,-2.85,1.61,15.4,0.89,78.1,35.4,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,48,2.4,15,20.1,-2.8,0.89,1.47,0.865,81.9,36.0,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,49,2.45,15,20.0,-2.76,0.85,1.17,0.897,89.0,36.6,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,50,2.5,15,19.8,-2.71,0.92,1.49,0.89,89.3,37.1,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,51,2.55,15,19.8,-2.35,0.84,1.33,0.891,90.5,37.6,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,52,2.6,15,19.9,-1.43,0.92,1.4,0.963,95.5,37.8,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,53,2.65,15,19.9,-1.32,0.89,1.64,0.923,82.7,38.2,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,54,2.7,15,19.9,-1.34,0.91,1.36,0.937,95.5,38.7,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,55,2.75,15,19.8,-1.75,0.88,1.48,0.905,95.7,39.3,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,56,2.8,14,19.2,-1.11,1.24,9.11,0.876,62.8,39.7,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,57,2.85,13,18.8,-1.3,0.95,1.61,0.829,81.4,40.1,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,58,2.9,13,18.9,-1.05,0.92,1.49,0.975,94.3,40.7,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,59,2.95,13,18.9,-0.89,0.95,1.69,0.863,90.2,41.3,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,60,3.0,14,18.9,-0.92,0.86,1.42,0.867,86.3,41.8,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,61,3.05,14,18.9,-1.0,0.87,1.34,0.937,98.2,42.4,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,62,3.1,14,18.8,-1.05,0.94,1.48,0.858,81.0,42.8,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,63,3.15,14,18.7,-1.12,0.88,1.41,0.915,90.9,43.3,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,64,3.2,13,17.8,-1.97,1.43,12.45,0.927,58.5,44.0,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,65,3.25,13,17.9,-1.24,0.99,1.58,0.937,84.3,44.3,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,66,3.3,13,18.1,-0.76,0.95,1.64,0.756,68.1,45.0,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,67,3.35,13,18.2,-0.69,0.94,1.68,0.882,80.3,45.5,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,68,3.4,13,18.4,-0.5,0.94,1.45,0.934,93.5,46.0,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,69,3.45,13,18.6,-0.35,0.87,1.46,0.977,96.8,46.5,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,70,3.5,14,18.7,-0.13,0.99,1.73,0.976,86.9,47.2,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,71,3.55,14,18.7,-0.14,0.96,1.6,0.814,77.2,47.7,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,72,3.6,14,18.7,-0.07,0.92,1.39,0.972,98.7,48.3,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,73,3.65,14,18.8,0.92,0.95,1.63,0.925,94.7,48.5,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,74,3.7,14,18.8,0.86,0.88,1.19,0.845,82.0,48.9,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,75,3.75,14,18.9,0.87,0.9,1.36,0.872,86.0,49.5,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,76,3.8,14,19.1,0.85,0.95,1.73,0.903,89.3,50.1,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,77,3.85,14,19.2,0.79,0.83,1.16,0.86,82.0,50.6,WARNING,NORMAL,22
+seq_02_bottleneck_congestion.mp4,78,3.9,14,19.5,0.88,0.96,1.54,0.971,96.3,51.3,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,79,3.95,15,19.6,0.83,0.91,1.28,0.883,83.0,51.8,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,80,4.0,14,19.8,1.08,0.95,1.43,0.85,87.9,52.4,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,81,4.05,14,19.7,1.01,0.88,1.48,0.966,94.7,53.0,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,82,4.1,13,18.3,-0.47,1.49,13.25,0.903,63.1,53.4,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,83,4.15,13,18.2,-0.62,0.97,1.53,0.992,99.3,54.2,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,84,4.2,13,18.1,-0.86,0.95,1.61,0.963,92.8,54.9,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,85,4.25,12,14.5,-4.62,1.17,6.67,0.932,81.4,55.5,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,86,4.3,11,14.5,-4.75,0.91,1.27,0.83,81.8,56.0,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,87,4.35,12,16.7,-2.73,0.95,1.6,0.944,91.1,56.6,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,88,4.4,12,16.9,-2.7,0.85,1.23,0.937,92.3,57.0,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,89,4.45,12,17.0,-2.76,0.95,1.4,0.931,92.3,57.7,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,90,4.5,12,17.1,-2.58,0.91,1.58,0.857,81.2,58.2,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,91,4.55,12,17.2,-1.07,0.95,1.39,0.871,88.4,58.3,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,92,4.6,13,16.8,-1.34,0.9,1.28,0.876,80.0,58.4,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,93,4.65,13,16.8,-1.27,0.9,1.42,0.974,96.7,59.0,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,94,4.7,13,16.8,2.33,0.97,1.78,0.942,91.7,59.6,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,95,4.75,13,16.7,2.25,0.95,1.48,0.966,97.3,60.2,HIGH RISK,NORMAL,22
+seq_02_bottleneck_congestion.mp4,96,4.8,12,15.5,-1.22,1.75,11.08,0.806,60.2,60.6,HIGH RISK,WARNING,22
+seq_02_bottleneck_congestion.mp4,97,4.85,12,14.5,-2.35,1.01,2.67,0.833,73.5,61.0,HIGH RISK,WARNING,22
+seq_02_bottleneck_congestion.mp4,98,4.9,12,14.5,-2.51,0.84,1.42,0.755,82.3,61.4,HIGH RISK,WARNING,22
+seq_02_bottleneck_congestion.mp4,99,4.95,13,15.6,-1.49,1.66,17.53,0.812,50.2,62.3,HIGH RISK,WARNING,23
+seq_02_bottleneck_congestion.mp4,100,5.0,13,15.6,-1.61,0.75,1.23,0.757,72.2,61.9,HIGH RISK,WARNING,23
+seq_02_bottleneck_congestion.mp4,101,5.05,13,15.6,-1.23,0.82,1.14,0.788,71.8,62.1,HIGH RISK,WARNING,23
+seq_02_bottleneck_congestion.mp4,102,5.1,14,16.7,-0.12,0.98,2.64,0.845,81.3,62.2,HIGH RISK,WARNING,24
+seq_02_bottleneck_congestion.mp4,103,5.15,14,16.7,-0.1,0.77,1.25,0.782,80.9,62.1,HIGH RISK,WARNING,24
+seq_02_bottleneck_congestion.mp4,104,5.2,14,16.7,-0.04,0.8,1.11,0.623,54.4,61.9,HIGH RISK,WARNING,24
+seq_02_bottleneck_congestion.mp4,105,5.25,15,17.8,2.27,1.5,17.21,0.657,41.1,61.4,HIGH RISK,WARNING,25
+seq_02_bottleneck_congestion.mp4,106,5.3,15,17.8,3.27,0.94,1.73,0.687,61.4,60.6,HIGH RISK,WARNING,25
+seq_02_bottleneck_congestion.mp4,107,5.35,14,16.4,1.86,1.11,5.78,0.807,83.2,60.5,HIGH RISK,WARNING,25
+seq_02_bottleneck_congestion.mp4,108,5.4,15,17.5,1.91,1.1,4.29,0.578,47.5,60.4,HIGH RISK,WARNING,26
+seq_02_bottleneck_congestion.mp4,109,5.45,14,17.1,1.48,0.82,1.5,0.616,58.1,60.3,HIGH RISK,WARNING,26
+seq_02_bottleneck_congestion.mp4,110,5.5,15,17.5,1.91,0.86,1.41,0.63,61.5,60.2,HIGH RISK,WARNING,26
+seq_02_bottleneck_congestion.mp4,111,5.55,15,18.2,1.5,0.98,4.66,0.601,49.1,60.0,HIGH RISK,WARNING,27
+seq_02_bottleneck_congestion.mp4,112,5.6,16,18.6,1.92,0.82,1.22,0.616,57.7,60.0,HIGH RISK,WARNING,27
+seq_02_bottleneck_congestion.mp4,113,5.65,16,18.6,1.91,0.97,1.51,0.451,41.7,59.7,HIGH RISK,WARNING,27
+seq_02_bottleneck_congestion.mp4,114,5.7,17,19.8,2.06,0.87,4.39,0.722,66.7,59.7,HIGH RISK,WARNING,28
+seq_02_bottleneck_congestion.mp4,115,5.75,17,19.8,2.05,0.88,1.36,0.632,55.6,59.5,HIGH RISK,WARNING,28
+seq_02_bottleneck_congestion.mp4,116,5.8,17,19.8,3.46,0.76,1.18,0.488,50.5,59.3,HIGH RISK,WARNING,28
+seq_02_bottleneck_congestion.mp4,117,5.85,17,20.7,3.21,1.02,2.53,0.473,42.2,59.1,HIGH RISK,WARNING,29
+seq_02_bottleneck_congestion.mp4,118,5.9,17,20.7,3.62,0.79,1.16,0.737,75.9,59.1,HIGH RISK,WARNING,29
+seq_02_bottleneck_congestion.mp4,119,5.95,17,20.7,3.23,0.82,1.25,0.541,51.4,58.9,HIGH RISK,WARNING,29
+seq_02_bottleneck_congestion.mp4,120,6.0,17,21.1,2.9,1.24,7.59,0.569,40.1,58.7,HIGH RISK,WARNING,30
+seq_02_bottleneck_congestion.mp4,121,6.05,17,21.0,2.38,0.8,1.9,0.502,56.0,58.5,HIGH RISK,WARNING,30
+seq_02_bottleneck_congestion.mp4,122,6.1,17,21.0,2.38,0.94,1.58,0.497,45.7,58.2,HIGH RISK,WARNING,30
+seq_02_bottleneck_congestion.mp4,123,6.15,17,21.5,1.68,0.81,2.14,0.441,45.2,57.9,HIGH RISK,WARNING,31
+seq_02_bottleneck_congestion.mp4,124,6.2,17,21.6,1.76,0.89,1.33,0.539,50.4,57.7,HIGH RISK,WARNING,31
+seq_02_bottleneck_congestion.mp4,125,6.25,17,21.4,1.59,0.83,1.63,0.36,38.6,57.3,HIGH RISK,WARNING,31
+seq_02_bottleneck_congestion.mp4,126,6.3,17,22.1,1.41,0.89,2.66,0.496,56.2,56.9,HIGH RISK,WARNING,32
+seq_02_bottleneck_congestion.mp4,127,6.35,18,22.5,1.83,0.78,1.41,0.485,40.6,56.6,HIGH RISK,WARNING,32
+seq_02_bottleneck_congestion.mp4,128,6.4,18,22.5,1.78,0.86,1.49,0.332,31.3,56.2,HIGH RISK,WARNING,32
+seq_02_bottleneck_congestion.mp4,129,6.45,18,23.0,1.87,0.93,4.04,0.439,35.0,55.8,HIGH RISK,WARNING,33
+seq_02_bottleneck_congestion.mp4,130,6.5,18,22.9,1.89,0.78,1.43,0.436,44.1,55.5,HIGH RISK,WARNING,33
+seq_02_bottleneck_congestion.mp4,131,6.55,18,22.9,1.94,0.89,1.54,0.307,27.0,55.1,HIGH RISK,WARNING,33
+seq_02_bottleneck_congestion.mp4,132,6.6,19,24.2,2.63,1.31,11.87,0.37,24.2,54.7,HIGH RISK,WARNING,34
+seq_02_bottleneck_congestion.mp4,133,6.65,19,24.2,2.61,0.81,1.29,0.303,23.4,54.3,HIGH RISK,WARNING,34
+seq_02_bottleneck_congestion.mp4,134,6.7,19,24.2,2.82,0.85,1.47,0.449,42.0,54.0,HIGH RISK,WARNING,34
+seq_02_bottleneck_congestion.mp4,135,6.75,19,25.2,3.09,0.98,3.16,0.354,29.8,53.7,HIGH RISK,WARNING,35
+seq_02_bottleneck_congestion.mp4,136,6.8,19,25.3,2.77,0.81,1.44,0.367,30.9,53.6,HIGH RISK,WARNING,35
+seq_02_bottleneck_congestion.mp4,137,6.85,19,25.3,2.77,0.84,1.2,0.275,25.3,53.3,HIGH RISK,WARNING,35
+seq_02_bottleneck_congestion.mp4,138,6.9,20,26.5,3.52,1.22,10.04,0.278,19.1,53.1,HIGH RISK,WARNING,36
+seq_02_bottleneck_congestion.mp4,139,6.95,20,26.6,3.67,0.81,1.15,0.253,22.9,53.0,HIGH RISK,WARNING,36
+seq_02_bottleneck_congestion.mp4,140,7.0,20,26.5,3.63,0.85,1.58,0.389,38.7,52.7,HIGH RISK,WARNING,36
+seq_02_bottleneck_congestion.mp4,141,7.05,21,27.7,3.52,1.11,9.88,0.41,27.6,52.3,HIGH RISK,WARNING,37
+seq_02_bottleneck_congestion.mp4,142,7.1,21,27.7,3.46,0.83,1.26,0.211,18.3,51.4,HIGH RISK,WARNING,37
+seq_02_bottleneck_congestion.mp4,143,7.15,21,27.6,3.37,0.82,1.33,0.357,35.3,51.2,HIGH RISK,WARNING,37
+seq_02_bottleneck_congestion.mp4,144,7.2,21,29.2,3.98,0.83,1.48,0.268,23.8,50.7,WARNING,WARNING,38
+seq_02_bottleneck_congestion.mp4,145,7.25,22,29.0,3.7,0.81,1.33,0.169,18.2,50.2,WARNING,WARNING,38
+seq_02_bottleneck_congestion.mp4,146,7.3,21,29.2,3.93,0.82,1.2,0.312,28.1,49.9,WARNING,WARNING,38
+seq_02_bottleneck_congestion.mp4,147,7.35,21,29.8,3.37,0.83,1.46,0.257,22.8,49.5,WARNING,WARNING,39
+seq_02_bottleneck_congestion.mp4,148,7.4,20,28.4,1.84,1.51,14.59,0.377,29.6,49.2,WARNING,WARNING,39
+seq_02_bottleneck_congestion.mp4,149,7.45,19,27.1,0.56,1.44,14.7,0.385,35.3,49.1,WARNING,WARNING,39
+seq_02_bottleneck_congestion.mp4,150,7.5,18,27.2,-0.47,0.81,1.16,0.27,24.1,48.4,WARNING,WARNING,40
+seq_02_bottleneck_congestion.mp4,151,7.55,18,27.1,-0.55,0.79,1.21,0.244,20.6,47.9,WARNING,WARNING,40
+seq_02_bottleneck_congestion.mp4,152,7.6,19,27.5,-0.13,0.75,1.16,0.345,33.0,47.3,WARNING,WARNING,40
+seq_02_bottleneck_congestion.mp4,153,7.65,18,28.1,-1.14,0.86,1.73,0.282,30.3,46.9,WARNING,WARNING,41
+seq_02_bottleneck_congestion.mp4,154,7.7,18,28.2,-0.84,0.79,1.3,0.303,29.7,46.4,WARNING,WARNING,41
+seq_02_bottleneck_congestion.mp4,155,7.75,18,28.1,-1.16,0.75,1.26,0.288,29.5,45.8,WARNING,WARNING,41
+seq_02_bottleneck_congestion.mp4,156,7.8,19,29.2,-0.6,1.25,14.38,0.336,17.6,45.7,WARNING,WARNING,42
+seq_02_bottleneck_congestion.mp4,157,7.85,19,29.5,1.07,0.79,1.26,0.314,28.4,45.0,WARNING,WARNING,42
+seq_02_bottleneck_congestion.mp4,158,7.9,19,29.5,2.37,0.83,1.28,0.23,22.7,44.2,WARNING,WARNING,42
+seq_02_bottleneck_congestion.mp4,159,7.95,20,30.7,3.53,0.86,2.43,0.291,27.9,43.9,WARNING,WARNING,43
+seq_02_bottleneck_congestion.mp4,160,8.0,20,30.9,3.77,0.85,1.27,0.21,15.1,43.6,WARNING,WARNING,43
+seq_02_bottleneck_congestion.mp4,161,8.05,20,30.9,3.4,0.74,1.13,0.297,28.8,43.3,WARNING,WARNING,43
+seq_02_bottleneck_congestion.mp4,162,8.1,21,32.7,4.65,0.97,3.62,0.294,24.2,43.2,WARNING,WARNING,44
+seq_02_bottleneck_congestion.mp4,163,8.15,20,32.5,4.34,0.76,1.14,0.317,30.2,43.0,WARNING,WARNING,44
+seq_02_bottleneck_congestion.mp4,164,8.2,20,32.7,4.6,0.81,1.21,0.301,28.2,42.9,WARNING,WARNING,44
+seq_02_bottleneck_congestion.mp4,165,8.25,20,33.0,3.79,0.81,1.3,0.249,28.2,42.7,WARNING,WARNING,45
+seq_02_bottleneck_congestion.mp4,166,8.3,20,33.1,3.63,0.82,1.28,0.242,22.6,42.6,WARNING,WARNING,45
+seq_02_bottleneck_congestion.mp4,167,8.35,21,32.7,3.22,0.78,1.16,0.235,22.7,42.3,WARNING,WARNING,45
+seq_02_bottleneck_congestion.mp4,168,8.4,20,33.0,2.23,0.83,1.34,0.285,27.3,41.9,WARNING,HIGH RISK,46
+seq_02_bottleneck_congestion.mp4,169,8.45,20,33.0,2.09,0.78,1.34,0.305,28.7,41.4,WARNING,HIGH RISK,46
+seq_02_bottleneck_congestion.mp4,170,8.5,20,32.9,1.99,0.71,1.26,0.26,23.8,40.9,WARNING,HIGH RISK,46
+seq_02_bottleneck_congestion.mp4,171,8.55,21,33.5,0.76,0.91,3.32,0.18,19.9,40.5,WARNING,HIGH RISK,47
+seq_02_bottleneck_congestion.mp4,172,8.6,21,33.4,0.88,0.83,1.28,0.258,24.8,39.9,WARNING,HIGH RISK,47
+seq_02_bottleneck_congestion.mp4,173,8.65,21,33.2,0.57,0.79,1.28,0.28,28.2,39.4,WARNING,HIGH RISK,47
+seq_02_bottleneck_congestion.mp4,174,8.7,21,34.1,1.03,0.8,2.02,0.286,32.7,38.9,WARNING,HIGH RISK,48
+seq_02_bottleneck_congestion.mp4,175,8.75,20,32.1,-1.0,0.78,1.21,0.309,30.0,38.4,WARNING,HIGH RISK,48
+seq_02_bottleneck_congestion.mp4,176,8.8,20,32.0,-0.72,0.83,1.33,0.26,23.2,37.8,WARNING,HIGH RISK,48
+seq_02_bottleneck_congestion.mp4,177,8.85,21,33.0,0.02,0.84,1.46,0.214,20.6,37.3,WARNING,HIGH RISK,49
+seq_02_bottleneck_congestion.mp4,178,8.9,21,33.0,0.0,0.8,1.21,0.216,22.6,36.8,WARNING,HIGH RISK,49
+seq_02_bottleneck_congestion.mp4,179,8.95,21,33.0,0.13,0.73,1.25,0.271,26.5,36.4,WARNING,HIGH RISK,49
+seq_02_bottleneck_congestion.mp4,180,9.0,22,34.2,0.76,1.04,3.15,0.24,20.2,36.1,WARNING,HIGH RISK,50
+seq_02_bottleneck_congestion.mp4,181,9.05,21,33.2,-0.18,1.8,22.78,0.226,11.1,36.4,WARNING,HIGH RISK,50
+seq_02_bottleneck_congestion.mp4,182,9.1,23,35.6,2.34,0.79,1.21,0.233,22.7,36.1,WARNING,HIGH RISK,50
+seq_02_bottleneck_congestion.mp4,183,9.15,24,36.6,2.5,0.77,1.38,0.23,22.5,35.7,WARNING,HIGH RISK,51
+seq_02_bottleneck_congestion.mp4,184,9.2,22,34.5,2.37,0.78,1.17,0.256,23.7,35.3,WARNING,HIGH RISK,51
+seq_02_bottleneck_congestion.mp4,185,9.25,21,34.8,2.8,0.81,1.26,0.183,19.3,35.1,WARNING,HIGH RISK,51
+seq_02_bottleneck_congestion.mp4,186,9.3,23,37.2,4.23,0.82,1.24,0.333,34.5,34.9,WARNING,HIGH RISK,52
+seq_02_bottleneck_congestion.mp4,187,9.35,23,37.3,4.31,0.77,1.19,0.204,21.1,34.6,WARNING,HIGH RISK,52
+seq_02_bottleneck_congestion.mp4,188,9.4,23,35.7,2.68,0.82,1.65,0.259,24.3,34.3,WARNING,HIGH RISK,52
+seq_02_bottleneck_congestion.mp4,189,9.45,24,37.0,2.73,0.85,3.66,0.292,27.7,33.9,WARNING,HIGH RISK,53
+seq_02_bottleneck_congestion.mp4,190,9.5,24,37.0,3.78,0.78,1.22,0.232,23.1,32.9,WARNING,HIGH RISK,53
+seq_02_bottleneck_congestion.mp4,191,9.55,24,36.9,1.31,0.78,1.16,0.29,27.5,32.6,WARNING,HIGH RISK,53
+seq_02_bottleneck_congestion.mp4,192,9.6,24,38.3,1.75,0.77,1.4,0.252,25.8,32.2,WARNING,HIGH RISK,54
+seq_02_bottleneck_congestion.mp4,193,9.65,24,38.2,3.7,0.82,1.16,0.144,14.0,31.8,WARNING,HIGH RISK,54
+seq_02_bottleneck_congestion.mp4,194,9.7,24,38.4,3.62,0.75,1.22,0.25,23.8,31.4,WARNING,HIGH RISK,54
+seq_02_bottleneck_congestion.mp4,195,9.75,24,39.1,1.84,0.82,1.56,0.21,22.8,30.9,NORMAL,HIGH RISK,55
+seq_02_bottleneck_congestion.mp4,196,9.8,24,38.9,1.6,0.78,1.17,0.254,25.8,30.6,NORMAL,HIGH RISK,55
+seq_02_bottleneck_congestion.mp4,197,9.85,23,38.9,3.26,0.77,1.18,0.193,16.7,30.2,NORMAL,HIGH RISK,55
+seq_02_bottleneck_congestion.mp4,198,9.9,23,39.6,2.58,0.85,1.37,0.18,17.8,29.8,NORMAL,HIGH RISK,56
+seq_02_bottleneck_congestion.mp4,199,9.95,24,39.9,2.85,0.72,1.3,0.266,28.1,29.6,NORMAL,HIGH RISK,56
+seq_02_bottleneck_congestion.mp4,200,10.0,24,39.7,2.79,0.79,1.18,0.175,17.6,29.2,NORMAL,HIGH RISK,56
+seq_02_bottleneck_congestion.mp4,201,10.05,25,40.7,2.42,0.78,1.26,0.187,20.5,29.0,NORMAL,HIGH RISK,57
+seq_02_bottleneck_congestion.mp4,202,10.1,25,40.8,2.68,0.82,1.38,0.121,10.3,28.6,NORMAL,HIGH RISK,57
+seq_02_bottleneck_congestion.mp4,203,10.15,25,40.6,2.17,0.76,1.13,0.198,20.8,28.2,NORMAL,HIGH RISK,57
+seq_02_bottleneck_congestion.mp4,204,10.2,24,39.7,0.61,0.84,1.7,0.269,29.0,27.9,NORMAL,HIGH RISK,58
+seq_02_bottleneck_congestion.mp4,205,10.25,25,39.7,0.83,0.83,1.32,0.262,25.7,27.7,NORMAL,HIGH RISK,58
+seq_02_bottleneck_congestion.mp4,206,10.3,25,39.4,0.46,0.73,1.23,0.209,19.0,27.4,NORMAL,HIGH RISK,58
+seq_02_bottleneck_congestion.mp4,207,10.35,24,38.7,-0.89,1.13,8.74,0.236,50.6,27.3,NORMAL,HIGH RISK,59
+seq_02_bottleneck_congestion.mp4,208,10.4,24,38.4,-1.4,0.78,1.25,0.14,11.9,26.9,NORMAL,HIGH RISK,59
+seq_02_bottleneck_congestion.mp4,209,10.45,23,38.3,-1.42,0.74,1.23,0.139,12.2,26.5,NORMAL,HIGH RISK,59
+seq_02_bottleneck_congestion.mp4,210,10.5,23,38.9,-1.82,0.8,1.51,0.158,16.6,26.1,NORMAL,HIGH RISK,60
+seq_02_bottleneck_congestion.mp4,211,10.55,23,38.7,-2.18,0.77,1.16,0.104,9.4,25.7,NORMAL,HIGH RISK,60
+seq_02_bottleneck_congestion.mp4,212,10.6,23,38.8,-1.77,0.77,1.32,0.131,11.4,25.4,NORMAL,HIGH RISK,60
+seq_02_bottleneck_congestion.mp4,213,10.65,24,39.5,-0.2,0.79,1.9,0.206,19.4,25.2,NORMAL,HIGH RISK,61
+seq_02_bottleneck_congestion.mp4,214,10.7,25,39.2,-0.49,0.8,1.23,0.147,13.0,24.8,NORMAL,HIGH RISK,61
+seq_02_bottleneck_congestion.mp4,215,10.75,25,39.2,-0.16,0.75,1.16,0.139,12.8,24.6,NORMAL,HIGH RISK,61
+seq_02_bottleneck_congestion.mp4,216,10.8,26,40.4,1.7,0.86,1.86,0.153,14.9,24.2,NORMAL,HIGH RISK,62
+seq_02_bottleneck_congestion.mp4,217,10.85,26,40.5,2.05,0.77,1.18,0.194,16.6,24.1,NORMAL,HIGH RISK,62
+seq_02_bottleneck_congestion.mp4,218,10.9,26,40.2,1.98,0.76,1.16,0.2,19.0,23.8,NORMAL,HIGH RISK,62
+seq_02_bottleneck_congestion.mp4,219,10.95,27,41.4,2.55,0.82,3.21,0.186,17.0,23.6,NORMAL,HIGH RISK,63
+seq_02_bottleneck_congestion.mp4,220,11.0,27,41.5,2.83,0.77,1.15,0.109,10.2,23.6,NORMAL,HIGH RISK,63
+seq_02_bottleneck_congestion.mp4,221,11.05,27,41.3,2.5,0.74,1.29,0.146,13.3,23.5,NORMAL,HIGH RISK,63
+seq_02_bottleneck_congestion.mp4,222,11.1,27,41.9,2.45,0.81,1.3,0.125,13.6,23.5,NORMAL,HIGH RISK,64
+seq_02_bottleneck_congestion.mp4,223,11.15,27,41.8,2.58,0.77,1.43,0.085,8.6,23.4,NORMAL,HIGH RISK,64
+seq_02_bottleneck_congestion.mp4,224,11.2,27,41.9,2.6,0.77,1.2,0.166,14.9,23.3,NORMAL,HIGH RISK,64
+seq_02_bottleneck_congestion.mp4,225,11.25,27,43.3,2.89,0.79,1.24,0.142,12.5,23.3,NORMAL,HIGH RISK,65
+seq_02_bottleneck_congestion.mp4,226,11.3,27,43.2,2.73,0.75,1.17,0.106,9.5,23.5,NORMAL,HIGH RISK,65
+seq_02_bottleneck_congestion.mp4,227,11.35,27,43.4,3.16,0.77,1.21,0.13,12.3,23.7,NORMAL,HIGH RISK,65
+seq_02_bottleneck_congestion.mp4,228,11.4,27,44.1,2.61,0.82,1.36,0.143,13.9,23.8,NORMAL,HIGH RISK,66
+seq_02_bottleneck_congestion.mp4,229,11.45,27,44.1,2.6,0.75,1.16,0.138,13.3,23.9,NORMAL,HIGH RISK,66
+seq_02_bottleneck_congestion.mp4,230,11.5,26,44.9,3.65,0.79,1.32,0.167,14.8,24.1,NORMAL,HIGH RISK,66
+seq_02_bottleneck_congestion.mp4,231,11.55,25,39.1,-2.81,0.8,1.36,0.135,12.8,23.6,NORMAL,HIGH RISK,67
+seq_02_bottleneck_congestion.mp4,232,11.6,28,44.8,2.96,0.7,1.21,0.12,12.4,23.7,NORMAL,HIGH RISK,67
+seq_02_bottleneck_congestion.mp4,233,11.65,28,44.7,2.8,0.79,1.23,0.119,10.2,23.8,NORMAL,HIGH RISK,67
+seq_02_bottleneck_congestion.mp4,234,11.7,29,45.9,2.68,0.82,1.67,0.117,11.7,23.9,NORMAL,HIGH RISK,68
+seq_02_bottleneck_congestion.mp4,235,11.75,29,46.1,2.86,0.8,1.32,0.118,11.0,24.0,NORMAL,HIGH RISK,68
+seq_02_bottleneck_congestion.mp4,236,11.8,28,45.9,2.52,0.76,1.16,0.115,10.3,24.0,NORMAL,HIGH RISK,68
+seq_02_bottleneck_congestion.mp4,237,11.85,27,45.9,1.84,0.78,1.29,0.132,12.4,24.0,NORMAL,HIGH RISK,68
+seq_02_bottleneck_congestion.mp4,238,11.9,27,45.7,1.66,0.73,1.16,0.176,17.0,23.9,NORMAL,HIGH RISK,68
+seq_02_bottleneck_congestion.mp4,239,11.95,27,45.8,0.81,0.8,1.13,0.127,12.3,23.8,NORMAL,HIGH RISK,68
+seq_03_counter_flow_surge.mp4,0,0.0,21,26.8,-12.28,7.19,23.46,0.592,42.6,26.3,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,1,0.05,21,26.8,-17.95,0.98,1.61,0.032,3.1,26.3,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,2,0.1,21,26.8,-17.84,0.96,1.76,0.038,3.6,26.4,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,3,0.15,21,26.8,-19.13,1.02,2.02,0.048,4.3,26.3,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,4,0.2,21,26.8,-19.32,1.07,2.03,0.049,4.0,26.4,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,5,0.25,21,26.8,-19.09,1.04,2.01,0.046,4.0,26.5,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,6,0.3,21,26.8,-19.09,1.11,2.15,0.059,5.1,26.7,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,7,0.35,21,26.8,-18.94,0.99,1.95,0.079,6.4,26.8,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,8,0.4,21,26.8,-18.94,1.05,1.95,0.086,7.3,26.8,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,9,0.45,21,26.8,-0.07,0.94,1.81,0.072,6.4,21.9,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,10,0.5,21,26.8,0.01,1.01,1.74,0.043,3.8,21.5,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,11,0.55,21,26.8,-0.03,0.96,1.79,0.123,10.3,21.5,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,12,0.6,21,26.8,0.0,1.0,1.82,0.094,8.4,21.5,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,13,0.65,21,26.8,-0.01,0.92,1.44,0.039,3.5,21.4,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,14,0.7,20,26.8,-0.07,0.93,1.62,0.072,6.6,21.4,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,15,0.75,20,26.8,-0.03,0.98,1.56,0.042,3.6,21.4,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,16,0.8,20,26.7,-0.07,0.98,1.59,0.072,5.9,21.3,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,17,0.85,20,26.7,-0.11,1.0,1.9,0.035,2.9,21.3,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,18,0.9,20,26.7,-0.05,1.0,1.83,0.057,4.9,21.2,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,19,0.95,20,26.7,-0.13,0.99,1.92,0.072,6.3,21.2,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,20,1.0,20,26.7,-0.04,1.05,2.05,0.025,2.4,21.2,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,21,1.05,19,25.6,-1.25,1.4,9.22,0.062,8.9,21.1,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,22,1.1,19,24.3,-2.44,1.18,3.09,0.075,6.5,21.1,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,23,1.15,19,24.3,-2.43,1.09,1.96,0.048,4.2,21.1,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,24,1.2,19,24.3,-2.44,1.03,1.96,0.069,6.1,21.0,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,25,1.25,19,24.3,-2.41,1.03,1.89,0.115,10.2,21.0,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,26,1.3,19,24.3,-2.38,0.88,1.53,0.089,7.9,20.9,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,27,1.35,18,22.5,-4.2,0.98,1.65,0.059,5.5,20.9,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,28,1.4,19,24.3,-2.37,0.93,1.61,0.087,7.7,20.8,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,29,1.45,18,22.5,-4.22,0.93,1.54,0.059,5.1,20.7,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,30,1.5,19,24.3,-1.22,0.92,1.69,0.067,6.5,20.5,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,31,1.55,19,24.3,0.01,1.05,1.98,0.05,4.5,20.4,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,32,1.6,17,21.2,-3.11,1.21,5.83,0.054,14.8,20.4,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,33,1.65,18,23.0,-1.31,0.95,1.7,0.028,2.6,20.3,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,34,1.7,17,21.2,-3.12,0.98,1.98,0.065,5.6,20.2,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,35,1.75,18,23.0,-1.28,0.97,2.05,0.061,5.1,20.1,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,36,1.8,17,21.2,-1.3,1.05,2.19,0.047,4.2,20.0,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,37,1.85,17,21.2,-3.11,1.03,2.1,0.04,3.7,19.9,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,38,1.9,17,21.2,-1.31,1.03,2.05,0.094,7.8,19.9,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,39,1.95,17,21.2,-3.12,1.09,2.25,0.058,4.9,19.8,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,40,2.0,17,21.2,-3.12,0.96,2.19,0.043,4.0,19.8,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,41,2.05,17,21.2,0.0,1.0,1.65,0.088,8.1,19.7,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,42,2.1,18,23.0,0.0,0.93,1.68,0.113,9.7,19.6,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,43,2.15,17,21.2,0.0,0.92,1.61,0.084,7.8,19.5,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,44,2.2,18,23.0,0.0,0.95,1.6,0.101,8.6,19.4,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,45,2.25,18,23.0,1.83,0.96,1.62,0.044,3.9,19.3,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,46,2.3,18,23.0,1.83,1.01,1.62,0.044,3.9,19.2,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,47,2.35,18,23.0,1.81,0.94,1.69,0.08,7.3,19.1,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,48,2.4,18,23.0,1.81,0.95,1.37,0.024,2.3,19.1,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,49,2.45,18,23.0,1.83,0.97,1.74,0.05,4.5,19.6,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,50,2.5,17,22.8,1.59,0.93,1.48,0.031,2.8,20.0,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,51,2.55,17,22.7,-0.32,1.09,2.02,0.071,6.5,19.8,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,52,2.6,17,22.7,1.52,0.99,2.26,0.056,5.0,19.9,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,53,2.65,17,22.7,-0.38,1.13,2.46,0.021,1.9,19.8,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,54,2.7,17,23.0,-0.03,0.99,2.01,0.13,10.3,19.7,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,55,2.75,17,23.0,-0.08,1.04,1.92,0.048,4.3,19.4,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,56,2.8,18,23.0,0.01,0.99,1.76,0.052,4.6,19.1,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,57,2.85,16,21.4,-1.64,1.35,7.83,0.104,16.6,18.7,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,58,2.9,16,21.3,-1.7,0.91,1.77,0.109,11.0,18.3,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,59,2.95,16,21.4,-1.4,0.94,1.62,0.077,7.0,18.1,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,60,3.0,16,21.4,-1.3,0.92,1.43,0.09,8.5,18.0,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,61,3.05,16,21.4,-1.33,0.98,1.64,0.034,3.1,17.8,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,62,3.1,16,21.4,-1.24,0.97,1.63,0.034,3.0,17.7,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,63,3.15,16,21.4,-1.62,0.97,1.6,0.052,4.8,17.5,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,64,3.2,16,21.3,-1.62,0.97,1.52,0.026,2.4,17.4,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,65,3.25,16,21.4,-1.64,1.02,1.96,0.053,5.0,17.2,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,66,3.3,16,21.4,-0.01,0.93,1.6,0.05,4.2,17.1,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,67,3.35,16,21.4,0.06,0.99,2.01,0.04,4.1,17.0,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,68,3.4,16,21.3,-0.07,1.12,2.2,0.04,3.5,16.9,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,69,3.45,16,21.4,-0.02,1.06,2.12,0.048,4.3,16.8,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,70,3.5,16,21.5,0.05,0.99,1.93,0.118,10.4,16.7,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,71,3.55,16,21.4,0.01,1.02,1.99,0.068,5.9,16.6,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,72,3.6,16,21.4,-0.0,0.95,1.8,0.082,6.7,16.5,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,73,3.65,16,21.4,0.09,0.94,1.49,0.087,7.0,16.4,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,74,3.7,16,21.4,0.01,0.97,1.64,0.077,6.7,16.3,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,75,3.75,16,21.5,0.09,0.96,1.79,0.076,6.8,16.3,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,76,3.8,16,21.4,0.03,0.98,1.49,0.07,6.1,16.2,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,77,3.85,16,21.4,0.09,0.91,1.66,0.095,8.5,16.1,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,78,3.9,17,21.9,0.47,0.99,1.66,0.039,3.6,16.0,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,79,3.95,17,21.8,0.36,0.99,1.59,0.045,4.0,15.9,NORMAL,NORMAL,22
+seq_03_counter_flow_surge.mp4,80,4.0,18,23.2,1.73,1.19,5.89,0.102,28.1,16.0,NORMAL,WARNING,23
+seq_03_counter_flow_surge.mp4,81,4.05,16,21.4,-0.01,1.26,6.29,0.191,31.8,16.0,NORMAL,WARNING,23
+seq_03_counter_flow_surge.mp4,82,4.1,18,23.0,1.6,1.23,4.1,0.247,45.0,16.1,NORMAL,WARNING,24
+seq_03_counter_flow_surge.mp4,83,4.15,17,23.0,1.59,1.17,2.51,0.257,43.4,16.3,NORMAL,WARNING,24
+seq_03_counter_flow_surge.mp4,84,4.2,17,24.5,3.0,1.21,3.49,0.325,63.3,16.6,NORMAL,WARNING,25
+seq_03_counter_flow_surge.mp4,85,4.25,17,24.1,2.72,1.23,2.52,0.313,49.6,16.9,NORMAL,WARNING,25
+seq_03_counter_flow_surge.mp4,86,4.3,17,25.0,3.57,1.18,2.57,0.387,62.0,17.3,NORMAL,WARNING,26
+seq_03_counter_flow_surge.mp4,87,4.35,17,24.8,2.98,1.16,2.85,0.4,66.6,17.6,NORMAL,WARNING,26
+seq_03_counter_flow_surge.mp4,88,4.4,17,25.5,3.64,1.21,3.1,0.374,62.2,17.9,NORMAL,WARNING,27
+seq_03_counter_flow_surge.mp4,89,4.45,16,24.5,1.38,1.28,2.98,0.511,80.8,18.0,NORMAL,WARNING,27
+seq_03_counter_flow_surge.mp4,90,4.5,17,23.0,1.6,1.19,2.87,0.542,85.9,17.9,NORMAL,WARNING,28
+seq_03_counter_flow_surge.mp4,91,4.55,19,25.6,2.55,1.22,2.87,0.558,88.6,18.2,NORMAL,WARNING,28
+seq_03_counter_flow_surge.mp4,92,4.6,18,26.2,3.22,1.23,2.99,0.545,89.6,18.3,NORMAL,WARNING,29
+seq_03_counter_flow_surge.mp4,93,4.65,19,27.0,2.5,1.25,2.65,0.495,80.2,18.3,NORMAL,WARNING,29
+seq_03_counter_flow_surge.mp4,94,4.7,21,27.9,3.77,1.31,3.02,0.613,96.1,18.4,NORMAL,WARNING,30
+seq_03_counter_flow_surge.mp4,95,4.75,21,27.6,2.57,1.34,3.11,0.566,91.7,18.3,NORMAL,WARNING,30
+seq_03_counter_flow_surge.mp4,96,4.8,21,28.4,3.6,1.48,3.42,0.595,79.4,18.3,NORMAL,WARNING,31
+seq_03_counter_flow_surge.mp4,97,4.85,20,29.0,3.57,1.35,2.95,0.649,95.6,18.4,NORMAL,WARNING,31
+seq_03_counter_flow_surge.mp4,98,4.9,18,29.7,5.12,1.44,3.37,0.701,89.1,18.5,NORMAL,WARNING,32
+seq_03_counter_flow_surge.mp4,99,4.95,19,26.8,3.78,1.42,3.07,0.716,89.7,18.8,NORMAL,WARNING,32
+seq_03_counter_flow_surge.mp4,100,5.0,17,24.7,-0.93,1.56,4.46,0.691,89.8,19.0,NORMAL,WARNING,33
+seq_03_counter_flow_surge.mp4,101,5.05,19,29.8,3.58,1.4,2.84,0.736,91.8,19.7,NORMAL,WARNING,33
+seq_03_counter_flow_surge.mp4,102,5.1,14,19.8,-7.13,1.62,3.68,0.791,86.5,20.1,NORMAL,WARNING,34
+seq_03_counter_flow_surge.mp4,103,5.15,14,21.0,-6.94,1.73,5.54,0.836,79.5,20.6,NORMAL,WARNING,34
+seq_03_counter_flow_surge.mp4,104,5.2,15,23.0,-4.6,1.52,2.99,0.925,69.0,20.9,NORMAL,WARNING,35
+seq_03_counter_flow_surge.mp4,105,5.25,15,23.3,-5.16,1.53,3.05,0.948,65.1,21.2,NORMAL,WARNING,35
+seq_03_counter_flow_surge.mp4,106,5.3,16,24.0,-5.03,1.68,4.64,0.914,61.0,21.6,NORMAL,WARNING,36
+seq_03_counter_flow_surge.mp4,107,5.35,16,28.6,-1.02,1.58,3.04,0.865,52.8,22.0,NORMAL,WARNING,36
+seq_03_counter_flow_surge.mp4,108,5.4,16,28.6,1.83,1.61,3.12,0.968,69.1,22.6,NORMAL,WARNING,37
+seq_03_counter_flow_surge.mp4,109,5.45,12,22.2,-2.44,1.61,2.99,0.87,53.8,22.8,NORMAL,WARNING,37
+seq_03_counter_flow_surge.mp4,110,5.5,16,30.5,0.7,1.78,5.19,0.903,56.4,23.3,NORMAL,WARNING,38
+seq_03_counter_flow_surge.mp4,111,5.55,14,23.5,3.65,1.69,3.09,0.849,51.3,23.6,NORMAL,WARNING,38
+seq_03_counter_flow_surge.mp4,112,5.6,15,27.7,6.73,1.93,5.77,0.832,54.1,23.8,NORMAL,WARNING,39
+seq_03_counter_flow_surge.mp4,113,5.65,14,22.7,-0.32,1.71,3.0,0.797,46.7,24.0,NORMAL,WARNING,39
+seq_03_counter_flow_surge.mp4,114,5.7,12,23.9,0.6,1.83,4.5,0.757,41.7,24.5,NORMAL,WARNING,40
+seq_03_counter_flow_surge.mp4,115,5.75,11,24.0,0.02,1.77,3.18,0.754,42.3,25.0,NORMAL,WARNING,40
+seq_03_counter_flow_surge.mp4,116,5.8,13,22.8,-5.78,2.0,8.38,0.759,39.6,25.4,NORMAL,WARNING,41
+seq_03_counter_flow_surge.mp4,117,5.85,15,29.3,0.67,1.78,3.19,0.663,41.1,25.8,NORMAL,WARNING,41
+seq_03_counter_flow_surge.mp4,118,5.9,14,28.6,6.43,1.79,4.04,0.691,39.5,26.3,NORMAL,WARNING,42
+seq_03_counter_flow_surge.mp4,119,5.95,15,28.4,-2.12,1.83,3.29,0.614,32.1,26.6,NORMAL,WARNING,42
+seq_03_counter_flow_surge.mp4,120,6.0,10,18.7,-4.81,1.68,3.02,0.694,42.8,26.4,NORMAL,WARNING,43
+seq_03_counter_flow_surge.mp4,121,6.05,13,33.9,6.2,1.76,3.01,0.641,32.7,26.6,NORMAL,WARNING,43
+seq_03_counter_flow_surge.mp4,122,6.1,14,30.2,7.52,1.92,3.48,0.505,28.3,26.8,NORMAL,WARNING,44
+seq_03_counter_flow_surge.mp4,123,6.15,14,29.9,6.02,1.88,3.27,0.523,25.6,27.2,NORMAL,WARNING,44
+seq_03_counter_flow_surge.mp4,124,6.2,11,28.0,3.95,1.92,4.0,0.487,26.4,27.4,NORMAL,WARNING,45
+seq_03_counter_flow_surge.mp4,125,6.25,12,27.3,4.44,1.9,3.15,0.503,23.9,27.6,NORMAL,WARNING,45
+seq_03_counter_flow_surge.mp4,126,6.3,12,28.8,-0.42,2.0,4.8,0.499,28.3,27.8,NORMAL,WARNING,46
+seq_03_counter_flow_surge.mp4,127,6.35,15,35.7,7.09,1.82,3.12,0.47,24.5,28.2,NORMAL,WARNING,46
+seq_03_counter_flow_surge.mp4,128,6.4,18,36.7,8.33,1.94,3.55,0.47,24.4,28.4,NORMAL,WARNING,47
+seq_03_counter_flow_surge.mp4,129,6.45,15,30.2,11.52,1.94,3.22,0.492,24.4,29.3,NORMAL,WARNING,47
+seq_03_counter_flow_surge.mp4,130,6.5,17,30.9,-3.0,2.0,3.95,0.498,27.8,29.8,NORMAL,WARNING,48
+seq_03_counter_flow_surge.mp4,131,6.55,18,31.1,0.89,1.91,3.18,0.537,30.5,30.0,NORMAL,WARNING,48
+seq_03_counter_flow_surge.mp4,132,6.6,20,33.8,3.95,2.04,3.36,0.53,30.0,30.0,NORMAL,WARNING,49
+seq_03_counter_flow_surge.mp4,133,6.65,18,33.5,5.58,1.85,3.14,0.539,28.4,30.2,NORMAL,WARNING,49
+seq_03_counter_flow_surge.mp4,134,6.7,18,34.4,7.07,1.9,3.28,0.495,25.4,30.4,NORMAL,WARNING,50
+seq_03_counter_flow_surge.mp4,135,6.75,16,32.7,3.83,1.93,3.21,0.463,23.6,30.6,NORMAL,WARNING,50
+seq_03_counter_flow_surge.mp4,136,6.8,13,24.3,-11.42,1.97,3.4,0.488,31.3,30.4,NORMAL,WARNING,51
+seq_03_counter_flow_surge.mp4,137,6.85,13,27.1,-9.63,2.01,3.15,0.329,16.3,30.0,NORMAL,WARNING,51
+seq_03_counter_flow_surge.mp4,138,6.9,16,30.7,0.46,2.04,3.19,0.291,15.5,29.8,NORMAL,WARNING,52
+seq_03_counter_flow_surge.mp4,139,6.95,15,29.8,-1.06,2.05,3.26,0.282,12.6,29.5,NORMAL,WARNING,52
+seq_03_counter_flow_surge.mp4,140,7.0,16,30.3,-0.76,2.08,3.88,0.31,16.5,29.6,NORMAL,CRITICAL,53
+seq_03_counter_flow_surge.mp4,141,7.05,17,31.5,-2.34,2.04,3.25,0.325,14.7,29.7,NORMAL,CRITICAL,53
+seq_03_counter_flow_surge.mp4,142,7.1,20,33.6,0.08,2.08,3.17,0.275,13.1,29.9,NORMAL,CRITICAL,54
+seq_03_counter_flow_surge.mp4,143,7.15,17,30.9,-3.5,2.11,3.41,0.32,14.4,30.2,NORMAL,CRITICAL,54
+seq_03_counter_flow_surge.mp4,144,7.2,18,29.4,-3.24,2.13,3.49,0.324,15.1,30.5,NORMAL,CRITICAL,55
+seq_03_counter_flow_surge.mp4,145,7.25,20,35.6,11.25,2.13,3.31,0.259,11.0,30.8,NORMAL,CRITICAL,55
+seq_03_counter_flow_surge.mp4,146,7.3,17,23.9,-3.23,2.01,3.18,0.348,16.9,30.8,NORMAL,CRITICAL,56
+seq_03_counter_flow_surge.mp4,147,7.35,17,25.1,-5.59,2.14,3.72,0.279,13.0,31.0,NORMAL,CRITICAL,56
+seq_03_counter_flow_surge.mp4,148,7.4,18,28.9,-0.96,2.11,3.41,0.365,20.4,31.1,WARNING,CRITICAL,57
+seq_03_counter_flow_surge.mp4,149,7.45,18,28.7,-1.56,2.1,3.38,0.311,16.5,31.3,WARNING,CRITICAL,57
+seq_03_counter_flow_surge.mp4,150,7.5,19,31.0,-0.55,2.06,3.15,0.327,16.7,31.3,WARNING,CRITICAL,58
+seq_03_counter_flow_surge.mp4,151,7.55,18,28.8,-4.79,2.01,3.12,0.334,15.2,31.4,WARNING,CRITICAL,58
+seq_03_counter_flow_surge.mp4,152,7.6,18,29.3,-1.55,2.84,27.04,0.308,31.1,32.0,WARNING,CRITICAL,59
+seq_03_counter_flow_surge.mp4,153,7.65,23,47.1,17.67,2.21,3.32,0.178,8.2,32.3,WARNING,CRITICAL,59
+seq_03_counter_flow_surge.mp4,154,7.7,20,40.0,4.38,2.21,3.41,0.22,11.9,32.6,WARNING,CRITICAL,60
+seq_03_counter_flow_surge.mp4,155,7.75,19,39.1,15.26,2.24,3.37,0.157,7.3,32.9,WARNING,CRITICAL,60
+seq_03_counter_flow_surge.mp4,156,7.8,15,24.3,-0.82,2.11,3.28,0.203,11.5,33.0,WARNING,CRITICAL,61
+seq_03_counter_flow_surge.mp4,157,7.85,17,34.1,5.25,2.15,3.33,0.173,8.2,33.4,WARNING,CRITICAL,61
+seq_03_counter_flow_surge.mp4,158,7.9,16,34.2,5.47,2.21,3.57,0.192,10.3,33.7,WARNING,CRITICAL,62
+seq_03_counter_flow_surge.mp4,159,7.95,19,37.5,6.55,2.16,3.23,0.176,9.2,34.2,WARNING,CRITICAL,62
+seq_03_counter_flow_surge.mp4,160,8.0,24,42.6,13.75,2.42,6.83,0.16,7.3,35.1,WARNING,CRITICAL,63
+seq_03_counter_flow_surge.mp4,161,8.05,23,42.8,13.51,2.21,3.17,0.169,7.2,35.4,WARNING,CRITICAL,63
+seq_03_counter_flow_surge.mp4,162,8.1,22,43.0,-4.09,2.22,3.31,0.166,9.2,34.8,WARNING,CRITICAL,64
+seq_03_counter_flow_surge.mp4,163,8.15,22,42.8,2.85,2.25,3.53,0.165,8.1,34.3,WARNING,CRITICAL,64
+seq_03_counter_flow_surge.mp4,164,8.2,27,52.5,13.35,2.3,3.83,0.181,11.4,34.8,WARNING,CRITICAL,65
+seq_03_counter_flow_surge.mp4,165,8.25,24,46.3,22.06,2.23,3.35,0.197,8.8,35.1,WARNING,CRITICAL,65
+seq_03_counter_flow_surge.mp4,166,8.3,22,47.7,13.56,2.18,3.3,0.223,11.5,35.8,WARNING,CRITICAL,66
+seq_03_counter_flow_surge.mp4,167,8.35,24,47.6,13.4,2.21,3.3,0.204,8.8,36.1,WARNING,CRITICAL,66
+seq_03_counter_flow_surge.mp4,168,8.4,25,48.2,10.7,2.17,3.16,0.126,5.7,36.4,WARNING,CRITICAL,67
+seq_03_counter_flow_surge.mp4,169,8.45,24,46.3,3.69,2.28,3.25,0.138,6.0,36.2,WARNING,CRITICAL,67
+seq_03_counter_flow_surge.mp4,170,8.5,28,57.0,14.19,2.38,4.27,0.159,7.5,36.3,WARNING,CRITICAL,68
+seq_03_counter_flow_surge.mp4,171,8.55,27,50.9,7.92,2.15,3.25,0.183,8.7,36.4,WARNING,CRITICAL,68
+seq_03_counter_flow_surge.mp4,172,8.6,31,57.3,14.53,2.26,3.36,0.199,10.3,37.2,WARNING,CRITICAL,69
+seq_03_counter_flow_surge.mp4,173,8.65,30,51.2,-1.28,2.21,3.22,0.198,10.7,37.1,WARNING,CRITICAL,69
+seq_03_counter_flow_surge.mp4,174,8.7,28,45.5,-0.77,2.26,3.19,0.175,8.5,36.6,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,175,8.75,26,44.8,-2.92,2.21,3.28,0.213,9.7,35.8,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,176,8.8,29,50.8,3.21,2.25,3.22,0.167,6.2,35.5,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,177,8.85,28,49.1,0.87,2.25,3.31,0.214,9.9,35.2,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,178,8.9,28,44.1,-2.2,2.19,3.16,0.206,9.9,34.8,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,179,8.95,29,51.4,-5.6,2.31,3.41,0.237,11.5,34.7,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,180,9.0,27,42.4,-8.47,2.24,3.19,0.251,11.8,33.9,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,181,9.05,31,57.8,0.47,2.21,3.21,0.207,8.6,33.7,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,182,9.1,31,58.0,6.85,2.24,3.33,0.244,11.1,33.6,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,183,9.15,32,57.8,12.28,2.27,3.23,0.153,6.4,33.8,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,184,9.2,35,58.2,13.43,2.25,3.19,0.221,9.7,34.1,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,185,9.25,34,57.6,6.77,2.26,3.28,0.223,9.7,34.4,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,186,9.3,32,55.9,6.81,2.46,7.12,0.234,21.3,34.5,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,187,9.35,33,56.1,12.01,2.27,3.27,0.199,9.8,34.8,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,188,9.4,32,55.8,4.45,2.26,3.32,0.197,8.5,34.9,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,189,9.45,32,55.5,13.05,2.24,3.18,0.203,8.5,35.3,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,190,9.5,32,54.4,-3.4,2.27,3.38,0.218,12.0,35.2,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,191,9.55,32,53.6,-4.46,2.27,3.41,0.175,8.0,34.8,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,192,9.6,31,53.3,-4.52,2.28,3.21,0.203,10.4,34.0,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,193,9.65,31,52.0,-6.17,2.61,7.77,0.153,16.0,33.4,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,194,9.7,30,51.5,-6.06,2.29,3.26,0.186,9.3,32.3,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,195,9.75,30,50.7,-5.13,2.31,3.97,0.185,10.5,31.4,WARNING,CRITICAL,70
+seq_03_counter_flow_surge.mp4,196,9.8,29,49.5,-6.57,2.33,4.11,0.22,13.1,30.8,NORMAL,CRITICAL,70
+seq_03_counter_flow_surge.mp4,197,9.85,27,48.4,-7.5,2.53,9.15,0.205,27.8,30.6,NORMAL,CRITICAL,70
+seq_03_counter_flow_surge.mp4,198,9.9,27,48.3,-7.23,2.29,3.08,0.145,6.8,30.3,NORMAL,CRITICAL,70
+seq_03_counter_flow_surge.mp4,199,9.95,28,47.9,-6.49,2.3,3.21,0.104,5.0,29.9,NORMAL,CRITICAL,70
+seq_04_rapid_panic_dispersion.mp4,0,0.0,19,23.6,-30.02,8.69,20.95,0.991,96.7,35.3,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,1,0.05,19,23.7,-29.61,0.9,1.77,0.826,81.8,34.2,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,2,0.1,19,23.8,-28.27,0.94,1.73,0.764,79.2,32.7,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,3,0.15,17,23.7,-27.77,0.98,1.58,0.825,75.4,31.3,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,4,0.2,17,23.6,-27.1,0.93,1.84,0.856,88.0,30.2,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,5,0.25,17,23.6,-25.96,0.9,1.75,0.869,82.5,29.5,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,6,0.3,16,23.3,-25.02,1.05,2.25,0.793,75.4,29.5,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,7,0.35,16,23.3,-24.97,0.99,2.11,0.802,82.2,29.5,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,8,0.4,16,23.2,-24.75,0.91,1.81,0.906,85.9,29.5,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,9,0.45,15,22.9,-0.63,0.96,1.81,0.686,67.4,29.5,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,10,0.5,15,22.7,-1.0,0.94,1.72,0.771,77.1,29.5,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,11,0.55,15,22.6,-1.13,0.95,1.79,0.907,85.0,29.6,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,12,0.6,15,22.5,-1.21,0.88,1.37,0.706,70.5,29.6,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,13,0.65,16,22.4,-1.22,0.93,1.84,0.841,81.0,29.7,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,14,0.7,15,20.5,-3.07,0.93,1.89,0.824,78.4,29.9,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,15,0.75,15,22.6,-0.73,0.94,1.68,0.813,82.5,30.0,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,16,0.8,15,22.8,-0.45,0.88,1.73,0.814,79.0,30.1,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,17,0.85,15,23.0,-0.18,0.94,1.77,0.833,83.5,30.3,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,18,0.9,15,23.3,0.37,1.01,2.1,0.784,75.1,30.4,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,19,0.95,15,23.2,0.51,1.01,2.15,0.78,73.6,30.6,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,20,1.0,15,23.2,0.52,0.94,1.82,0.786,78.1,30.7,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,21,1.05,15,23.1,0.56,0.91,1.74,0.845,84.0,30.9,NORMAL,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,22,1.1,15,22.9,0.52,0.92,2.06,0.761,70.3,31.1,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,23,1.15,16,22.9,2.45,0.99,2.2,0.823,77.8,31.4,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,24,1.2,16,22.8,0.15,0.92,1.7,0.75,70.1,31.7,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,25,1.25,15,21.2,-1.6,1.11,5.73,0.789,79.5,32.2,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,26,1.3,15,21.1,-1.86,0.94,1.6,0.775,82.2,32.5,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,27,1.35,15,21.0,-2.33,0.89,1.7,0.792,75.1,32.5,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,28,1.4,15,21.0,-2.2,0.96,1.74,0.704,76.6,32.6,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,29,1.45,14,20.9,-2.28,0.94,1.79,0.701,69.3,32.8,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,30,1.5,14,21.2,-1.95,0.93,2.03,0.769,75.5,33.0,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,31,1.55,13,21.1,-1.81,1.02,1.89,0.742,72.5,33.2,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,32,1.6,14,21.4,-1.55,0.9,2.1,0.661,65.8,33.3,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,33,1.65,14,21.6,-1.19,0.92,1.63,0.726,74.2,33.4,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,34,1.7,14,21.8,0.53,0.96,1.76,0.666,64.3,33.5,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,35,1.75,14,22.0,0.89,0.91,1.72,0.648,63.4,33.7,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,36,1.8,15,21.9,0.96,1.05,2.01,0.692,63.2,33.8,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,37,1.85,15,21.9,0.92,0.81,1.37,0.676,65.6,34.1,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,38,1.9,15,21.9,1.07,0.96,1.69,0.84,84.7,34.4,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,39,1.95,14,22.2,1.09,0.91,1.71,0.792,77.8,34.8,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,40,2.0,14,22.2,1.1,0.99,1.98,0.724,71.7,35.1,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,41,2.05,14,22.3,0.96,0.91,1.6,0.755,74.3,35.5,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,42,2.1,14,22.4,0.88,0.92,1.71,0.706,67.0,35.9,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,43,2.15,13,23.1,1.36,1.04,1.98,0.781,73.7,36.3,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,44,2.2,13,23.1,1.06,1.05,2.45,0.76,67.2,36.7,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,45,2.25,12,22.2,0.24,2.16,27.41,0.657,31.8,37.8,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,46,2.3,12,22.3,0.36,0.93,1.96,0.789,76.4,38.0,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,47,2.35,12,22.6,0.64,0.89,1.72,0.704,72.4,38.4,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,48,2.4,14,22.6,0.41,1.03,2.01,0.702,61.5,38.7,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,49,2.45,14,22.7,0.47,0.9,1.61,0.749,75.8,38.9,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,50,2.5,14,22.9,0.59,0.87,1.44,0.841,80.4,39.2,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,51,2.55,14,23.2,0.78,0.89,1.56,0.888,89.6,39.6,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,52,2.6,13,22.3,-0.81,1.1,4.15,0.701,66.0,39.7,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,53,2.65,14,22.7,-0.34,0.96,1.9,0.791,78.6,39.9,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,54,2.7,14,22.8,0.66,0.92,1.9,0.779,77.5,39.2,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,55,2.75,15,23.2,0.91,1.0,1.81,0.866,84.9,39.7,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,56,2.8,15,21.0,-1.59,1.16,3.39,0.749,65.4,39.9,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,57,2.85,16,21.3,-1.38,0.96,2.02,0.709,73.0,40.2,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,58,2.9,16,21.3,-1.38,0.94,1.7,0.707,67.8,40.5,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,59,2.95,17,21.4,-1.54,0.93,1.61,0.779,75.8,40.9,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,60,3.0,17,21.5,-1.76,0.91,1.59,0.644,63.7,41.2,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,61,3.05,17,21.5,-0.85,0.94,1.82,0.754,68.7,41.5,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,62,3.1,17,21.5,-1.27,0.89,1.41,0.764,75.7,41.8,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,63,3.15,18,21.5,-1.33,0.84,1.56,0.712,68.4,42.1,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,64,3.2,17,21.6,-1.58,0.94,1.7,0.666,67.5,42.4,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,65,3.25,16,21.2,0.21,0.86,1.5,0.786,81.6,42.8,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,66,3.3,16,21.0,-0.23,0.94,1.67,0.793,77.2,43.1,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,67,3.35,15,21.1,-0.19,0.97,1.9,0.776,78.6,43.4,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,68,3.4,15,20.9,-0.45,1.04,2.27,0.737,68.4,43.8,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,69,3.45,16,21.1,-0.35,1.02,2.45,0.857,78.2,44.2,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,70,3.5,16,21.0,-0.45,0.93,1.96,0.75,76.2,44.5,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,71,3.55,16,20.8,-0.63,0.92,1.72,0.716,68.6,44.8,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,72,3.6,16,20.7,-0.77,0.94,1.49,0.862,84.1,45.2,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,73,3.65,16,20.6,-1.01,0.93,1.71,0.718,67.9,45.5,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,74,3.7,16,20.5,-0.7,0.91,1.61,0.811,82.6,45.9,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,75,3.75,16,20.5,-0.54,0.94,1.39,0.706,71.1,46.4,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,76,3.8,16,20.5,-0.62,0.93,1.74,0.81,84.5,46.8,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,77,3.85,16,20.6,-0.37,0.85,1.61,0.72,74.3,46.9,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,78,3.9,16,20.7,-0.44,0.96,1.83,0.83,82.6,47.2,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,79,3.95,16,20.8,-0.26,0.93,2.03,0.735,74.3,47.5,WARNING,NORMAL,22
+seq_04_rapid_panic_dispersion.mp4,80,4.0,16,20.8,-0.07,3.07,4.7,0.557,55.6,49.4,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,81,4.05,16,20.9,0.18,3.31,4.58,0.556,56.8,51.5,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,82,4.1,16,20.9,0.33,2.94,4.0,0.589,59.8,53.3,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,83,4.15,15,19.7,-0.79,3.43,9.74,0.542,50.1,55.6,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,84,4.2,15,19.8,-0.69,3.1,4.27,0.565,52.9,57.6,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,85,4.25,16,19.6,-0.89,3.27,4.43,0.577,57.1,59.7,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,86,4.3,14,17.7,-2.88,3.89,18.5,0.584,45.8,62.4,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,87,4.35,14,17.8,-2.88,3.3,4.42,0.612,62.3,64.7,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,88,4.4,14,17.7,-3.05,3.12,4.3,0.613,59.3,66.9,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,89,4.45,12,15.6,-5.13,3.48,9.15,0.57,57.1,67.4,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,90,4.5,11,14.7,-6.21,3.25,4.7,0.606,59.4,65.9,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,91,4.55,12,14.3,-6.6,3.24,4.52,0.615,60.5,64.4,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,92,4.6,12,14.3,-5.37,3.27,4.69,0.605,58.9,62.9,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,93,4.65,11,13.0,-6.81,3.32,9.07,0.602,59.1,61.2,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,94,4.7,10,11.8,-7.82,4.77,32.21,0.583,37.8,60.9,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,95,4.75,9,10.8,-6.91,3.23,7.02,0.619,58.6,58.7,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,96,4.8,8,9.8,-7.96,4.88,30.85,0.638,43.8,57.7,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,97,4.85,8,9.6,-8.08,2.89,4.2,0.744,70.2,55.9,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,98,4.9,7,8.6,-7.04,4.87,24.9,0.717,48.7,55.5,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,99,4.95,6,7.2,-7.44,4.21,14.42,0.759,78.3,56.4,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,100,5.0,6,7.2,-7.09,3.13,4.7,0.676,70.3,56.0,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,101,5.05,6,7.2,-7.1,3.26,4.45,0.717,69.2,55.7,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,102,5.1,6,7.2,-5.76,3.08,4.38,0.699,65.4,55.6,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,103,5.15,6,7.2,-4.56,3.11,4.11,0.704,69.9,54.0,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,104,5.2,5,6.1,-4.73,4.32,12.85,0.682,71.8,53.6,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,105,5.25,5,6.0,-3.84,3.16,4.41,0.607,61.9,52.6,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,106,5.3,3,3.5,-6.14,6.35,19.71,0.561,45.7,54.0,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,107,5.35,3,3.5,-5.09,3.22,4.47,0.605,63.3,52.8,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,108,5.4,3,3.5,-3.75,3.25,4.31,0.484,47.5,51.3,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,109,5.45,2,2.4,-4.85,4.76,15.09,0.695,65.3,51.3,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,110,5.5,2,2.4,-4.85,3.05,4.86,0.674,64.6,51.3,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,111,5.55,2,2.4,-4.85,3.3,4.44,0.633,61.7,51.1,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,112,5.6,2,2.4,-4.85,3.2,4.14,0.559,54.8,51.3,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,113,5.65,2,2.4,-3.66,3.52,4.29,0.728,71.3,51.9,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,114,5.7,2,2.4,-3.6,3.08,3.73,0.669,65.1,50.9,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,115,5.75,2,2.4,-1.1,3.2,3.87,0.627,62.2,50.8,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,116,5.8,2,2.4,-1.1,2.77,3.93,0.59,53.3,50.6,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,117,5.85,1,1.2,-2.3,7.11,16.15,0.777,47.5,50.7,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,118,5.9,1,1.2,-1.2,3.22,3.98,0.025,1.3,50.1,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,119,5.95,1,1.2,-1.2,2.75,3.04,0.014,0.8,49.6,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,120,6.0,1,1.2,-1.2,2.76,3.6,0.018,1.4,49.1,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,121,6.05,1,1.2,-1.2,3.39,4.29,0.02,1.2,48.6,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,122,6.1,1,1.2,-1.2,3.39,4.25,0.019,1.1,48.2,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,123,6.15,1,1.2,-1.2,2.87,3.58,0.024,1.4,47.7,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,124,6.2,1,1.2,-1.2,3.02,3.33,0.017,0.8,47.2,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,125,6.25,1,1.2,-1.2,3.34,3.65,0.013,0.6,47.8,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,126,6.3,1,1.2,-0.04,2.67,2.96,0.011,0.6,46.2,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,127,6.35,1,1.1,-0.11,3.43,4.28,0.017,0.8,45.8,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,128,6.4,1,0.9,-0.34,3.5,4.37,0.017,1.2,45.3,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,129,6.45,0,0.0,-1.2,20.12,29.45,0.004,0.1,56.3,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,130,6.5,0,0.0,-1.2,0.0,0.0,0.0,0.0,53.5,HIGH RISK,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,131,6.55,0,0.0,-1.2,0.0,0.0,0.0,0.0,50.0,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,132,6.6,0,0.0,-1.2,0.0,0.0,0.0,0.0,47.3,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,133,6.65,0,0.0,-1.2,0.0,0.0,0.0,0.0,44.5,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,134,6.7,0,0.0,-1.2,0.0,0.0,0.0,0.0,42.7,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,135,6.75,0,0.0,-1.16,0.0,0.0,0.0,0.0,42.2,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,136,6.8,0,0.0,-1.09,0.0,0.0,0.0,0.0,41.8,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,137,6.85,0,0.0,-0.86,0.0,0.0,0.0,0.0,41.3,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,138,6.9,0,0.0,0.0,0.0,0.0,0.0,0.0,40.7,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,139,6.95,0,0.0,0.0,0.0,0.0,0.0,0.0,40.1,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,140,7.0,0,0.0,0.0,0.0,0.0,0.0,0.0,39.6,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,141,7.05,0,0.0,0.0,0.0,0.0,0.0,0.0,39.1,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,142,7.1,0,0.0,0.0,0.0,0.0,0.0,0.0,38.6,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,143,7.15,0,0.0,0.0,0.0,0.0,0.0,0.0,38.1,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,144,7.2,0,0.0,0.0,0.0,0.0,0.0,0.0,37.6,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,145,7.25,0,0.0,0.0,0.0,0.0,0.0,0.0,37.2,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,146,7.3,0,0.0,0.0,0.0,0.0,0.0,0.0,36.6,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,147,7.35,0,0.0,0.0,0.0,0.0,0.0,0.0,36.1,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,148,7.4,0,0.0,0.0,0.0,0.0,0.0,0.0,35.6,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,149,7.45,0,0.0,0.0,0.0,0.0,0.0,0.0,35.1,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,150,7.5,0,0.0,0.0,0.0,0.0,0.0,0.0,34.5,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,151,7.55,0,0.0,0.0,0.0,0.0,0.0,0.0,33.9,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,152,7.6,0,0.0,0.0,0.0,0.0,0.0,0.0,33.4,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,153,7.65,0,0.0,0.0,0.0,0.0,0.0,0.0,32.9,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,154,7.7,0,0.0,0.0,0.0,0.0,0.0,0.0,32.3,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,155,7.75,0,0.0,0.0,0.0,0.0,0.0,0.0,31.7,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,156,7.8,0,0.0,0.0,0.0,0.0,0.0,0.0,31.2,WARNING,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,157,7.85,0,0.0,0.0,0.0,0.0,0.0,0.0,30.7,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,158,7.9,0,0.0,0.0,0.0,0.0,0.0,0.0,30.2,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,159,7.95,0,0.0,0.0,0.0,0.0,0.0,0.0,29.7,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,160,8.0,0,0.0,0.0,0.0,0.0,0.0,0.0,29.2,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,161,8.05,0,0.0,0.0,0.0,0.0,0.0,0.0,28.7,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,162,8.1,0,0.0,0.0,0.0,0.0,0.0,0.0,28.2,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,163,8.15,0,0.0,0.0,0.0,0.0,0.0,0.0,27.7,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,164,8.2,0,0.0,0.0,0.0,0.0,0.0,0.0,27.2,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,165,8.25,0,0.0,0.0,0.0,0.0,0.0,0.0,26.6,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,166,8.3,0,0.0,0.0,0.0,0.0,0.0,0.0,26.1,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,167,8.35,0,0.0,0.0,0.0,0.0,0.0,0.0,25.5,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,168,8.4,0,0.0,0.0,0.0,0.0,0.0,0.0,25.0,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,169,8.45,0,0.0,0.0,0.0,0.0,0.0,0.0,24.5,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,170,8.5,0,0.0,0.0,0.0,0.0,0.0,0.0,23.9,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,171,8.55,0,0.0,0.0,0.0,0.0,0.0,0.0,23.4,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,172,8.6,0,0.0,0.0,0.0,0.0,0.0,0.0,22.8,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,173,8.65,0,0.0,0.0,0.0,0.0,0.0,0.0,22.3,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,174,8.7,0,0.0,0.0,0.0,0.0,0.0,0.0,21.8,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,175,8.75,0,0.0,0.0,0.0,0.0,0.0,0.0,21.3,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,176,8.8,0,0.0,0.0,0.0,0.0,0.0,0.0,20.7,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,177,8.85,0,0.0,0.0,0.0,0.0,0.0,0.0,20.2,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,178,8.9,0,0.0,0.0,0.0,0.0,0.0,0.0,19.6,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,179,8.95,0,0.0,0.0,0.0,0.0,0.0,0.0,19.1,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,180,9.0,0,0.0,0.0,0.0,0.0,0.0,0.0,18.6,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,181,9.05,0,0.0,0.0,0.0,0.0,0.0,0.0,18.2,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,182,9.1,0,0.0,0.0,0.0,0.0,0.0,0.0,17.7,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,183,9.15,0,0.0,0.0,0.0,0.0,0.0,0.0,17.3,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,184,9.2,0,0.0,0.0,0.0,0.0,0.0,0.0,16.8,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,185,9.25,0,0.0,0.0,0.0,0.0,0.0,0.0,16.4,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,186,9.3,0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,187,9.35,0,0.0,0.0,0.0,0.0,0.0,0.0,15.5,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,188,9.4,0,0.0,0.0,0.0,0.0,0.0,0.0,15.0,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,189,9.45,0,0.0,0.0,0.0,0.0,0.0,0.0,14.6,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,190,9.5,0,0.0,0.0,0.0,0.0,0.0,0.0,14.1,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,191,9.55,0,0.0,0.0,0.0,0.0,0.0,0.0,13.6,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,192,9.6,0,0.0,0.0,0.0,0.0,0.0,0.0,13.2,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,193,9.65,0,0.0,0.0,0.0,0.0,0.0,0.0,12.7,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,194,9.7,0,0.0,0.0,0.0,0.0,0.0,0.0,12.3,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,195,9.75,0,0.0,0.0,0.0,0.0,0.0,0.0,11.8,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,196,9.8,0,0.0,0.0,0.0,0.0,0.0,0.0,11.4,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,197,9.85,0,0.0,0.0,0.0,0.0,0.0,0.0,10.8,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,198,9.9,0,0.0,0.0,0.0,0.0,0.0,0.0,10.4,NORMAL,CRITICAL,22
+seq_04_rapid_panic_dispersion.mp4,199,9.95,0,0.0,0.0,0.0,0.0,0.0,0.0,9.8,NORMAL,CRITICAL,22
+seq_05_dense_standstill.mp4,0,0.0,24,52.6,52.6,4.63,11.22,0.971,96.0,15.7,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,1,0.05,24,52.6,52.62,0.55,0.85,0.777,76.0,18.1,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,2,0.1,22,43.8,43.81,0.59,0.87,0.809,79.3,20.6,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,3,0.15,22,43.7,43.7,0.6,0.93,0.795,78.7,25.6,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,4,0.2,23,43.4,43.37,0.6,0.85,0.808,78.5,30.6,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,5,0.25,22,43.2,43.2,0.61,0.89,0.759,78.2,35.5,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,6,0.3,22,49.0,48.98,0.6,0.8,0.787,81.1,41.1,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,7,0.35,22,49.2,49.19,0.55,0.73,0.553,55.8,42.0,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,8,0.4,22,49.2,49.22,0.6,0.95,0.659,66.6,42.3,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,9,0.45,22,49.2,-3.39,0.63,0.98,0.605,55.3,41.8,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,10,0.5,23,48.7,-3.93,0.59,0.84,0.638,64.3,41.2,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,11,0.55,23,48.8,5.01,0.6,0.84,0.651,66.7,39.8,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,12,0.6,23,48.9,5.19,0.64,1.02,0.547,52.3,35.8,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,13,0.65,21,43.7,0.32,0.59,0.83,0.532,51.8,31.3,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,14,0.7,23,49.5,6.26,0.65,0.95,0.81,84.6,27.5,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,15,0.75,23,49.2,0.22,0.6,0.82,0.765,78.1,23.1,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,16,0.8,24,49.0,-0.15,0.58,0.78,0.758,72.8,18.0,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,17,0.85,24,49.0,-0.22,0.6,0.91,0.717,69.4,13.1,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,18,0.9,24,48.9,-0.33,0.57,0.85,0.947,93.6,11.9,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,19,0.95,24,49.0,0.27,0.62,0.86,0.837,85.0,12.7,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,20,1.0,23,49.4,0.53,0.57,0.84,0.683,69.4,13.2,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,21,1.05,23,49.3,0.37,0.59,0.82,0.662,61.6,13.5,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,22,1.1,23,49.2,5.51,0.62,0.86,0.775,79.1,14.0,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,23,1.15,21,43.6,-5.87,0.61,0.94,0.927,96.9,14.4,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,24,1.2,24,48.9,-0.25,0.59,0.96,0.863,82.7,14.7,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,25,1.25,22,43.1,-5.91,0.6,0.91,0.591,57.2,15.1,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,26,1.3,22,43.1,-5.89,0.63,0.99,0.64,69.7,15.5,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,27,1.35,22,43.1,-5.74,0.62,1.01,0.928,97.6,16.1,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,28,1.4,22,43.1,-5.82,0.6,0.94,0.657,62.5,16.6,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,29,1.45,23,42.7,-6.62,0.61,0.97,0.725,70.3,16.7,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,30,1.5,23,42.9,-6.32,0.64,1.03,0.782,80.2,17.4,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,31,1.55,23,42.9,-6.3,0.6,0.82,0.904,92.3,18.1,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,32,1.6,23,43.1,-0.44,0.61,0.92,0.814,79.4,18.6,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,33,1.65,24,48.6,-0.34,0.62,1.01,0.887,87.2,19.3,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,34,1.7,25,48.7,5.53,0.56,0.79,0.821,79.6,19.9,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,35,1.75,21,43.3,0.19,0.58,0.79,0.723,72.4,20.4,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,36,1.8,23,49.0,5.82,0.64,0.94,0.82,83.9,21.0,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,37,1.85,21,43.0,-0.12,0.59,0.85,0.506,48.4,21.3,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,38,1.9,24,49.0,6.29,0.59,0.96,0.736,74.7,21.9,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,39,1.95,25,49.0,6.03,0.64,0.93,0.855,87.8,22.9,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,40,2.0,25,49.0,6.06,0.63,0.93,0.904,87.7,24.0,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,41,2.05,24,48.8,5.66,0.61,0.82,0.772,74.7,25.0,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,42,2.1,24,48.9,0.31,0.57,0.76,0.81,80.3,25.6,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,43,2.15,25,48.8,0.17,0.6,0.85,0.616,59.4,26.1,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,44,2.2,24,48.7,5.35,0.61,0.87,0.755,76.2,26.7,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,45,2.25,25,48.8,-0.16,0.55,0.81,0.826,82.3,27.3,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,46,2.3,25,48.8,5.82,0.54,0.67,0.742,72.9,27.8,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,47,2.35,25,48.8,-0.23,0.6,0.79,0.781,74.1,28.4,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,48,2.4,25,48.7,-0.28,0.59,0.81,0.846,83.8,28.8,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,49,2.45,25,48.7,-0.29,0.6,0.81,0.658,64.3,29.1,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,50,2.5,25,48.6,-0.18,0.58,0.77,0.782,75.0,29.4,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,51,2.55,25,48.5,-0.43,0.6,0.86,0.688,66.7,29.7,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,52,2.6,26,52.2,3.36,0.6,0.97,0.889,91.9,30.5,NORMAL,WARNING,55
+seq_05_dense_standstill.mp4,53,2.65,26,52.3,3.67,0.6,0.79,0.599,60.0,31.1,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,54,2.7,25,48.0,-0.76,0.62,0.97,0.981,96.6,31.6,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,55,2.75,25,48.2,-0.65,0.58,0.9,0.743,73.8,32.1,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,56,2.8,26,52.3,3.5,0.6,0.8,0.685,67.7,32.6,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,57,2.85,25,49.0,0.32,0.62,0.93,0.684,66.5,33.1,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,58,2.9,24,44.7,-4.0,0.57,0.76,0.708,71.2,33.6,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,59,2.95,25,48.0,-0.59,0.63,0.88,0.945,95.7,34.3,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,60,3.0,26,52.3,3.81,0.58,0.86,0.796,80.5,35.0,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,61,3.05,26,52.2,-0.01,0.62,1.09,0.816,82.2,35.7,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,62,3.1,27,51.4,-0.91,0.58,0.97,0.842,84.6,36.1,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,63,3.15,26,47.8,-0.19,0.56,0.73,0.703,71.3,36.5,WARNING,WARNING,55
+seq_05_dense_standstill.mp4,64,3.2,26,48.1,-0.1,0.6,0.85,0.802,79.4,37.1,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,65,3.25,26,47.9,-4.44,0.57,0.81,0.693,70.4,37.5,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,66,3.3,27,47.7,-1.31,0.59,0.78,0.861,83.6,38.1,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,67,3.35,26,48.0,3.33,0.6,0.77,0.803,76.0,38.7,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,68,3.4,26,47.8,-0.22,0.62,0.99,0.781,78.0,39.3,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,69,3.45,26,47.8,-4.49,0.62,0.94,0.548,53.7,39.7,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,70,3.5,25,47.6,-4.6,0.59,0.82,0.791,79.4,40.3,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,71,3.55,26,47.8,-3.61,0.58,0.9,0.516,50.8,40.7,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,72,3.6,25,48.7,0.91,0.57,0.78,0.806,80.4,41.3,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,73,3.65,23,48.5,0.41,0.59,0.84,0.916,92.3,42.0,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,74,3.7,24,52.1,4.23,0.59,0.76,0.845,85.6,42.6,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,75,3.75,23,51.5,3.8,0.61,0.91,0.842,84.9,43.3,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,76,3.8,22,47.9,-0.08,0.62,0.86,0.905,91.2,44.0,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,77,3.85,22,48.0,0.15,0.63,1.01,0.813,84.7,44.6,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,78,3.9,21,48.6,0.82,0.6,1.02,0.793,82.7,45.2,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,79,3.95,22,49.3,1.73,0.57,0.92,0.83,81.9,45.9,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,80,4.0,21,48.6,0.85,0.66,1.04,0.649,61.4,46.7,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,81,4.05,22,47.9,-0.82,0.62,0.85,0.692,65.4,47.3,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,82,4.1,22,47.9,-0.58,0.59,0.84,0.86,82.3,47.9,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,83,4.15,23,47.2,-4.84,0.59,0.83,0.73,70.5,48.3,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,84,4.2,21,48.9,-2.64,0.59,0.79,0.725,73.9,48.6,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,85,4.25,24,52.3,4.37,0.65,0.95,0.895,90.8,49.3,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,86,4.3,23,47.2,-0.75,0.62,0.87,0.604,58.8,49.7,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,87,4.35,23,47.2,-1.44,0.61,0.79,0.704,66.7,50.2,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,88,4.4,25,50.9,1.53,0.61,0.92,0.744,75.1,50.8,WARNING,HIGH RISK,55
+seq_05_dense_standstill.mp4,89,4.45,22,41.7,-6.89,0.62,0.84,0.449,45.0,51.2,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,90,4.5,23,47.2,-0.73,0.6,0.92,0.75,73.7,51.7,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,91,4.55,24,47.0,-0.89,0.6,0.82,0.596,56.5,52.1,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,92,4.6,23,48.0,0.72,0.61,1.04,0.594,57.9,52.5,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,93,4.65,24,47.2,-1.64,0.61,0.9,0.821,82.4,53.2,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,94,4.7,25,51.7,-0.61,0.64,0.93,0.836,81.4,53.8,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,95,4.75,23,48.0,0.75,0.62,0.86,0.673,62.9,54.3,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,96,4.8,23,48.0,0.8,0.61,0.87,0.54,53.7,54.7,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,97,4.85,24,51.6,0.79,0.6,0.82,0.69,69.7,55.2,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,98,4.9,25,51.8,10.04,0.59,0.96,0.753,72.9,55.9,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,99,4.95,23,48.3,1.1,0.6,0.97,0.623,62.2,56.6,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,100,5.0,25,51.8,4.76,0.62,0.95,0.833,83.6,56.7,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,101,5.05,25,51.9,3.91,0.58,0.76,0.724,71.1,56.8,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,102,5.1,25,51.8,4.59,0.63,1.01,0.795,80.3,57.0,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,103,5.15,26,51.1,-0.54,0.58,0.77,0.633,62.7,56.9,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,104,5.2,26,50.9,2.98,0.6,0.99,0.617,61.6,56.9,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,105,5.25,25,51.3,3.29,0.62,0.85,0.726,70.1,57.0,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,106,5.3,26,51.3,-0.33,0.6,0.89,0.748,71.7,56.9,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,107,5.35,25,51.1,-0.67,0.59,0.91,0.758,79.2,57.0,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,108,5.4,26,51.3,2.96,0.6,0.78,0.758,72.0,56.8,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,109,5.45,25,52.1,0.31,0.65,1.04,0.651,68.2,56.8,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,110,5.5,25,52.0,0.13,0.6,0.8,0.742,71.0,56.7,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,111,5.55,26,52.2,0.36,0.61,0.93,0.508,50.2,56.5,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,112,5.6,26,51.9,0.77,0.61,0.84,0.774,81.4,56.6,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,113,5.65,26,52.0,1.06,0.64,0.87,0.755,69.4,56.8,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,114,5.7,26,52.0,0.71,0.56,0.8,0.658,65.8,56.6,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,115,5.75,27,51.3,-0.04,0.61,0.89,0.841,85.3,56.5,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,116,5.8,27,51.0,-0.12,0.6,0.82,0.587,58.9,56.5,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,117,5.85,27,51.2,-0.09,0.62,0.88,0.778,76.9,56.5,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,118,5.9,26,51.9,-0.16,0.56,0.75,0.648,62.9,56.2,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,119,5.95,26,51.9,-0.14,0.56,0.78,0.754,75.2,56.1,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,120,6.0,26,51.7,-0.45,0.62,0.94,0.612,56.0,56.0,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,121,6.05,26,51.8,-0.12,0.6,0.83,0.958,92.0,56.2,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,122,6.1,26,51.9,-0.14,0.55,0.72,0.779,77.4,56.2,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,123,6.15,26,52.2,0.17,0.56,0.84,0.81,80.5,56.1,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,124,6.2,25,51.5,0.26,0.62,0.93,0.919,94.2,56.1,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,125,6.25,25,51.6,0.65,0.59,0.83,0.734,74.6,56.2,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,126,6.3,26,51.9,0.73,0.6,0.94,0.839,83.6,56.4,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,127,6.35,26,51.8,-0.11,0.59,1.01,0.753,72.8,56.3,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,128,6.4,25,51.7,-0.18,0.65,1.15,0.755,77.0,56.4,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,129,6.45,25,51.5,-0.19,0.56,0.71,0.885,86.8,56.5,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,130,6.5,25,51.7,-0.08,0.57,0.84,0.471,46.2,56.3,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,131,6.55,25,51.7,-0.13,0.55,0.78,0.701,70.5,56.2,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,132,6.6,25,51.6,-0.61,0.62,0.94,0.713,70.5,56.2,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,133,6.65,24,51.5,-0.03,0.58,0.84,0.617,59.0,55.9,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,134,6.7,24,51.5,-0.1,0.58,0.86,0.582,56.8,55.8,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,135,6.75,24,51.7,-0.17,0.59,0.89,0.854,90.9,55.9,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,136,6.8,25,51.9,0.07,0.65,1.07,0.751,74.1,55.9,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,137,6.85,24,51.5,-0.17,0.57,0.77,0.804,80.4,56.0,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,138,6.9,26,52.1,0.54,0.63,0.99,0.504,47.2,55.9,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,139,6.95,26,52.2,0.53,0.61,0.98,0.686,65.7,55.8,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,140,7.0,25,52.2,0.44,0.61,0.81,0.691,64.7,55.8,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,141,7.05,25,52.1,0.5,0.64,0.89,0.87,86.2,55.9,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,142,7.1,23,51.6,0.13,0.55,0.69,0.933,92.7,55.9,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,143,7.15,25,52.0,0.44,0.62,0.9,0.602,57.5,56.0,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,144,7.2,26,52.5,0.78,0.62,1.16,0.667,66.0,56.0,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,145,7.25,25,52.0,0.09,0.59,0.8,0.56,52.7,55.8,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,146,7.3,24,51.9,0.4,0.59,0.85,0.71,70.7,55.8,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,147,7.35,22,45.9,-6.15,0.59,0.95,0.901,92.1,55.7,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,148,7.4,22,45.8,-6.42,0.57,0.82,0.479,48.4,55.4,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,149,7.45,22,45.7,-6.5,0.6,0.82,0.841,84.2,55.5,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,150,7.5,23,45.7,-6.33,0.61,1.02,0.881,85.2,55.6,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,151,7.55,23,45.6,-6.03,0.62,0.96,0.718,65.7,55.6,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,152,7.6,23,45.7,-6.23,0.61,0.99,0.702,70.0,55.4,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,153,7.65,26,52.0,-0.52,0.61,0.9,0.793,78.3,55.5,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,154,7.7,25,51.8,-0.22,0.57,0.83,0.819,82.9,55.5,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,155,7.75,27,51.9,-0.02,0.59,0.83,0.78,76.8,55.5,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,156,7.8,27,51.8,5.92,0.59,0.82,0.849,86.6,55.6,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,157,7.85,28,52.1,6.25,0.6,0.96,0.748,77.0,55.7,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,158,7.9,27,51.8,6.08,0.58,0.83,0.706,70.0,55.7,HIGH RISK,HIGH RISK,55
+seq_05_dense_standstill.mp4,159,7.95,26,52.1,6.41,0.62,0.96,0.858,82.8,55.8,HIGH RISK,HIGH RISK,55
+seq_06_steady_concourse.mp4,0,0.0,16,23.0,-22.61,7.55,19.94,0.956,92.3,61.5,HIGH RISK,NORMAL,22
+seq_06_steady_concourse.mp4,1,0.05,17,22.9,-22.88,0.96,1.26,0.041,3.8,61.2,HIGH RISK,NORMAL,22
+seq_06_steady_concourse.mp4,2,0.1,17,22.9,-29.1,0.86,1.14,0.083,7.5,60.9,HIGH RISK,NORMAL,22
+seq_06_steady_concourse.mp4,3,0.15,16,22.9,-28.91,0.85,1.31,0.028,3.0,60.6,HIGH RISK,NORMAL,22
+seq_06_steady_concourse.mp4,4,0.2,17,22.8,-29.08,0.94,1.54,0.023,2.5,60.4,HIGH RISK,NORMAL,22
+seq_06_steady_concourse.mp4,5,0.25,17,22.8,-29.08,0.92,1.44,0.044,4.5,60.2,HIGH RISK,NORMAL,22
+seq_06_steady_concourse.mp4,6,0.3,16,22.8,-29.3,0.91,1.62,0.045,4.4,59.9,HIGH RISK,NORMAL,22
+seq_06_steady_concourse.mp4,7,0.35,17,22.8,-28.99,1.0,1.7,0.038,3.5,59.8,HIGH RISK,NORMAL,22
+seq_06_steady_concourse.mp4,8,0.4,17,22.7,-29.44,0.92,1.51,0.057,5.2,59.5,HIGH RISK,NORMAL,22
+seq_06_steady_concourse.mp4,9,0.45,16,22.7,-0.27,0.91,1.51,0.034,3.3,53.7,HIGH RISK,NORMAL,22
+seq_06_steady_concourse.mp4,10,0.5,17,22.7,-0.17,0.96,1.63,0.044,4.1,50.8,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,11,0.55,17,22.7,-0.2,0.95,1.58,0.023,2.3,50.5,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,12,0.6,17,22.7,-0.19,0.94,1.45,0.053,5.2,50.0,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,13,0.65,17,22.6,-0.17,0.96,1.65,0.05,4.6,49.4,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,14,0.7,17,22.6,-0.17,0.9,1.47,0.068,5.7,48.9,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,15,0.75,17,22.7,-0.11,0.84,1.42,0.079,7.0,48.3,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,16,0.8,17,22.7,-0.1,0.91,1.32,0.029,2.6,47.7,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,17,0.85,17,22.7,0.03,0.89,1.43,0.073,6.9,47.2,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,18,0.9,17,22.7,0.02,0.88,1.41,0.058,5.0,46.7,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,19,0.95,17,22.8,0.06,0.91,1.44,0.055,5.1,46.2,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,20,1.0,17,22.8,0.11,0.94,1.63,0.054,4.5,45.8,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,21,1.05,17,22.9,0.19,0.89,1.35,0.031,3.1,45.3,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,22,1.1,17,23.0,0.32,0.82,1.31,0.052,5.2,44.8,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,23,1.15,17,23.0,0.37,0.91,1.35,0.067,6.3,44.4,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,24,1.2,17,23.0,0.33,0.96,1.46,0.036,3.1,43.9,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,25,1.25,17,23.1,0.39,0.92,1.48,0.043,4.1,43.3,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,26,1.3,16,22.7,-0.02,0.85,1.22,0.027,2.6,42.9,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,27,1.35,16,22.7,-0.03,0.92,1.4,0.048,4.6,42.5,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,28,1.4,16,22.8,0.03,0.86,1.24,0.045,3.9,42.0,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,29,1.45,16,22.8,-0.02,0.91,1.39,0.037,3.4,41.7,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,30,1.5,17,23.1,0.2,0.89,1.46,0.084,7.4,41.3,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,31,1.55,17,23.1,0.14,0.9,1.47,0.018,1.8,40.9,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,32,1.6,17,23.1,0.13,0.99,1.89,0.077,6.6,40.7,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,33,1.65,16,23.1,0.1,0.98,1.81,0.03,2.7,40.1,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,34,1.7,16,23.1,0.08,0.89,1.45,0.067,6.3,39.5,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,35,1.75,16,23.1,0.39,0.96,1.66,0.043,3.8,39.2,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,36,1.8,16,23.2,0.49,0.95,1.62,0.036,3.3,38.9,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,37,1.85,16,23.1,0.31,0.97,1.49,0.041,3.8,38.5,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,38,1.9,16,23.2,0.38,0.9,1.5,0.024,2.5,38.0,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,39,1.95,16,23.2,0.12,0.94,1.49,0.056,5.4,37.7,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,40,2.0,17,23.2,0.15,0.87,1.39,0.052,4.8,37.1,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,41,2.05,17,23.3,0.22,0.86,1.28,0.068,6.7,36.5,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,42,2.1,17,23.3,0.21,0.94,1.31,0.034,3.1,35.9,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,43,2.15,17,23.3,0.16,0.87,1.35,0.041,4.1,35.4,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,44,2.2,17,23.3,0.19,0.9,1.52,0.062,5.2,35.0,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,45,2.25,17,23.3,0.15,0.89,1.45,0.026,2.4,34.5,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,46,2.3,17,23.4,0.31,0.9,1.34,0.075,7.1,34.1,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,47,2.35,17,23.4,0.21,0.92,1.38,0.054,5.7,33.6,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,48,2.4,17,23.4,0.21,0.9,1.21,0.06,5.8,33.1,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,49,2.45,17,23.4,0.17,0.92,1.26,0.039,3.6,32.7,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,50,2.5,17,23.4,0.11,0.9,1.36,0.038,3.1,32.2,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,51,2.55,17,23.5,0.16,0.85,1.25,0.075,6.7,31.9,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,52,2.6,17,23.5,0.17,0.88,1.23,0.063,6.2,31.4,WARNING,NORMAL,22
+seq_06_steady_concourse.mp4,53,2.65,17,23.5,0.17,0.88,1.2,0.029,2.6,30.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,54,2.7,17,23.5,0.17,0.91,1.24,0.033,3.4,30.4,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,55,2.75,17,23.5,0.07,0.87,1.62,0.02,2.1,29.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,56,2.8,16,22.6,-0.78,0.99,1.63,0.045,5.6,29.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,57,2.85,16,22.6,-0.81,0.94,1.68,0.049,5.1,29.0,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,58,2.9,16,22.6,-0.81,0.95,1.61,0.037,3.5,28.6,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,59,2.95,16,22.6,-0.84,0.9,1.49,0.09,7.7,28.1,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,60,3.0,16,22.6,-0.89,0.98,1.55,0.025,2.4,27.8,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,61,3.05,16,22.6,-0.88,0.89,1.45,0.036,3.0,27.2,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,62,3.1,16,22.6,-0.87,0.95,1.51,0.045,4.0,26.8,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,63,3.15,16,22.5,-0.97,0.92,1.46,0.063,5.5,26.3,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,64,3.2,17,22.7,-0.76,0.91,1.45,0.08,7.0,25.7,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,65,3.25,16,22.9,0.32,0.96,1.46,0.035,3.4,25.2,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,66,3.3,16,21.7,-0.92,0.94,2.21,0.096,11.4,24.7,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,67,3.35,16,21.6,-1.02,0.84,1.38,0.061,5.6,24.1,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,68,3.4,17,21.7,-0.89,0.96,1.53,0.035,3.3,23.6,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,69,3.45,17,21.7,-0.88,0.92,1.45,0.073,6.5,23.0,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,70,3.5,17,21.7,-0.88,0.88,1.55,0.072,6.5,22.6,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,71,3.55,17,21.7,-0.87,0.84,1.34,0.04,3.9,22.1,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,72,3.6,17,21.7,-0.81,0.89,1.2,0.031,3.6,21.7,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,73,3.65,17,21.6,-1.08,0.89,1.37,0.088,7.3,21.3,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,74,3.7,17,21.7,-1.23,0.9,1.34,0.045,4.0,20.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,75,3.75,16,20.4,-1.31,0.96,2.17,0.075,9.1,20.3,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,76,3.8,15,19.2,-2.42,1.5,12.17,0.065,24.4,20.2,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,77,3.85,15,19.2,-2.53,0.86,1.16,0.073,6.6,19.7,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,78,3.9,15,19.2,-2.54,0.89,1.22,0.029,2.6,19.3,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,79,3.95,15,19.1,-2.57,0.82,1.37,0.022,1.9,18.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,80,4.0,15,19.1,-2.6,0.94,1.64,0.073,7.1,18.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,81,4.05,14,19.1,-2.67,1.0,1.61,0.023,2.2,18.1,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,82,4.1,14,19.1,-2.56,0.89,1.72,0.062,5.5,17.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,83,4.15,14,19.0,-2.67,0.97,1.57,0.076,7.2,17.2,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,84,4.2,14,19.0,-1.36,0.93,1.75,0.043,4.4,16.8,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,85,4.25,14,18.9,-0.22,0.97,1.5,0.047,4.2,16.0,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,86,4.3,13,18.9,-0.3,0.92,1.45,0.065,5.8,15.7,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,87,4.35,13,18.9,-0.3,0.94,1.53,0.015,1.6,15.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,88,4.4,13,19.1,-0.04,0.95,1.45,0.07,6.1,15.3,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,89,4.45,12,18.9,-0.23,0.89,1.39,0.067,6.4,15.1,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,90,4.5,12,18.8,-0.28,0.85,1.4,0.054,5.2,14.8,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,91,4.55,12,18.8,-0.26,0.93,1.45,0.084,7.2,14.6,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,92,4.6,12,18.9,-0.15,0.87,1.27,0.07,6.1,14.4,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,93,4.65,11,17.7,-1.33,1.5,10.3,0.116,30.2,14.2,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,94,4.7,11,17.7,-1.25,0.88,1.39,0.042,3.7,13.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,95,4.75,12,17.8,-1.1,0.84,1.41,0.065,6.2,13.7,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,96,4.8,12,17.6,-1.25,0.95,1.39,0.042,3.6,13.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,97,4.85,12,17.7,-1.42,0.93,1.2,0.035,3.4,13.2,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,98,4.9,12,17.7,-1.21,0.83,1.1,0.051,4.5,12.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,99,4.95,12,17.6,-1.17,0.9,1.52,0.075,6.0,12.7,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,100,5.0,12,17.6,-1.25,0.92,1.2,0.048,4.4,12.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,101,5.05,12,17.5,-1.34,0.92,1.56,0.056,4.6,12.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,102,5.1,12,17.5,-0.14,0.8,1.04,0.074,6.3,12.4,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,103,5.15,12,17.6,-0.12,0.92,1.25,0.044,4.0,12.4,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,104,5.2,13,18.6,0.85,1.25,7.35,0.043,8.7,12.3,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,105,5.25,13,18.6,0.97,0.93,1.73,0.038,3.9,12.3,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,106,5.3,13,18.5,0.85,0.89,1.58,0.03,2.8,12.3,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,107,5.35,13,18.5,0.86,0.93,1.53,0.107,9.3,12.3,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,108,5.4,13,18.5,0.91,0.96,1.84,0.038,3.5,12.3,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,109,5.45,13,18.6,0.98,1.0,1.82,0.043,4.1,12.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,110,5.5,13,18.5,0.94,0.94,1.48,0.039,3.9,12.7,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,111,5.55,13,18.5,0.92,0.95,1.59,0.047,4.6,13.0,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,112,5.6,13,18.4,0.82,0.93,1.52,0.028,3.0,13.2,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,113,5.65,13,18.5,-0.15,0.94,1.5,0.045,4.2,13.1,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,114,5.7,12,17.1,-1.48,1.72,12.8,0.123,10.1,12.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,115,5.75,12,17.1,-1.42,0.85,1.36,0.051,4.5,12.6,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,116,5.8,13,18.2,-0.28,1.29,6.44,0.051,5.0,12.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,117,5.85,13,18.3,-0.26,0.91,1.57,0.049,4.5,12.4,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,118,5.9,13,18.2,-0.36,0.88,1.4,0.114,10.3,12.2,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,119,5.95,14,18.6,0.13,0.93,1.37,0.031,2.8,12.2,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,120,6.0,14,18.5,0.08,0.9,1.5,0.072,7.5,12.1,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,121,6.05,14,18.5,0.14,0.95,1.68,0.071,6.0,12.1,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,122,6.1,14,18.5,0.04,0.81,1.19,0.079,8.2,12.0,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,123,6.15,14,19.5,2.35,0.98,1.52,0.057,8.4,12.0,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,124,6.2,14,18.7,1.59,0.98,2.18,0.073,12.2,12.2,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,125,6.25,14,18.8,0.53,0.85,1.18,0.086,8.5,12.3,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,126,6.3,14,18.8,0.56,0.91,1.26,0.067,5.9,12.4,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,127,6.35,14,18.8,0.58,0.91,1.51,0.038,3.4,12.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,128,6.4,14,18.8,0.24,0.87,1.33,0.036,3.1,12.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,129,6.45,14,18.8,0.3,0.98,1.49,0.047,4.4,12.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,130,6.5,14,18.8,0.27,0.91,1.63,0.036,4.1,12.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,131,6.55,14,19.9,1.44,1.22,7.82,0.073,12.7,12.7,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,132,6.6,14,18.8,-0.64,1.35,11.91,0.08,28.7,12.6,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,133,6.65,14,18.9,0.16,0.96,1.61,0.049,4.5,12.4,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,134,6.7,14,18.9,0.14,0.93,1.59,0.047,4.1,12.2,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,135,6.75,14,18.9,0.06,0.9,1.46,0.05,4.5,12.2,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,136,6.8,15,18.7,-0.06,0.99,1.76,0.058,5.6,12.2,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,137,6.85,15,18.8,-0.04,0.95,1.45,0.039,3.2,12.1,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,138,6.9,15,18.8,-0.08,0.88,1.39,0.047,4.4,12.0,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,139,6.95,15,18.8,-0.01,0.92,1.56,0.054,5.1,11.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,140,7.0,15,18.8,-1.15,0.96,1.59,0.048,4.6,11.7,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,141,7.05,15,18.8,-0.05,0.91,1.38,0.067,6.5,11.6,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,142,7.1,15,18.7,-0.12,0.9,1.54,0.03,2.9,11.6,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,143,7.15,15,18.7,-0.19,0.92,1.47,0.076,6.6,11.6,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,144,7.2,15,18.7,-0.13,0.85,1.32,0.077,7.0,11.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,145,7.25,15,18.7,-0.01,0.89,1.38,0.027,2.4,11.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,146,7.3,15,18.7,-0.07,0.83,1.36,0.07,6.3,11.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,147,7.35,15,18.7,-0.04,0.89,1.17,0.047,5.3,11.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,148,7.4,15,18.7,-0.07,0.92,1.34,0.065,5.8,11.4,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,149,7.45,15,18.8,-0.02,0.9,1.39,0.017,1.6,11.4,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,150,7.5,16,19.8,1.08,0.96,2.8,0.067,8.1,11.4,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,151,7.55,16,19.8,1.08,0.84,1.13,0.1,9.0,11.6,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,152,7.6,16,19.7,1.02,0.97,1.6,0.1,13.9,11.7,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,153,7.65,16,19.7,0.95,0.89,1.25,0.04,3.6,11.8,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,154,7.7,16,19.6,0.93,0.87,1.58,0.047,4.3,11.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,155,7.75,16,19.6,0.92,0.95,1.73,0.093,8.5,12.0,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,156,7.8,16,19.6,0.92,0.85,1.26,0.031,2.6,12.1,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,157,7.85,15,18.2,-0.51,2.69,33.05,0.109,23.5,12.3,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,158,7.9,15,18.2,-0.57,0.91,1.4,0.072,6.3,12.3,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,159,7.95,14,17.8,-2.08,2.23,23.21,0.125,32.6,12.3,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,160,8.0,14,17.8,-2.01,0.94,1.52,0.065,5.2,11.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,161,8.05,14,17.8,-1.95,0.97,1.7,0.031,2.8,11.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,162,8.1,14,17.8,-1.92,0.97,1.66,0.052,4.7,11.8,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,163,8.15,14,17.8,-1.89,0.94,1.8,0.029,2.8,11.8,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,164,8.2,14,17.8,-1.88,0.93,1.66,0.053,4.9,11.8,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,165,8.25,14,17.7,-1.88,0.9,1.45,0.038,3.5,11.8,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,166,8.3,14,17.8,-0.45,0.9,1.55,0.073,6.5,11.4,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,167,8.35,14,17.7,-0.49,0.91,1.3,0.024,2.1,11.1,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,168,8.4,15,19.0,1.23,1.29,7.82,0.043,7.4,11.1,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,169,8.45,15,19.0,1.21,0.82,1.28,0.071,6.7,11.1,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,170,8.5,15,19.0,1.26,0.89,1.44,0.074,6.6,11.1,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,171,8.55,15,19.0,1.25,0.92,1.38,0.038,3.4,11.1,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,172,8.6,15,19.0,1.29,0.87,1.18,0.029,3.0,11.0,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,173,8.65,15,18.7,0.94,1.17,8.26,0.082,20.8,11.3,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,174,8.7,15,18.8,1.0,1.83,12.23,0.087,28.5,11.6,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,175,8.75,15,19.1,1.35,1.1,8.49,0.115,23.9,12.0,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,176,8.8,15,19.1,1.4,0.98,1.36,0.045,4.2,12.2,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,177,8.85,14,17.7,-1.27,1.75,15.82,0.098,28.9,12.2,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,178,8.9,14,17.8,-1.22,0.83,1.17,0.045,4.1,12.1,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,179,8.95,14,17.8,-1.29,0.89,1.38,0.039,3.3,11.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,180,9.0,14,17.8,-1.27,0.86,1.49,0.079,7.3,11.6,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,181,9.05,14,17.1,-1.94,1.8,10.74,0.04,4.4,11.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,182,9.1,14,17.1,-1.61,0.92,1.56,0.047,4.2,11.5,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,183,9.15,14,17.1,-1.66,0.96,1.67,0.038,3.4,11.3,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,184,9.2,14,17.1,-2.0,0.87,1.39,0.08,7.0,11.0,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,185,9.25,14,17.1,-1.99,0.91,1.5,0.009,0.7,11.0,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,186,9.3,14,17.1,-0.61,0.98,1.66,0.069,5.7,11.0,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,187,9.35,14,17.1,-0.66,0.87,1.53,0.041,3.8,11.0,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,188,9.4,14,17.1,-0.62,0.94,1.44,0.036,3.3,11.0,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,189,9.45,14,17.2,-0.61,0.91,1.68,0.072,6.5,10.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,190,9.5,14,17.2,0.06,0.87,1.6,0.018,1.7,10.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,191,9.55,14,17.2,0.08,0.93,1.43,0.068,6.0,10.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,192,9.6,14,17.2,0.09,0.82,1.18,0.063,6.0,10.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,193,9.65,14,17.2,0.06,0.91,1.45,0.044,3.7,10.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,194,9.7,14,17.2,0.06,0.88,1.4,0.032,3.6,10.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,195,9.75,14,17.2,0.1,0.87,1.38,0.044,4.4,10.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,196,9.8,14,17.2,0.09,0.87,1.47,0.039,3.9,10.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,197,9.85,14,17.2,0.08,0.84,1.28,0.064,5.6,10.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,198,9.9,15,17.7,0.52,0.85,1.26,0.063,6.4,10.9,NORMAL,NORMAL,22
+seq_06_steady_concourse.mp4,199,9.95,15,17.7,0.51,0.86,1.25,0.094,8.4,11.1,NORMAL,NORMAL,22
