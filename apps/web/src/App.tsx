@@ -44,6 +44,7 @@ import { Toaster } from '@/components/ui/toaster';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import NotFound from '@/pages/not-found';
 import { LandingPage } from '@/pages/LandingPage';
+import { VideoTestBench } from '@/components/VideoTestBench';
 import {
   getGetAlertsQueryKey,
   getGetAnalysisSessionQueryKey,
@@ -78,6 +79,7 @@ type Tone = 'teal' | 'amber' | 'red' | 'green' | 'slate';
 
 const navItems: { href: string; label: string; icon: LucideIcon }[] = [
   { href: '/dashboard', label: 'Live overview', icon: LayoutDashboard },
+  { href: '/results', label: 'Video Testbench', icon: Video },
   { href: '/monitor', label: 'Monitor', icon: Radio },
   { href: '/cameras', label: 'Cameras', icon: Camera },
   { href: '/alerts', label: 'Alert history', icon: Bell },
@@ -96,11 +98,11 @@ function toneForRisk(level?: string): Tone {
 
 function toneClasses(tone: Tone) {
   return {
-    teal: 'bg-[#e4f4f2] text-[#12696d] border-[#b9dfda]',
-    amber: 'bg-[#fff4d6] text-[#956d00] border-[#f2d47d]',
-    red: 'bg-[#fce8e5] text-[#ad342d] border-[#f2bbb4]',
-    green: 'bg-[#e4f2e8] text-[#267250] border-[#b7d8c3]',
-    slate: 'bg-[#edf1f2] text-[#53646c] border-[#d5dfe1]',
+    teal: 'bg-orange-50 text-orange-700 border-orange-200',
+    amber: 'bg-amber-50 text-amber-800 border-amber-200',
+    red: 'bg-red-50 text-red-700 border-red-200',
+    green: 'bg-emerald-50 text-emerald-700 border-emerald-200',
+    slate: 'bg-slate-100 text-slate-700 border-slate-200',
   }[tone];
 }
 
@@ -119,17 +121,17 @@ function formatDate(value?: string) {
 }
 
 function MetricSkeleton() {
-  return <div className="h-24 animate-pulse rounded-xl bg-slate-200/70" />;
+  return <div className="h-24 animate-pulse rounded-xl bg-slate-100" />;
 }
 
 function PageError({ message, retry }: { message?: string; retry: () => void }) {
   return (
-    <div data-testid="state-error" className="flex min-h-[360px] items-center justify-center rounded-2xl border border-[#f2bbb4] bg-[#fff6f4] p-8 text-center">
+    <div data-testid="state-error" className="flex min-h-[360px] items-center justify-center rounded-2xl border border-red-200 bg-red-50/50 p-8 text-center">
       <div>
-        <CircleOff className="mx-auto mb-3 text-[#ad342d]" size={28} />
-        <h2 className="font-bold text-[#6d2925]">Signal unavailable</h2>
-        <p className="mt-1 max-w-sm text-sm text-[#8f514b]">{message ?? 'The service did not return a usable response.'}</p>
-        <button data-testid="button-retry" onClick={retry} className="mt-5 inline-flex items-center gap-2 rounded-lg bg-[#12696d] px-4 py-2 text-sm font-bold text-white transition hover:bg-[#0d5559]">
+        <CircleOff className="mx-auto mb-3 text-red-600" size={28} />
+        <h2 className="font-bold text-slate-900">Signal unavailable</h2>
+        <p className="mt-1 max-w-sm text-sm text-slate-600">{message ?? 'The service did not return a usable response.'}</p>
+        <button data-testid="button-retry" onClick={retry} className="mt-5 inline-flex items-center gap-2 rounded-lg bg-orange-600 hover:bg-orange-700 px-4 py-2 text-sm font-semibold text-white transition shadow-sm">
           <RefreshCw size={14} /> Retry connection
         </button>
       </div>
@@ -139,25 +141,25 @@ function PageError({ message, retry }: { message?: string; retry: () => void }) 
 
 function EmptyState({ icon: Icon, title, body }: { icon: LucideIcon; title: string; body: string }) {
   return (
-    <div data-testid="state-empty" className="flex min-h-[260px] flex-col items-center justify-center rounded-2xl border border-dashed border-[#cbd9da] bg-[#f9fbfa] p-8 text-center">
-      <div className="mb-4 rounded-xl bg-[#e4f4f2] p-3 text-[#12696d]"><Icon size={23} /></div>
-      <h2 className="font-bold text-[#20343b]">{title}</h2>
-      <p className="mt-1 max-w-sm text-sm leading-6 text-[#6d7d83]">{body}</p>
+    <div data-testid="state-empty" className="flex min-h-[260px] flex-col items-center justify-center rounded-2xl border border-dashed border-slate-200 bg-white p-8 text-center">
+      <div className="mb-4 rounded-xl bg-orange-50 p-3 text-orange-600 border border-orange-200"><Icon size={22} /></div>
+      <h2 className="font-bold text-slate-900">{title}</h2>
+      <p className="mt-1 max-w-sm text-sm leading-6 text-slate-500">{body}</p>
     </div>
   );
 }
 
 function Badge({ children, tone = 'slate', className = '' }: { children: ReactNode; tone?: Tone; className?: string }) {
-  return <span className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-[.13em] ${toneClasses(tone)} ${className}`}>{children}</span>;
+  return <span className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider ${toneClasses(tone)} ${className}`}>{children}</span>;
 }
 
 function SectionTitle({ eyebrow, title, detail, action }: { eyebrow?: string; title: string; detail?: string; action?: ReactNode }) {
   return (
     <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
       <div>
-        {eyebrow && <div className="mb-2 font-mono text-[10px] font-medium uppercase tracking-[.18em] text-[#8a9a9d]">{eyebrow}</div>}
-        <h1 className="text-[27px] font-extrabold tracking-[-.04em] text-[#20343b]">{title}</h1>
-        {detail && <p className="mt-1 text-sm text-[#708085]">{detail}</p>}
+        {eyebrow && <div className="mb-1.5 font-mono text-[10px] font-bold uppercase tracking-[.18em] text-orange-600">{eyebrow}</div>}
+        <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">{title}</h1>
+        {detail && <p className="mt-1 text-sm text-slate-600">{detail}</p>}
       </div>
       {action}
     </div>
@@ -170,58 +172,57 @@ function Shell({ children }: { children: ReactNode }) {
   const activePath = location;
 
   return (
-    <div className="min-h-[100dvh] bg-[#f1f6f5] text-[#20343b]">
-      <aside className={`fixed inset-y-0 left-0 z-40 flex w-[255px] flex-col border-r border-[#243e42] bg-[#11272c] text-[#dbe8e6] transition-transform duration-200 lg:translate-x-0 ${mobileOpen ? 'translate-x-0' : '-translate-x-full'}`}>
-        <div className="flex h-[84px] items-center border-b border-[#243e42] px-6">
+    <div className="min-h-[100dvh] bg-slate-50 text-slate-900 font-sans">
+      <aside className={`fixed inset-y-0 left-0 z-40 flex w-[255px] flex-col border-r border-slate-800 bg-slate-950 text-slate-200 transition-transform duration-200 lg:translate-x-0 ${mobileOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+        <div className="flex h-[76px] items-center border-b border-slate-800 px-6">
           <Link href="/" data-testid="link-brand" className="flex items-center gap-3" onClick={() => setMobileOpen(false)}>
-            <div className="relative flex h-9 w-9 items-center justify-center rounded-[10px] bg-gradient-to-tr from-[#14b8a6] to-[#f59e0b] text-[#11272c] shadow-[0_0_15px_rgba(20,184,166,0.4)]">
-              <ShieldCheck size={22} strokeWidth={2.6} />
-              <span className="signal-pulse absolute -right-1 -top-1 h-2.5 w-2.5 rounded-full bg-[#ef4444] ring-2 ring-[#11272c]" />
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-orange-600 text-white shadow-sm">
+              <ShieldCheck size={20} strokeWidth={2.4} />
             </div>
             <div>
-              <div className="text-[15px] font-black tracking-tight text-white">CrowdSentinel</div>
-              <div className="font-mono text-[9px] uppercase tracking-[.19em] text-[#14b8a6]">AI Safety Hub</div>
+              <div className="text-sm font-bold tracking-tight text-white">CrowdSentinel</div>
+              <div className="font-mono text-[9px] uppercase tracking-[.18em] text-orange-500">Safety & Risk Monitor</div>
             </div>
           </Link>
         </div>
-        <div className="px-4 pt-6">
-          <Link href="/" onClick={() => setMobileOpen(false)} className={`mb-3 flex items-center gap-3 rounded-xl px-3.5 py-2.5 text-[13px] font-bold transition ${activePath === '/' || activePath === '/home' ? 'bg-[#14b8a6] text-[#091518]' : 'text-[#9ab7b4] hover:bg-[#1a383f] hover:text-white'}`}>
-            <Home size={17} /> Home / Landing
+        <div className="px-3 pt-5">
+          <Link href="/" onClick={() => setMobileOpen(false)} className={`mb-3 flex items-center gap-3 rounded-lg px-3 py-2 text-xs font-semibold transition ${activePath === '/' || activePath === '/home' ? 'bg-orange-600 text-white' : 'text-slate-400 hover:bg-slate-900 hover:text-white'}`}>
+            <Home size={16} /> Home / Landing
           </Link>
-          <div className="mb-2 px-3 font-mono text-[9px] font-bold uppercase tracking-[.2em] text-[#698a87]">Operations Workspace</div>
+          <div className="mb-2 px-3 font-mono text-[9px] font-bold uppercase tracking-[.18em] text-slate-500">Operations Console</div>
           <nav className="space-y-1">
             {navItems.map(({ href, label, icon: Icon }) => (
-              <Link key={href} href={href} data-testid={`link-nav-${label.toLowerCase().replaceAll(' ', '-')}`} onClick={() => setMobileOpen(false)} className={`group flex items-center gap-3 rounded-xl px-3.5 py-2.5 text-[13px] font-semibold transition ${activePath === href ? 'bg-[#1e4850] text-white shadow-sm' : 'text-[#9ab7b4] hover:bg-[#173339] hover:text-white'}`}>
-                <Icon size={17} strokeWidth={activePath === href ? 2.4 : 1.9} />
+              <Link key={href} href={href} data-testid={`link-nav-${label.toLowerCase().replaceAll(' ', '-')}`} onClick={() => setMobileOpen(false)} className={`group flex items-center gap-3 rounded-lg px-3 py-2 text-xs font-semibold transition ${activePath === href ? 'bg-orange-600 text-white shadow-xs' : 'text-slate-400 hover:bg-slate-900 hover:text-white'}`}>
+                <Icon size={16} strokeWidth={activePath === href ? 2.4 : 1.9} />
                 <span>{label}</span>
-                {href === '/research' && <span className="ml-auto rounded bg-[#f59e0b]/20 px-1.5 py-0.5 font-mono text-[9px] font-bold text-[#f59e0b]">IEEE</span>}
-                {href === '/alerts' && <span className="ml-auto h-2 w-2 rounded-full bg-[#ef4444]" />}
+                {href === '/research' && <span className="ml-auto rounded bg-orange-500/20 px-1.5 py-0.5 font-mono text-[9px] font-bold text-orange-400">IEEE</span>}
+                {href === '/alerts' && <span className="ml-auto h-2 w-2 rounded-full bg-red-500" />}
               </Link>
             ))}
           </nav>
         </div>
-        <div className="mt-auto p-4 border-t border-[#1e3c42]">
-          <Link href="/settings" data-testid="link-settings" onClick={() => setMobileOpen(false)} className={`mb-1.5 flex items-center gap-3 rounded-lg px-3 py-2 text-[13px] font-semibold ${activePath === '/settings' ? 'bg-[#1e4850] text-white' : 'text-[#9ab7b4] hover:bg-[#173339] hover:text-white'}`}>
-            <Settings2 size={16} /> Risk Settings
+        <div className="mt-auto p-4 border-t border-slate-800">
+          <Link href="/settings" data-testid="link-settings" onClick={() => setMobileOpen(false)} className={`mb-1 flex items-center gap-3 rounded-lg px-3 py-2 text-xs font-semibold ${activePath === '/settings' ? 'bg-orange-600 text-white' : 'text-slate-400 hover:bg-slate-900 hover:text-white'}`}>
+            <Settings2 size={15} /> Risk Settings
           </Link>
-          <Link href="/about" data-testid="link-about" onClick={() => setMobileOpen(false)} className={`flex items-center gap-3 rounded-lg px-3 py-2 text-[13px] font-semibold ${activePath === '/about' ? 'bg-[#1e4850] text-white' : 'text-[#9ab7b4] hover:bg-[#173339] hover:text-white'}`}>
-            <CircleHelp size={16} /> Methodology Limits
+          <Link href="/about" data-testid="link-about" onClick={() => setMobileOpen(false)} className={`flex items-center gap-3 rounded-lg px-3 py-2 text-xs font-semibold ${activePath === '/about' ? 'bg-orange-600 text-white' : 'text-slate-400 hover:bg-slate-900 hover:text-white'}`}>
+            <CircleHelp size={15} /> Methodology Limits
           </Link>
         </div>
       </aside>
-      {mobileOpen && <button data-testid="button-close-mobile-nav" aria-label="Close navigation" onClick={() => setMobileOpen(false)} className="fixed inset-0 z-30 bg-[#0e2529]/50 lg:hidden" />}
+      {mobileOpen && <button data-testid="button-close-mobile-nav" aria-label="Close navigation" onClick={() => setMobileOpen(false)} className="fixed inset-0 z-30 bg-slate-950/60 lg:hidden" />}
       <main className="min-h-[100dvh] lg:pl-[255px]">
-        <header className="sticky top-0 z-20 flex h-[70px] items-center justify-between border-b border-[#dce7e5] bg-[#f1f6f5]/95 px-5 backdrop-blur-md sm:px-8">
+        <header className="sticky top-0 z-20 flex h-[68px] items-center justify-between border-b border-slate-200 bg-white/95 px-5 backdrop-blur-md sm:px-8">
           <div className="flex items-center gap-3">
-            <button data-testid="button-open-mobile-nav" aria-label="Open navigation" onClick={() => setMobileOpen(true)} className="rounded-lg p-2 text-[#456167] hover:bg-[#e1eeeb] lg:hidden"><Menu size={19} /></button>
-            <div className="hidden items-center gap-2 font-mono text-[10px] uppercase tracking-[.15em] text-[#809094] sm:flex"><span className="h-2 w-2 rounded-full bg-[#10b981] animate-pulse" /> Computer Vision Engine Active</div>
+            <button data-testid="button-open-mobile-nav" aria-label="Open navigation" onClick={() => setMobileOpen(true)} className="rounded-lg p-2 text-slate-600 hover:bg-slate-100 lg:hidden"><Menu size={18} /></button>
+            <div className="hidden items-center gap-2 font-mono text-[10px] uppercase tracking-[.15em] text-slate-500 sm:flex"><span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" /> Computer Vision Engine Active</div>
           </div>
           <div className="flex items-center gap-3">
-            <Link href="/" className="inline-flex items-center gap-1.5 rounded-full border border-[#cbd9d7] bg-white px-3.5 py-1.5 text-xs font-bold text-[#12696d] shadow-sm hover:border-[#12696d]">
-              <Sparkles size={13} className="text-[#f59e0b]" /> View Landing Page
+            <Link href="/" className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-xs font-semibold text-slate-700 shadow-2xs hover:bg-slate-50">
+              View Landing Page
             </Link>
-            <Link href="/research" className="hidden items-center gap-2 rounded-full border border-[#d3e2df] bg-white/80 px-3 py-1.5 sm:flex font-mono text-xs font-bold text-[#456167]">
-              <span>IEEE Paper Ready</span>
+            <Link href="/research" className="hidden items-center gap-1.5 rounded-lg border border-slate-200 bg-slate-50 px-3 py-1.5 sm:flex font-mono text-xs font-semibold text-slate-700">
+              <span>IEEE Paper Package</span>
             </Link>
           </div>
         </header>
@@ -245,11 +246,11 @@ function DashboardPage() {
 
   return (
     <div className="scan-in">
-      <SectionTitle eyebrow={`Live operations · refreshed ${formatTime(dashboard.updatedAt)}`} title="Situation Overview" detail="Real-time multi-modal computer vision telemetry across spatial density, Farnebäck optical flow, and rate-of-change indicators." action={<button data-testid="button-refresh-dashboard" onClick={refresh} className="inline-flex items-center gap-2 rounded-xl border border-[#cadbd8] bg-white px-4 py-2.5 text-xs font-extrabold text-[#456167] shadow-sm transition hover:border-[#12696d] hover:text-[#12696d]"><RefreshCw size={14} /> Refresh Signal</button>} />
+      <SectionTitle eyebrow={`Live operations · refreshed ${formatTime(dashboard.updatedAt)}`} title="Situation Overview" detail="Real-time multi-modal computer vision telemetry across spatial density, Farnebäck optical flow, and rate-of-change indicators." action={<button data-testid="button-refresh-dashboard" onClick={refresh} className="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-4 py-2 text-xs font-semibold text-slate-700 shadow-2xs transition hover:border-orange-600 hover:text-orange-600"><RefreshCw size={13} /> Refresh Signal</button>} />
       <div className="mb-5 flex flex-wrap items-center gap-2">
         <Badge tone={dashboard.mode?.toLowerCase().includes('demo') ? 'amber' : 'teal'}><span className="h-1.5 w-1.5 rounded-full bg-current" /> {dashboard.mode || 'Live mode'}</Badge>
         <Badge tone="slate"><Database size={11} /> {dashboard.source || 'Unknown source'}</Badge>
-        <span className="ml-1 text-xs font-mono text-[#809094]">Latency: ~27ms · 36.8 FPS Real-time</span>
+        <span className="ml-1 text-xs font-mono text-slate-500">Latency: ~27ms · 36.8 FPS Real-time</span>
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
@@ -260,27 +261,27 @@ function DashboardPage() {
       </div>
 
       <div className="mt-6 grid gap-6 lg:grid-cols-[1.3fr_0.7fr]">
-        <section className="overflow-hidden rounded-3xl border border-[#d8e5e2] bg-white p-6 shadow-[0_10px_30px_rgba(28,64,67,.05)] sm:p-8">
-          <div className="flex items-center justify-between border-b border-[#e4ecea] pb-5">
+        <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+          <div className="flex items-center justify-between border-b border-slate-100 pb-4">
             <div>
-              <div className="font-mono text-[10px] uppercase tracking-[.17em] text-[#8b9b9d]">Explainable Decision-Support Engine</div>
-              <h2 className="mt-1 text-xl font-extrabold text-[#20343b]">Composite Risk Posture</h2>
+              <div className="font-mono text-[10px] uppercase tracking-[.17em] text-orange-600">Explainable Decision-Support Engine</div>
+              <h2 className="mt-1 text-lg font-bold text-slate-900">Composite Risk Posture</h2>
             </div>
-            <Badge tone={riskTone} className="px-3 py-1.5 text-xs font-black">{dashboard.riskLevel} · {score.toFixed(0)}/100</Badge>
+            <Badge tone={riskTone} className="px-3 py-1 text-xs font-bold">{dashboard.riskLevel} · {score.toFixed(0)}/100</Badge>
           </div>
 
           <div className="mt-6 grid gap-8 md:grid-cols-[200px_1fr]">
-            <div className="flex flex-col items-center justify-center rounded-2xl bg-[#f4faf8] p-5 border border-[#dcebe8]">
+            <div className="flex flex-col items-center justify-center rounded-xl bg-slate-50 p-5 border border-slate-200">
               <div className="relative flex h-36 w-36 items-center justify-center">
                 <svg className="h-full w-full -rotate-90 transform" viewBox="0 0 100 100">
-                  <circle cx="50" cy="50" r="40" fill="transparent" stroke="#e2ecea" strokeWidth="9" />
+                  <circle cx="50" cy="50" r="40" fill="transparent" stroke="#e2e8f0" strokeWidth="8" />
                   <circle
                     cx="50"
                     cy="50"
                     r="40"
                     fill="transparent"
-                    stroke={score >= 76 ? '#ef4444' : score >= 51 ? '#f97316' : score >= 31 ? '#f59e0b' : '#10b981'}
-                    strokeWidth="9"
+                    stroke={score >= 76 ? '#dc2626' : score >= 51 ? '#ea580c' : score >= 31 ? '#d97706' : '#16a34a'}
+                    strokeWidth="8"
                     strokeDasharray="251.2"
                     strokeDashoffset={251.2 - (251.2 * score) / 100}
                     strokeLinecap="round"
@@ -288,33 +289,33 @@ function DashboardPage() {
                   />
                 </svg>
                 <div className="absolute text-center">
-                  <div className="text-3xl font-black text-[#20343b]">{score.toFixed(0)}</div>
-                  <div className="font-mono text-[9px] uppercase text-[#81999c]">/ 100 Score</div>
+                  <div className="text-3xl font-bold text-slate-900">{score.toFixed(0)}</div>
+                  <div className="font-mono text-[9px] uppercase text-slate-400">/ 100 Score</div>
                 </div>
               </div>
-              <div className="mt-3 text-center text-xs font-bold text-[#56757b]">
+              <div className="mt-3 text-center text-xs font-semibold text-slate-600">
                 {score >= 51 ? 'Escalation Detected' : 'Safe Operational Band'}
               </div>
             </div>
 
             <div>
               <div className="mb-3 flex items-center justify-between">
-                <span className="text-xs font-bold uppercase tracking-wider text-[#688084]">Contributing Visual Signals</span>
-                <span className="font-mono text-[10px] text-[#9aa8a8]">Exact % Contribution</span>
+                <span className="text-xs font-semibold uppercase tracking-wider text-slate-500">Contributing Signals</span>
+                <span className="font-mono text-[10px] text-slate-400">Exact % Contribution</span>
               </div>
               <FactorBar label="Occupancy Density (D)" value={dashboard.factors.density} color="teal" />
               <FactorBar label="Inflow Growth (ΔD)" value={dashboard.factors.densityIncrease} color="red" />
               <FactorBar label="Movement Velocity (M)" value={dashboard.factors.movementChange} color="amber" />
               <FactorBar label="Flow Turbulence (σ²_θ, I_flow)" value={dashboard.factors.flowIrregularity} color="slate" />
-              <div className="mt-4 flex items-center justify-between border-t border-[#e4ecea] pt-3 text-xs">
-                <span className="text-[#708286]">Classified Movement State</span>
-                <span className="font-extrabold text-[#20343b]">{dashboard.movementState || 'Laminar Flow'}</span>
+              <div className="mt-4 flex items-center justify-between border-t border-slate-100 pt-3 text-xs">
+                <span className="text-slate-500 font-medium">Classified Movement State</span>
+                <span className="font-bold text-slate-900">{dashboard.movementState || 'Laminar Flow'}</span>
               </div>
             </div>
           </div>
 
-          <div className="mt-8 border-t border-[#e4ecea] pt-6">
-            <div className="mb-3 font-mono text-[10px] font-bold uppercase tracking-wider text-[#8b9b9d]">
+          <div className="mt-8 border-t border-slate-100 pt-6">
+            <div className="mb-3 font-mono text-[10px] font-bold uppercase tracking-wider text-slate-500">
               Spatial 4-Quadrant Partitioning Grid (2x2)
             </div>
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
@@ -324,11 +325,11 @@ function DashboardPage() {
                 { name: 'Zone C (Bottom-Left)', count: Math.round(dashboard.currentCount * 0.18), density: `${(dashboard.density * 0.6).toFixed(1)}%` },
                 { name: 'Zone D (Bottom-Right)', count: Math.round(dashboard.currentCount * 0.32), density: `${(dashboard.density * 1.2).toFixed(1)}%` },
               ].map((zone, idx) => (
-                <div key={idx} className="rounded-xl border border-[#dbe7e5] bg-[#fbfdfc] p-3">
-                  <div className="text-[11px] font-extrabold text-[#405b60]">{zone.name}</div>
+                <div key={idx} className="rounded-xl border border-slate-200 bg-slate-50/60 p-3">
+                  <div className="text-[11px] font-bold text-slate-700">{zone.name}</div>
                   <div className="mt-1 flex items-baseline justify-between">
-                    <span className="text-base font-black text-[#20343b]">{zone.count} people</span>
-                    <span className="font-mono text-xs font-bold text-[#12696d]">{zone.density}</span>
+                    <span className="text-base font-bold text-slate-900">{zone.count} people</span>
+                    <span className="font-mono text-xs font-bold text-orange-600">{zone.density}</span>
                   </div>
                 </div>
               ))}
@@ -336,30 +337,30 @@ function DashboardPage() {
           </div>
         </section>
 
-        <section className="rounded-3xl border border-[#d8e5e2] bg-[#132b31] p-6 text-[#e0edeb] shadow-[0_10px_30px_rgba(28,64,67,.08)]">
+        <section className="rounded-2xl border border-slate-800 bg-slate-950 p-6 text-slate-200 shadow-sm">
           <div className="flex items-center justify-between">
             <div>
-              <div className="font-mono text-[10px] uppercase tracking-[.17em] text-[#80a4a0]">Operational Directive</div>
-              <h2 className="mt-1 text-lg font-extrabold text-white">Live Advisory Protocol</h2>
+              <div className="font-mono text-[10px] uppercase tracking-[.17em] text-orange-500">Operational Directive</div>
+              <h2 className="mt-1 text-base font-bold text-white">Live Advisory Protocol</h2>
             </div>
-            <Sparkles size={18} className="text-[#f4c84d]" />
+            <ShieldCheck size={18} className="text-orange-500" />
           </div>
 
-          <div className="mt-6 rounded-2xl border border-[#2b5157] bg-[#1a3840] p-4 text-xs leading-relaxed text-[#cde6e2]">
-            <strong className="block font-bold text-[#f4c84d] mb-1">Recommended Action:</strong>
+          <div className="mt-5 rounded-xl border border-slate-800 bg-slate-900 p-4 text-xs leading-relaxed text-slate-300">
+            <strong className="block font-bold text-orange-400 mb-1">Recommended Action:</strong>
             {score >= 51
               ? 'Elevated bottleneck risk detected. Dispatch floor marshals to check intake gates and prepare auxiliary diversion.'
               : 'Crowd movement parameters are operating within standard safe bands. Continue automated observation.'}
           </div>
 
-          <div className="mt-6 space-y-4">
+          <div className="mt-5 space-y-4">
             <BriefLine icon={Layers3} label="Spatial Density" value={`${dashboard.density.toFixed(1)}%`} note="relative image-space occupancy" />
             <BriefLine icon={ArrowUpRight} label="Dominant Flow" value={dashboard.direction || 'North-East'} note={dashboard.movementState || 'Normal continuous stream'} />
             <BriefLine icon={Clock3} label="Telemetry Timestamp" value={formatTime(dashboard.updatedAt)} note="Zero temporal latency read" />
           </div>
 
-          <Link href="/alerts" className="mt-8 flex items-center justify-between border-t border-[#294c52] pt-4 text-xs font-extrabold text-[#f4c84d] hover:text-white">
-            View All Triggered Alerts <ChevronRight size={15} />
+          <Link href="/alerts" className="mt-6 flex items-center justify-between border-t border-slate-800 pt-4 text-xs font-semibold text-orange-400 hover:text-white">
+            View All Triggered Alerts <ChevronRight size={14} />
           </Link>
         </section>
       </div>
@@ -368,16 +369,40 @@ function DashboardPage() {
 }
 
 function MetricCard({ label, value, detail, icon: Icon, tone, testId }: { label: string; value: string; detail: string; icon: LucideIcon; tone: Tone; testId: string }) {
-  return <div data-testid={testId} className="rounded-2xl border border-[#d8e5e2] bg-white p-5 shadow-[0_8px_24px_rgba(28,64,67,.04)]"><div className="flex items-start justify-between"><span className="text-[11px] font-bold uppercase tracking-[.1em] text-[#809094]">{label}</span><div className={`rounded-lg border p-2 ${toneClasses(tone)}`}><Icon size={16} /></div></div><div className="mt-4 text-[28px] font-extrabold tracking-[-.06em] text-[#20343b]">{value}</div><div className="mt-1 font-mono text-[10px] uppercase tracking-wider text-[#9aa8a8]">{detail}</div></div>;
+  return <div data-testid={testId} className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm"><div className="flex items-start justify-between"><span className="text-[11px] font-semibold uppercase tracking-wider text-slate-500">{label}</span><div className={`rounded-lg border p-2 ${toneClasses(tone)}`}><Icon size={15} /></div></div><div className="mt-3 text-2xl font-bold tracking-tight text-slate-900">{value}</div><div className="mt-0.5 font-mono text-[10px] uppercase tracking-wider text-slate-400">{detail}</div></div>;
 }
 
 function FactorBar({ label, value, color }: { label: string; value: number; color: Tone }) {
   const percent = Math.min(100, Math.max(0, value));
-  return <div className="mb-4"><div className="mb-1.5 flex justify-between text-xs"><span className="font-semibold text-[#546b70]">{label}</span><span className="font-mono text-[10px] text-[#7d8f91]">{percent.toFixed(0)}%</span></div><div className="h-1.5 rounded-full bg-[#edf2f0]"><div className={`h-full rounded-full ${color === 'red' ? 'bg-[#d65349]' : color === 'amber' ? 'bg-[#e6b528]' : color === 'slate' ? 'bg-[#77969a]' : 'bg-[#329383]'}`} style={{ width: `${percent}%` }} /></div></div>;
+  return (
+    <div className="mb-3.5">
+      <div className="mb-1 flex justify-between text-xs">
+        <span className="font-medium text-slate-600">{label}</span>
+        <span className="font-mono text-[10px] text-slate-400">{percent.toFixed(0)}%</span>
+      </div>
+      <div className="h-1.5 rounded-full bg-slate-100">
+        <div
+          className={`h-full rounded-full ${color === 'red' ? 'bg-red-500' : color === 'amber' ? 'bg-amber-500' : color === 'slate' ? 'bg-slate-400' : 'bg-orange-600'}`}
+          style={{ width: `${percent}%` }}
+        />
+      </div>
+    </div>
+  );
 }
 
 function BriefLine({ icon: Icon, label, value, note }: { icon: LucideIcon; label: string; value: string; note: string }) {
-  return <div className="flex gap-3"><div className="mt-0.5 text-[#f4c84d]"><Icon size={17} /></div><div><div className="text-[11px] font-bold uppercase tracking-wider text-[#8fb0ab]">{label}</div><div className="mt-1 text-xl font-extrabold text-white">{value}</div><div className="mt-0.5 text-xs text-[#88a3a0]">{note}</div></div></div>;
+  return (
+    <div className="flex gap-3">
+      <div className="mt-0.5 text-orange-400">
+        <Icon size={16} />
+      </div>
+      <div>
+        <div className="text-[10px] font-semibold uppercase tracking-wider text-slate-400">{label}</div>
+        <div className="mt-0.5 text-lg font-bold text-white">{value}</div>
+        <div className="text-xs text-slate-400">{note}</div>
+      </div>
+    </div>
+  );
 }
 
 function MonitorPage() {
@@ -663,18 +688,18 @@ function ResearchPage() {
           <button
             onClick={handleRunAll}
             disabled={running}
-            className="inline-flex items-center gap-2 rounded-lg bg-[#12696d] px-4 py-2.5 text-xs font-extrabold text-white transition hover:bg-[#0d5559] disabled:opacity-50"
+            className="inline-flex items-center gap-2 rounded-lg bg-orange-600 hover:bg-orange-700 px-4 py-2 text-xs font-semibold text-white transition shadow-sm disabled:opacity-50"
           >
-            {running ? <Loader2 size={15} className="animate-spin" /> : <Play size={15} />}
+            {running ? <Loader2 size={14} className="animate-spin" /> : <Play size={14} fill="currentColor" />}
             Run Full Experiment Suite
           </button>
         }
       />
 
       {runMessage && (
-        <div className="mb-5 flex items-center gap-2 rounded-lg border border-[#b9dfda] bg-[#eaf7f4] px-4 py-3 text-xs font-bold text-[#12696d]">
-          <Check size={16} /> {runMessage}
-          <button onClick={() => setRunMessage('')} className="ml-auto text-[#789094]">
+        <div className="mb-5 flex items-center gap-2 rounded-lg border border-orange-200 bg-orange-50 px-4 py-3 text-xs font-semibold text-orange-800">
+          <Check size={16} className="text-orange-600" /> {runMessage}
+          <button onClick={() => setRunMessage('')} className="ml-auto text-slate-400 hover:text-slate-600">
             <X size={15} />
           </button>
         </div>
@@ -682,61 +707,61 @@ function ResearchPage() {
 
       {/* Primary KPI Row */}
       <div className="mb-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
-        <div className="rounded-2xl border border-[#d8e5e2] bg-white p-4 shadow-sm">
-          <div className="text-[10px] font-bold uppercase tracking-wider text-[#8b9b9d]">Proposed F1-Score</div>
-          <div className="mt-2 text-2xl font-extrabold text-[#12696d]">
+        <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+          <div className="text-[10px] font-bold uppercase tracking-wider text-orange-600">Proposed F1-Score</div>
+          <div className="mt-1.5 text-2xl font-bold text-slate-900">
             {manifest?.summary_metrics?.proposed_f1_score ? manifest.summary_metrics.proposed_f1_score.toFixed(3) : '0.827'}
           </div>
-          <div className="mt-1 text-[11px] text-[#527974]">+0.503 over baseline</div>
+          <div className="mt-0.5 text-xs text-orange-700 font-medium">+0.503 over baseline</div>
         </div>
 
-        <div className="rounded-2xl border border-[#d8e5e2] bg-white p-4 shadow-sm">
-          <div className="text-[10px] font-bold uppercase tracking-wider text-[#8b9b9d]">False Alarm Rate</div>
-          <div className="mt-2 text-2xl font-extrabold text-[#267250]">
+        <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+          <div className="text-[10px] font-bold uppercase tracking-wider text-emerald-700">False Alarm Rate</div>
+          <div className="mt-1.5 text-2xl font-bold text-emerald-700">
             {manifest?.summary_metrics?.proposed_false_alarm_rate ? (manifest.summary_metrics.proposed_false_alarm_rate * 100).toFixed(1) + '%' : '0.0%'}
           </div>
-          <div className="mt-1 text-[11px] text-[#267250]">With persistence filter</div>
+          <div className="mt-0.5 text-xs text-emerald-700 font-medium">With persistence filter</div>
         </div>
 
-        <div className="rounded-2xl border border-[#d8e5e2] bg-white p-4 shadow-sm">
-          <div className="text-[10px] font-bold uppercase tracking-wider text-[#8b9b9d]">Early Warning Lead</div>
-          <div className="mt-2 text-2xl font-extrabold text-[#bf7817]">
+        <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+          <div className="text-[10px] font-bold uppercase tracking-wider text-orange-600">Early Warning Lead</div>
+          <div className="mt-1.5 text-2xl font-bold text-orange-600">
             {manifest?.summary_metrics?.proposed_mean_lead_time_sec ? manifest.summary_metrics.proposed_mean_lead_time_sec.toFixed(2) + 's' : '2.52s'}
           </div>
-          <div className="mt-1 text-[11px] text-[#8c5710]">Pre-event detection</div>
+          <div className="mt-0.5 text-xs text-slate-500">Pre-event detection</div>
         </div>
 
-        <div className="rounded-2xl border border-[#d8e5e2] bg-white p-4 shadow-sm">
-          <div className="text-[10px] font-bold uppercase tracking-wider text-[#8b9b9d]">Processing Speed</div>
-          <div className="mt-2 text-2xl font-extrabold text-[#24527a]">
+        <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+          <div className="text-[10px] font-bold uppercase tracking-wider text-slate-500">Processing Speed</div>
+          <div className="mt-1.5 text-2xl font-bold text-slate-900">
             {manifest?.summary_metrics?.processing_fps ? manifest.summary_metrics.processing_fps.toFixed(1) + ' FPS' : '7.4 FPS'}
           </div>
-          <div className="mt-1 text-[11px] text-[#52708b]">Full multi-modal CPU pipeline</div>
+          <div className="mt-0.5 text-xs text-slate-500">Full multi-modal CPU pipeline</div>
         </div>
       </div>
 
       {/* Tabs */}
-      <div className="mb-6 flex gap-2 border-b border-[#d8e5e2] pb-3">
+      <div className="mb-6 flex gap-2 border-b border-slate-200 pb-3">
         <button
           onClick={() => setActiveTab('tables')}
-          className={`rounded-lg px-4 py-2 text-xs font-extrabold transition ${
-            activeTab === 'tables' ? 'bg-[#12696d] text-white' : 'bg-white text-[#526a6f] hover:bg-[#eaf2f0]'
+          className={`rounded-lg px-4 py-2 text-xs font-semibold transition ${
+            activeTab === 'tables' ? 'bg-orange-600 text-white shadow-2xs' : 'bg-white border border-slate-200 text-slate-700 hover:bg-slate-50'
           }`}
         >
           IEEE Tables (I - VI)
         </button>
         <button
           onClick={() => setActiveTab('figures')}
-          className={`rounded-lg px-4 py-2 text-xs font-extrabold transition ${
-            activeTab === 'figures' ? 'bg-[#12696d] text-white' : 'bg-white text-[#526a6f] hover:bg-[#eaf2f0]'
+          className={`rounded-lg px-4 py-2 text-xs font-semibold transition ${
+            activeTab === 'figures' ? 'bg-orange-600 text-white shadow-2xs' : 'bg-white border border-slate-200 text-slate-700 hover:bg-slate-50'
           }`}
         >
           Publication Figures (Fig. 1 - 10)
         </button>
         <button
           onClick={() => setActiveTab('manifest')}
-          className={`rounded-lg px-4 py-2 text-xs font-extrabold transition ${
-            activeTab === 'manifest' ? 'bg-[#12696d] text-white' : 'bg-white text-[#526a6f] hover:bg-[#eaf2f0]'
+          className={`rounded-lg px-4 py-2 text-xs font-semibold transition ${
+            activeTab === 'manifest' ? 'bg-orange-600 text-white shadow-2xs' : 'bg-white border border-slate-200 text-slate-700 hover:bg-slate-50'
           }`}
         >
           Reproducibility Manifest
@@ -889,6 +914,12 @@ function Router() {
         <Route path="/home" component={LandingPage} />
         <Route path="/dashboard">
           {() => <Shell><DashboardPage /></Shell>}
+        </Route>
+        <Route path="/results">
+          {() => <Shell><VideoTestBench /></Shell>}
+        </Route>
+        <Route path="/test-bench">
+          {() => <Shell><VideoTestBench /></Shell>}
         </Route>
         <Route path="/monitor">
           {() => <Shell><MonitorPage /></Shell>}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @plugin "@tailwindcss/typography";
@@ -69,81 +69,62 @@
 
 /* LIGHT MODE */
 :root {
-  --button-outline: rgba(0, 0, 0, 0.1);
+  --button-outline: rgba(0, 0, 0, 0.08);
   --badge-outline: rgba(0, 0, 0, 0.05);
 
-  /* Automatic computation of border around primary / danger buttons */
-  --opaque-button-border-intensity: -8; /* In terms of percentages */
+  --opaque-button-border-intensity: -8;
 
-  /* Backgrounds applied on top of other backgrounds when hovered/active */
-  --elevate-1: rgba(0, 0, 0, 0.03);
-  --elevate-2: rgba(0, 0, 0, 0.08);
+  --elevate-1: rgba(0, 0, 0, 0.02);
+  --elevate-2: rgba(0, 0, 0, 0.05);
 
-  --background: 194 29% 96%;
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
 
-  --foreground: 204 30% 16%;
-
-  --border: 193 20% 86%;
+  --border: 214 32% 91%;
 
   --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --card-border: 214 32% 91%;
 
-  --card-foreground: 204 30% 16%;
-
-  --card-border: 193 20% 86%;
-
-  --sidebar: 204 33% 18%;
-
-  --sidebar-foreground: 194 24% 90%;
-
-  --sidebar-border: 204 25% 27%;
-
-  --sidebar-primary: 42 98% 61%;
-
-  --sidebar-primary-foreground: 204 33% 18%;
-
-  --sidebar-accent: 204 27% 24%;
-
-  --sidebar-accent-foreground: 194 24% 90%;
-
-  --sidebar-ring: 42 98% 61%;
+  --sidebar: 0 0% 100%;
+  --sidebar-foreground: 222 47% 11%;
+  --sidebar-border: 214 32% 91%;
+  --sidebar-primary: 24 95% 53%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 24 100% 97%;
+  --sidebar-accent-foreground: 24 95% 40%;
+  --sidebar-ring: 24 95% 53%;
 
   --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+  --popover-border: 214 32% 91%;
 
-  --popover-foreground: 204 30% 16%;
-
-  --popover-border: 193 20% 86%;
-
-  --primary: 187 73% 31%;
-
+  --primary: 24 95% 53%;
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 193 24% 91%;
+  --secondary: 210 40% 96%;
+  --secondary-foreground: 222 47% 11%;
 
-  --secondary-foreground: 204 30% 16%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
 
-  --muted: 194 20% 92%;
+  --accent: 24 95% 53%;
+  --accent-foreground: 0 0% 100%;
 
-  --muted-foreground: 201 15% 46%;
-
-  --accent: 42 98% 61%;
-
-  --accent-foreground: 204 33% 18%;
-
-  --destructive: 4 72% 52%;
-
+  --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 100%;
 
-  --input: 193 20% 82%;
-  --ring: 187 73% 31%;
-  --chart-1: 187 73% 31%;
-  --chart-2: 42 98% 61%;
-  --chart-3: 162 49% 42%;
-  --chart-4: 4 72% 52%;
-  --chart-5: 204 44% 48%;
+  --input: 214 32% 91%;
+  --ring: 24 95% 53%;
+  --chart-1: 24 95% 53%;
+  --chart-2: 38 92% 50%;
+  --chart-3: 142 76% 36%;
+  --chart-4: 0 84% 60%;
+  --chart-5: 222 47% 25%;
 
-  --app-font-sans: 'Manrope', sans-serif;
+  --app-font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --app-font-serif: Georgia, serif;
-  --app-font-mono: 'DM Mono', monospace;
+  --app-font-mono: 'JetBrains Mono', ui-monospace, monospace;
   --radius: 0.5rem; /* 8px */
   --shadow-2xs: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0); /*replace with H S L */
   --shadow-xs: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0); /*replace with H S L */

@@ -1,0 +1,334 @@
+============================== SLIDE 1 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  B23CSP702 Project work Phase I
+  FIRST REVIEW
+--- TextBox 3 ---
+  Department of Computer Science and Engineering
+  KIT – Kalaignarkarunanidhi Institute of Technology|
+  Academic Year 2026–2027
+============================== SLIDE 2 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  1. Cover Slide
+--- TextBox 3 ---
+  Project Title CrowdSentinel: AI-Powered Early Detection of Crowd Congestion and Stampede Events
+  Team Members :
+  Aakash M – 711523BCS001
+  Hema Dharshana S J – 711523BCS021
+  Santhosh Kumar R  - 711523BCS049
+  Guide Name & Designation :			Mr MugeshKumar S
+  Department of CSE
+  Academic Year: 2026–2027
+--- TextBox 4 ---
+  2
+============================== SLIDE 3 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  2. Introduction
+--- TextBox 3 ---
+  Project background and context
+--- TextBox 4 ---
+  3
+--- TextBox 6 ---
+  Large gatherings can become unsafe when too many people are present in a small area.
+  Sudden crowd movement can quickly create dangerous situations.
+  CCTV cameras are commonly used to monitor crowded places.
+  AI can help analyze crowd conditions continuously.
+============================== SLIDE 4 ==============================
+--- TextBox 2 ---
+  Problem area and motivation
+--- TextBox 4 ---
+  Monitoring large crowds manually through CCTV is difficult.
+  Sudden changes in crowd density and movement can be missed.
+  Dangerous crowd situations can develop within a short time.
+  This motivates us to build an AI system for early risk detection.
+--- Rectangle 6 ---
+--- TextBox 8 ---
+  2. Introduction
+============================== SLIDE 5 ==============================
+--- TextBox 2 ---
+  Why the project is needed
+--- TextBox 4 ---
+  Early detection can help reduce the risk of crowd-related accidents.
+  Continuous monitoring can identify dangerous crowd conditions faster.
+  Automated alerts can help authorities respond at the right time.
+  The system can improve safety in large public gatherings.
+--- TextBox 6 ---
+  2. Introduction
+--- Rectangle 8 ---
+--- TextBox 12 ---
+  2. Introduction
+============================== SLIDE 6 ==============================
+--- TextBox 2 ---
+  Application/domain of the project
+--- TextBox 4 ---
+  Artificial Intelligence and Machine Learning
+  Computer Vision and Video Analysis
+  Crowd Management and Public Safety
+  CCTV-Based Emergency Monitoring
+--- Rectangle 6 ---
+--- TextBox 8 ---
+  2. Introduction
+============================== SLIDE 7 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  3. Problem Statement
+--- TextBox 3 ---
+  Large crowds in places such as stadiums, railway stations, concerts, and public gatherings can become dangerous when crowd density increases or people suddenly change their movement. Existing CCTV monitoring mainly depends on human observation, which makes it difficult to continuously monitor large crowds and identify risky situations at an early stage. Therefore, there is a need for an automated system that can analyze crowd density and movement from video footage, detect abnormal crowd behavior, and provide an early warning when the situation becomes potentially dangerous. However, challenges such as people overlapping each other, different camera angles, poor lighting, and false alarms need to be considered.
+--- TextBox 4 ---
+  4
+============================== SLIDE 8 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  4. Existing System
+--- TextBox 3 ---
+  Currently, crowd monitoring is mainly carried out using CCTV cameras and manual observation, where security personnel watch the crowd and identify unusual situations. Some systems also use basic image processing, people counting, and crowd density estimation to understand the number of people in an area. However, these approaches mainly focus on monitoring or counting the crowd rather than analyzing its behavior. Continuous manual monitoring is difficult, especially when multiple cameras are involved, and existing methods may struggle with high crowd density, overlapping people, different camera angles, poor lighting, and sudden changes in crowd movement. As a result, dangerous situations may not be identified early enough for timely action.
+--- TextBox 4 ---
+  5
+============================== SLIDE 9 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  5. Proposed System
+--- TextBox 3 ---
+  The proposed system uses Artificial Intelligence and Computer Vision to automatically monitor crowd video and identify potentially dangerous conditions. It detects people, analyzes crowd density and movement patterns, and checks for unusual changes in crowd flow. Based on these factors, the system estimates the level of risk and can generate an early warning when abnormal crowd conditions are detected. Compared with traditional manual monitoring, this approach provides continuous and automated analysis, helping authorities respond more quickly. The major features include person detection, crowd density analysis, movement analysis, abnormal behavior detection, risk assessment, and alert generation. The expected benefit is improved crowd monitoring, faster identification of risky situations, and better support for public safety.
+--- TextBox 4 ---
+  6
+============================== SLIDE 10 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  6. Objectives
+--- TextBox 4 ---
+  7
+--- TextBox 6 ---
+  To detect and track people in CCTV/video footage using a Computer Vision model.
+  To estimate crowd density and identify areas where the crowd becomes highly concentrated.
+  To analyze crowd movement and detect sudden or abnormal changes in speed and direction.
+  To calculate a crowd-risk level based on density and movement patterns.
+  To generate an early warning when the detected crowd conditions reach a predefined high-risk level.
+============================== SLIDE 11 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  Literature Survey – Suggested Format
+--- TABLE 5x6 ---
+  [Row] S.No. | Author & Year | Paper / Topic | Method / Technology | Key Finding | Limitation
+  [Row] 1 | Cob-Parro et al., 2025 | Stampede Detector Using Deep Learning Models and Dense Optical Flow | Dense Optical Flow + Deep Learning | Detected stampede activity across multiple crowd datasets with strong generalization. | Mainly focuses on stampede classification; challenging in different crowd conditions.
+  [Row] 2 | Qaraqe et al., 2024 | Crowd Behavior Detection Using Video Swin Transformer | Video Swin Transformer + Crowd Counting + Optical Flow | Detects crowd size and different levels of violent behavior. | Transformer models require higher computational resources.
+  [Row] 3 | Lin & Hu, 2024 | Efficient Crowd Density Estimation with Edge Intelligence | Lightweight CNN + Knowledge Transfer | Enables efficient crowd-density estimation on edge devices. | Focuses mainly on density, not abnormal movement or stampede risk.
+  [Row] 4 | Wu et al., 2024 | CNN-Based Abnormal Behavior Recognition in Crowd Scenes | CNN + Abnormality Analysis | Improves abnormal behavior recognition in crowded video scenes. | Detects abnormal behavior but does not provide a complete stampede-risk assessment.
+============================== SLIDE 12 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  8. Research Gap
+--- TextBox 3 ---
+  What has already been done?
+  Existing studies use AI and Computer Vision for crowd monitoring.
+  Researchers have explored crowd counting, density estimation, and movement analysis.
+  Deep learning and optical flow are also used for abnormal crowd detection.
+  What limitations exist?
+  Some methods focus only on crowd density or people counting.
+  Others focus mainly on abnormal movement or stampede classification.
+  Performance can be affected by occlusion, lighting, camera angle, and high crowd density.
+  What is missing?
+  A practical system that combines density and movement analysis for early risk identification.
+  A simple risk assessment approach that can work with real-time CCTV/video.
+  Better focus on early warning rather than detecting the event only after it occurs.
+  How does our project address the gap?
+  Combines person detection, crowd density, and movement analysis.
+  Uses these factors to estimate the crowd risk level.
+  Generates an early warning when potentially dangerous conditions are detected.
+  Focuses on a practical and understandable approach for real-time crowd monitoring.
+--- TextBox 4 ---
+  9
+============================== SLIDE 13 ==============================
+--- TextBox 4 ---
+  10
+--- PICTURE Picture 6 ---
+============================== SLIDE 14 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  10. System Architecture
+--- TextBox 4 ---
+  11
+--- PICTURE Picture 6 ---
+============================== SLIDE 15 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  11. Modules
+--- TextBox 3 ---
+  1. Video Input & PreprocessingCollects CCTV/live video or recorded footage and prepares frames for further analysis.
+  2. Person Detection & TrackingDetects people in each frame and tracks their movement across consecutive frames.
+  3. Crowd Density AnalysisAnalyzes the number and concentration of people to identify areas with high crowd density.
+  4. Movement & Behavior AnalysisStudies crowd speed, direction, and flow to identify sudden or unusual movement patterns.
+  5. Risk Assessment & Alert GenerationCombines crowd density and movement information to determine the crowd risk level and generate alerts for high-risk conditions.
+  6. Monitoring & Data StorageDisplays the detected crowd condition and risk level through a dashboard while storing detection results, alerts, and analysis history.
+--- TextBox 4 ---
+  12
+--- TextBox 5 ---
+============================== SLIDE 16 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  12. Technologies Used
+--- TextBox 4 ---
+  13
+--- TABLE 8x2 ---
+  [Row]  | 
+  [Row]  | 
+  [Row]  | 
+  [Row]  | 
+  [Row]  | 
+  [Row]  | 
+  [Row]  | 
+  [Row]  | 
+--- TABLE 8x2 ---
+  [Row] Category | Technology
+  [Row] Programming Language | Python
+  [Row] Frontend / Backend | HTML, CSS, JavaScript / Flask
+  [Row] Database | SQLite
+  [Row] Frameworks / Libraries | OpenCV, Ultralytics YOLO, NumPy, Pandas
+  [Row] Cloud / Tools | Google Colab, GitHub, VS Code
+  [Row] Hardware / IoT | CCTV Camera / Webcam, Computer System
+  [Row] AI / ML Algorithms | YOLO for person detection, Optical Flow for movement analysis, ML-based risk classification
+--- TextBox 10 ---
+  Technology Stack
+============================== SLIDE 17 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  13. Dataset / Data Source
+--- TextBox 3 ---
+  Dataset Name & Source
+  UMN Unusual Crowd Activity Dataset – public crowd abnormality dataset from the University of Minnesota.
+  GBA-Stampedes & GSMADC – stampede/crowd-action datasets used in recent stampede-detection research.
+  Number / Type of Data
+  UMN contains 11 videos from 3 different scenes, with normal and abnormal crowd activity.
+  GBA-Stampedes contains 12 videos, while GSMADC contains 37 sequences covering different crowd actions and environments.
+  Important Features / Attributes
+  Crowd density and number of people
+  Movement speed and direction
+  Normal vs abnormal crowd behavior
+  Frame-level indication of abnormal activity/stampede onset where available
+  Training / Testing Split
+  Use separate videos/scenes for training and testing to reduce data leakage.
+  A practical starting point is 70% training, 15% validation, and 15% testing, followed by evaluation on unseen videos.
+  Preprocessing
+  Extract frames from videos
+  Resize frames to the model input size
+  Normalize pixel values
+  Remove corrupted/duplicate frames if necessary
+  Generate labels for normal and abnormal/risk conditions
+--- TextBox 4 ---
+  14
+============================== SLIDE 18 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  14. Algorithm / Model
+--- TextBox 3 ---
+  AI / ML Algorithm
+  Name of Algorithm / ModelYOLO (You Only Look Once) – for real-time person detection.
+  Working PrincipleYOLO processes each video frame and identifies people by drawing bounding boxes around them. The detected people are then used for crowd density and movement analysis.
+  Why It Was Selected
+  Fast enough for real-time video processing.
+  Performs well for detecting multiple people in a single frame.
+  Easy to integrate with OpenCV and Python.
+  Suitable for CCTV-based crowd monitoring.
+  Expected Advantages
+  Real-time person detection.
+  Helps estimate crowd density.
+  Provides input for tracking and movement analysis.
+  Can support early identification of crowded or risky conditions.
+--- TextBox 4 ---
+  15
+============================== SLIDE 19 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  15. Expected Outcome
+--- TextBox 3 ---
+  1. Expected Functional Outcome
+  Detect people and estimate crowd density from video.
+  Analyze crowd movement and identify abnormal patterns.
+  Classify the situation into different risk levels.
+  Generate an alert when a high-risk condition is detected.
+  2. Expected Technical / Performance Improvement
+  Enable faster and more consistent crowd monitoring.
+  Reduce dependence on continuous manual CCTV observation.
+  Provide real-time or near-real-time analysis depending on hardware.
+  Reduce false alarms through combined density and movement analysis.
+  3. Expected User / Application Benefit
+  Help security personnel monitor large gatherings more effectively.
+  Provide early information about potentially dangerous crowd conditions.
+  Give authorities more time to take preventive action.
+  Improve safety management in crowded public places.
+--- TextBox 4 ---
+  16
+============================== SLIDE 20 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  16. Performance Evaluation
+--- TextBox 3 ---
+  AI / ML Metrics
+  Precision – Measures how many detected high-risk events are actually correct.
+  Recall – Measures how many actual risky events are successfully detected.
+  F1-Score – Gives a balanced measure of precision and recall.
+  Accuracy – Measures the overall correctness of risk-level classification.
+  False Alarm Rate – Measures how often the system incorrectly raises an alert.
+  System / Software Metrics
+  Response Time – Time taken from detecting a risky condition to generating an alert.
+  Processing Speed (FPS) – Number of video frames processed per second.
+  Reliability – Ability of the system to operate continuously without failure.
+  Usability – How easily security personnel can understand and use the system.
+--- TextBox 4 ---
+  17
+============================== SLIDE 21 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  17. Project Timeline
+--- TextBox 4 ---
+  18
+--- TABLE 8x2 ---
+  [Row] Phase | Planned Timeline
+  [Row] Problem Identification | Aug 2026
+  [Row] Literature Survey | Aug – Sep 2026
+  [Row] Requirements & Dataset Collection | Sep 2026
+  [Row] System Design & Architecture | Sep – Oct 2026
+  [Row] Model Development | Oct – Nov 2026
+  [Row] Testing & Evaluation | Nov 2026
+  [Row] Final Documentation & Presentation | Dec 2026
+============================== SLIDE 22 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  Project Timeline
+--- TABLE 8x4 ---
+  [Row] Phase | Activity | Planned Date | Status
+  [Row] 1 | Problem Identification | Aug 2026 | ✅ Completed
+  [Row] 2 | Literature Survey | Aug 2026 | ✅ Completed
+  [Row] 3 | Requirement Analysis | Aug – Sep 2026 | 🔄 In Progress
+  [Row] 4 | System Design | Sep 2026 | 🔄 In Progress
+  [Row] 5 | Implementation | Sep – Nov 2026 | 📅 Planned
+  [Row] 6 | Testing & Evaluation | Nov 2026 | 📅 Planned
+  [Row] 7 | Documentation | Nov – Dec 2026 | 📅 Planned
+--- TextBox 4 ---
+  23
+============================== SLIDE 23 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  19. Future Work
+--- TextBox 3 ---
+  Module Implementation – Develop the person detection, crowd density, movement analysis, risk assessment, and alert modules.
+  Database / Model Development – Train and evaluate the detection/risk models and implement storage for results and alerts.
+  Integration – Connect all modules into a single working system with the monitoring interface.
+  Testing & Performance Evaluation – Test the system with different crowd scenarios and measure accuracy, F1-score, false alarms, response time, and FPS.
+  Final Documentation – Prepare the project report, results, screenshots, findings, and final presentation.
+--- TextBox 4 ---
+  20
+============================== SLIDE 24 ==============================
+--- Rectangle 1 ---
+--- TextBox 2 ---
+  20. References
+--- TextBox 3 ---
+  [1] A. C. Cob-Parro et al., “Stampede detector based on deep learning models using dense optical flow,” Engineering Applications of Artificial Intelligence, vol. 142, 109940, 2025.
+  [2] R. Mehran, A. Oyama, and M. Shah, “Abnormal crowd behavior detection using social force model,” in Proc. IEEE CVPR, 2009.
+  [3] University of Minnesota, “UMN Unusual Crowd Activity Dataset,” Center for Research in Computer Vision.
+  [4] A. C. Cob-Parro et al., “GBA-Stampedes and GSMADC datasets,” datasets used for stampede detection research, 2025.
+  [5] Ultralytics, “YOLO Documentation,” Ultralytics.
+--- TextBox 4 ---
+  21
